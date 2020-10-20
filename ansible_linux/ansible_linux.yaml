@@ -1,0 +1,57 @@
+---
+    - name: Change hostname
+      hosts: linux
+      gather_facts: false
+      become: yes
+      roles:
+        - change_hostname
+    
+    - name: Change nimda password
+      hosts: linux
+      gather_facts: false
+      become: yes
+      roles:
+        - change_password
+    
+    - name: Create user
+      hosts: linux
+      gather_facts: false
+      become: yes
+      roles:
+        - create_user
+    
+    - name: Setup SSH key
+      hosts: linux
+      gather_facts: false
+      become: yes
+      roles:
+        - setup_ssh_key
+    
+    - name: Setup NGINX
+      hosts: linux
+      gather_facts: false
+      become: yes
+      roles:
+        - setup_nginx
+    
+    - name: Gather unsuccesful logs
+      hosts: linux
+      gather_facts: false
+      become: yes
+      roles:
+        - unsuccesful_logs
+    
+    - name: Log login attempts
+      hosts: linux
+      gather_facts: false
+      become: yes
+      roles:
+        - login_logs
+    
+    - name: Log entry of password as name in login
+      hosts: linux
+      gather_facts: false
+      become: yes
+      roles:
+        - password_as_name_log
+...

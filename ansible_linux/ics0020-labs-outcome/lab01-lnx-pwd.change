@@ -1,0 +1,7 @@
+Oct  7 07:18:43 lab57lnx passwd[16847]: pam_unix(passwd:chauthtok): authentication failure; logname=nimda uid=1000 euid=0 tty= ruser= rhost=  user=nimda
+Oct  7 07:18:49 lab57lnx passwd[16848]: pam_unix(passwd:chauthtok): authentication failure; logname=nimda uid=1000 euid=0 tty= ruser= rhost=  user=nimda
+Oct  7 08:11:19 lab57lnx passwd[16963]: pam_unix(passwd:chauthtok): authentication failure; logname=nimda uid=1000 euid=0 tty= ruser= rhost=  user=nimda
+Oct  7 08:11:25 lab57lnx passwd[16964]: pam_unix(passwd:chauthtok): authentication failure; logname=nimda uid=1000 euid=0 tty= ruser= rhost=  user=nimda
+Oct  7 09:39:23 lab57lnx passwd[17321]: pam_unix(passwd:chauthtok): authentication failure; logname=nimda uid=1000 euid=0 tty= ruser= rhost=  user=nimda
+Oct  7 09:39:30 lab57lnx passwd[17322]: pam_unix(passwd:chauthtok): authentication failure; logname=nimda uid=1000 euid=0 tty= ruser= rhost=  user=nimda
+Oct  7 09:39:35 lab57lnx passwd[17323]: pam_unix(passwd:chauthtok): authentication failure; logname=nimda uid=1000 euid=0 tty= ruser= rhost=  user=nimda

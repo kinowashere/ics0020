@@ -1,0 +1,2 @@
+-- Logs begin at Wed 2020-09-16 08:36:54 UTC, end at Tue 2020-10-06 16:46:46 UTC. --
+Oct 06 16:46:39 lab57lnx systemd-timesyncd[13924]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).

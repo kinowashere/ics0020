@@ -1,0 +1,16 @@
+---
+#Log accidental password entries
+
+- name: Log accidental password entries
+  win_shell: Get-WinEvent -FilterHashtable @{LogName = 'Security'; ID = 4648} | Out-FIle -FilePath C:\Windows\Logs\password_entry.log -Encoding utf8
+
+- name: Fetch log file of accidental password entries
+  fetch:
+    src: C:\Windows\Logs\password_entry.log
+    dest: /home/nimda/ics0020-labs-outcome/lab01-pwd.acc.entry.win.event
+    flat: yes
+
+- name: Remove log file of accidental password entries
+  ansible.windows.win_file:
+    path: C:\Windows\Logs\password_entry.log
+    state: absent

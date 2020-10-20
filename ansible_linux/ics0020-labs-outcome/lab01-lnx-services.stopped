@@ -1,0 +1,197 @@
+Sep 18 06:49:09 ubuntu systemd[1]: Stopped Discard unused blocks once a week.
+Sep 18 06:49:10 ubuntu systemd[1]: Stopped Discard unused blocks once a week.
+Oct 02 06:20:24 ubuntu systemd[3970]: Stopped target Default.
+Oct 02 06:20:24 ubuntu systemd[3970]: Stopped target Basic System.
+Oct 02 06:20:24 ubuntu systemd[3970]: Stopped target Timers.
+Oct 02 06:20:24 ubuntu systemd[3970]: Stopped target Paths.
+Oct 02 06:20:24 ubuntu systemd[3970]: Stopped target Sockets.
+Oct 02 06:20:24 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 06:23:04 ubuntu systemd[4143]: Stopped target Default.
+Oct 02 06:23:04 ubuntu systemd[4143]: Stopped target Basic System.
+Oct 02 06:23:04 ubuntu systemd[4143]: Stopped target Sockets.
+Oct 02 06:23:04 ubuntu systemd[4143]: Stopped target Timers.
+Oct 02 06:23:04 ubuntu systemd[4143]: Stopped target Paths.
+Oct 02 06:23:04 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 06:24:50 ubuntu systemd[4252]: Stopped target Default.
+Oct 02 06:24:50 ubuntu systemd[4252]: Stopped target Basic System.
+Oct 02 06:24:50 ubuntu systemd[4252]: Stopped target Sockets.
+Oct 02 06:24:50 ubuntu systemd[4252]: Stopped target Timers.
+Oct 02 06:24:50 ubuntu systemd[4252]: Stopped target Paths.
+Oct 02 06:24:50 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 11:58:29 ubuntu systemd[4977]: Stopped target Default.
+Oct 02 11:58:29 ubuntu systemd[4977]: Stopped target Basic System.
+Oct 02 11:58:29 ubuntu systemd[4977]: Stopped target Timers.
+Oct 02 11:58:29 ubuntu systemd[4977]: Stopped target Paths.
+Oct 02 11:58:29 ubuntu systemd[4977]: Stopped target Sockets.
+Oct 02 11:58:29 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 12:02:04 ubuntu systemd[5167]: Stopped target Default.
+Oct 02 12:02:04 ubuntu systemd[5167]: Stopped target Basic System.
+Oct 02 12:02:04 ubuntu systemd[5167]: Stopped target Paths.
+Oct 02 12:02:04 ubuntu systemd[5167]: Stopped target Timers.
+Oct 02 12:02:04 ubuntu systemd[5167]: Stopped target Sockets.
+Oct 02 12:02:04 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 12:50:00 ubuntu systemd[5298]: Stopped target Default.
+Oct 02 12:50:00 ubuntu systemd[5298]: Stopped target Basic System.
+Oct 02 12:50:00 ubuntu systemd[5298]: Stopped target Timers.
+Oct 02 12:50:00 ubuntu systemd[5298]: Stopped target Paths.
+Oct 02 12:50:00 ubuntu systemd[5298]: Stopped target Sockets.
+Oct 02 12:50:00 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 17:49:02 ubuntu systemd[5508]: Stopped target Default.
+Oct 02 17:49:02 ubuntu systemd[5508]: Stopped target Basic System.
+Oct 02 17:49:02 ubuntu systemd[5508]: Stopped target Sockets.
+Oct 02 17:49:02 ubuntu systemd[5508]: Stopped target Timers.
+Oct 02 17:49:02 ubuntu systemd[5508]: Stopped target Paths.
+Oct 02 17:49:02 ubuntu systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 17:54:00 lab57lnx systemd[5670]: Stopped target Default.
+Oct 02 17:54:00 lab57lnx systemd[5670]: Stopped target Basic System.
+Oct 02 17:54:00 lab57lnx systemd[5670]: Stopped target Sockets.
+Oct 02 17:54:00 lab57lnx systemd[5670]: Stopped target Timers.
+Oct 02 17:54:00 lab57lnx systemd[5670]: Stopped target Paths.
+Oct 02 17:54:00 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 20:07:28 lab57lnx systemd[5970]: Stopped target Default.
+Oct 02 20:07:28 lab57lnx systemd[5970]: Stopped target Basic System.
+Oct 02 20:07:28 lab57lnx systemd[5970]: Stopped target Sockets.
+Oct 02 20:07:28 lab57lnx systemd[5970]: Stopped target Timers.
+Oct 02 20:07:28 lab57lnx systemd[5970]: Stopped target Paths.
+Oct 02 20:07:28 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 20:09:58 lab57lnx systemd[6161]: Stopped target Default.
+Oct 02 20:09:58 lab57lnx systemd[6161]: Stopped target Basic System.
+Oct 02 20:09:58 lab57lnx systemd[6161]: Stopped target Timers.
+Oct 02 20:09:58 lab57lnx systemd[6161]: Stopped target Paths.
+Oct 02 20:09:58 lab57lnx systemd[6161]: Stopped target Sockets.
+Oct 02 20:09:58 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 20:16:38 lab57lnx systemd[6294]: Stopped target Default.
+Oct 02 20:16:38 lab57lnx systemd[6294]: Stopped target Basic System.
+Oct 02 20:16:38 lab57lnx systemd[6294]: Stopped target Paths.
+Oct 02 20:16:38 lab57lnx systemd[6294]: Stopped target Timers.
+Oct 02 20:16:38 lab57lnx systemd[6294]: Stopped target Sockets.
+Oct 02 20:16:38 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 20:18:34 lab57lnx systemd[6545]: Stopped target Default.
+Oct 02 20:18:34 lab57lnx systemd[6545]: Stopped target Basic System.
+Oct 02 20:18:34 lab57lnx systemd[6545]: Stopped target Paths.
+Oct 02 20:18:34 lab57lnx systemd[6545]: Stopped target Sockets.
+Oct 02 20:18:34 lab57lnx systemd[6545]: Stopped target Timers.
+Oct 02 20:18:34 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 20:21:25 lab57lnx systemd[6721]: Stopped target Default.
+Oct 02 20:21:25 lab57lnx systemd[6721]: Stopped target Basic System.
+Oct 02 20:21:25 lab57lnx systemd[6721]: Stopped target Sockets.
+Oct 02 20:21:25 lab57lnx systemd[6721]: Stopped target Timers.
+Oct 02 20:21:25 lab57lnx systemd[6721]: Stopped target Paths.
+Oct 02 20:21:25 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 20:24:21 lab57lnx systemd[6875]: Stopped target Default.
+Oct 02 20:24:21 lab57lnx systemd[6875]: Stopped target Basic System.
+Oct 02 20:24:21 lab57lnx systemd[6875]: Stopped target Sockets.
+Oct 02 20:24:21 lab57lnx systemd[6875]: Stopped target Paths.
+Oct 02 20:24:21 lab57lnx systemd[6875]: Stopped target Timers.
+Oct 02 20:24:21 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 20:33:52 lab57lnx systemd[7093]: Stopped target Default.
+Oct 02 20:33:52 lab57lnx systemd[7093]: Stopped target Basic System.
+Oct 02 20:33:52 lab57lnx systemd[7093]: Stopped target Timers.
+Oct 02 20:33:52 lab57lnx systemd[7093]: Stopped target Paths.
+Oct 02 20:33:52 lab57lnx systemd[7093]: Stopped target Sockets.
+Oct 02 20:33:52 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 02 20:42:09 lab57lnx systemd[7347]: Stopped target Default.
+Oct 02 20:42:09 lab57lnx systemd[7347]: Stopped target Basic System.
+Oct 02 20:42:09 lab57lnx systemd[7347]: Stopped target Sockets.
+Oct 02 20:42:09 lab57lnx systemd[7347]: Stopped target Timers.
+Oct 02 20:42:09 lab57lnx systemd[7347]: Stopped target Paths.
+Oct 02 20:42:09 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 05 13:13:33 lab57lnx systemd[9955]: Stopped target Default.
+Oct 05 13:13:33 lab57lnx systemd[9955]: Stopped target Basic System.
+Oct 05 13:13:33 lab57lnx systemd[9955]: Stopped target Timers.
+Oct 05 13:13:33 lab57lnx systemd[9955]: Stopped target Sockets.
+Oct 05 13:13:33 lab57lnx systemd[9955]: Stopped target Paths.
+Oct 05 13:13:33 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 05 17:25:03 lab57lnx systemd[10319]: Stopped target Default.
+Oct 05 17:25:03 lab57lnx systemd[10319]: Stopped target Basic System.
+Oct 05 17:25:03 lab57lnx systemd[10319]: Stopped target Paths.
+Oct 05 17:25:03 lab57lnx systemd[10319]: Stopped target Timers.
+Oct 05 17:25:03 lab57lnx systemd[10319]: Stopped target Sockets.
+Oct 05 17:25:03 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 05 18:11:41 lab57lnx systemd[11067]: Stopped target Default.
+Oct 05 18:11:41 lab57lnx systemd[11067]: Stopped target Basic System.
+Oct 05 18:11:41 lab57lnx systemd[11067]: Stopped target Timers.
+Oct 05 18:11:41 lab57lnx systemd[11067]: Stopped target Sockets.
+Oct 05 18:11:41 lab57lnx systemd[11067]: Stopped target Paths.
+Oct 05 18:11:41 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 05 18:12:50 lab57lnx systemd[11224]: Stopped target Default.
+Oct 05 18:12:50 lab57lnx systemd[11224]: Stopped target Basic System.
+Oct 05 18:12:50 lab57lnx systemd[11224]: Stopped target Paths.
+Oct 05 18:12:50 lab57lnx systemd[11224]: Stopped target Timers.
+Oct 05 18:12:50 lab57lnx systemd[11224]: Stopped target Sockets.
+Oct 05 18:12:50 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 06 16:13:56 lab57lnx systemd[1]: Stopped Network Time Synchronization.
+Oct 06 16:29:29 lab57lnx systemd[1]: Stopped Network Time Synchronization.
+Oct 06 16:32:22 lab57lnx systemd[1]: Stopped Network Time Synchronization.
+Oct 06 16:35:10 lab57lnx systemd[1]: Stopped Network Time Synchronization.
+Oct 06 16:38:51 lab57lnx systemd[1]: Stopped Network Time Synchronization.
+Oct 06 16:39:46 lab57lnx systemd[1]: Stopped Network Time Synchronization.
+Oct 06 16:46:39 lab57lnx systemd[1]: Stopped Network Time Synchronization.
+Oct 06 18:48:26 lab57lnx systemd[12289]: Stopped target Default.
+Oct 06 18:48:26 lab57lnx systemd[12289]: Stopped target Basic System.
+Oct 06 18:48:26 lab57lnx systemd[12289]: Stopped target Timers.
+Oct 06 18:48:26 lab57lnx systemd[12289]: Stopped target Paths.
+Oct 06 18:48:26 lab57lnx systemd[12289]: Stopped target Sockets.
+Oct 06 18:48:26 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 06 18:55:25 lab57lnx systemd[15889]: Stopped target Default.
+Oct 06 18:55:25 lab57lnx systemd[15889]: Stopped target Basic System.
+Oct 06 18:55:25 lab57lnx systemd[15889]: Stopped target Paths.
+Oct 06 18:55:25 lab57lnx systemd[15889]: Stopped target Timers.
+Oct 06 18:55:25 lab57lnx systemd[15889]: Stopped target Sockets.
+Oct 06 18:55:25 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 07 16:58:21 lab57lnx systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Oct 07 18:13:39 lab57lnx systemd[16672]: Stopped target Default.
+Oct 07 18:13:39 lab57lnx systemd[16672]: Stopped target Basic System.
+Oct 07 18:13:39 lab57lnx systemd[16672]: Stopped target Paths.
+Oct 07 18:13:39 lab57lnx systemd[16672]: Stopped target Timers.
+Oct 07 18:13:39 lab57lnx systemd[16672]: Stopped target Sockets.
+Oct 07 18:13:39 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 08 09:43:28 lab57lnx systemd[20390]: Stopped target Default.
+Oct 08 09:43:28 lab57lnx systemd[20390]: Stopped target Basic System.
+Oct 08 09:43:28 lab57lnx systemd[20390]: Stopped target Timers.
+Oct 08 09:43:28 lab57lnx systemd[20390]: Stopped target Sockets.
+Oct 08 09:43:28 lab57lnx systemd[20390]: Stopped target Paths.
+Oct 08 09:43:28 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 09 11:08:40 lab57lnx systemd[22299]: Stopped target Default.
+Oct 09 11:08:40 lab57lnx systemd[22299]: Stopped target Basic System.
+Oct 09 11:08:40 lab57lnx systemd[22299]: Stopped target Timers.
+Oct 09 11:08:40 lab57lnx systemd[22299]: Stopped target Sockets.
+Oct 09 11:08:40 lab57lnx systemd[22299]: Stopped target Paths.
+Oct 09 11:08:40 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 09 11:10:00 lab57lnx systemd[22557]: Stopped target Default.
+Oct 09 11:10:00 lab57lnx systemd[22557]: Stopped target Basic System.
+Oct 09 11:10:00 lab57lnx systemd[22557]: Stopped target Paths.
+Oct 09 11:10:00 lab57lnx systemd[22557]: Stopped target Sockets.
+Oct 09 11:10:00 lab57lnx systemd[22557]: Stopped target Timers.
+Oct 09 11:10:00 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 09 11:25:56 lab57lnx systemd[22754]: Stopped target Default.
+Oct 09 11:25:56 lab57lnx systemd[22754]: Stopped target Basic System.
+Oct 09 11:25:56 lab57lnx systemd[22754]: Stopped target Paths.
+Oct 09 11:25:56 lab57lnx systemd[22754]: Stopped target Timers.
+Oct 09 11:25:56 lab57lnx systemd[22754]: Stopped target Sockets.
+Oct 09 11:25:56 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 09 11:50:36 lab57lnx systemd[22948]: Stopped target Default.
+Oct 09 11:50:36 lab57lnx systemd[22948]: Stopped target Basic System.
+Oct 09 11:50:36 lab57lnx systemd[22948]: Stopped target Timers.
+Oct 09 11:50:36 lab57lnx systemd[22948]: Stopped target Paths.
+Oct 09 11:50:36 lab57lnx systemd[22948]: Stopped target Sockets.
+Oct 09 11:50:36 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 09 11:52:10 lab57lnx systemd[23141]: Stopped target Default.
+Oct 09 11:52:10 lab57lnx systemd[23141]: Stopped target Basic System.
+Oct 09 11:52:10 lab57lnx systemd[23141]: Stopped target Sockets.
+Oct 09 11:52:10 lab57lnx systemd[23141]: Stopped target Timers.
+Oct 09 11:52:10 lab57lnx systemd[23141]: Stopped target Paths.
+Oct 09 11:52:11 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 09 11:53:40 lab57lnx systemd[23330]: Stopped target Default.
+Oct 09 11:53:40 lab57lnx systemd[23330]: Stopped target Basic System.
+Oct 09 11:53:40 lab57lnx systemd[23330]: Stopped target Paths.
+Oct 09 11:53:40 lab57lnx systemd[23330]: Stopped target Sockets.
+Oct 09 11:53:40 lab57lnx systemd[23330]: Stopped target Timers.
+Oct 09 11:53:40 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 09 12:10:42 lab57lnx systemd[23522]: Stopped target Default.
+Oct 09 12:10:42 lab57lnx systemd[23522]: Stopped target Basic System.
+Oct 09 12:10:42 lab57lnx systemd[23522]: Stopped target Timers.
+Oct 09 12:10:42 lab57lnx systemd[23522]: Stopped target Paths.
+Oct 09 12:10:42 lab57lnx systemd[23522]: Stopped target Sockets.
+Oct 09 12:10:42 lab57lnx systemd[1]: Stopped User Manager for UID 1000.
+Oct 09 17:11:08 lab57lnx python3[31680]: ansible-command Invoked with _raw_params=journalctl -b | grep "Stopped" > /var/log/stopped.services.log _uses_shell=True warn=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None

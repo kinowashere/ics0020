@@ -1,0 +1,11 @@
+---
+- name: Install Nginx
+  apt:
+    name: nginx
+    state: latest
+    update_cache: yes
+
+- name: Add a new html page into the Nginx root
+  copy:
+    src: index2.html
+    dest: /var/www/html/

@@ -1,0 +1,11 @@
+---
+- name: Change hostname of the managed Linux system
+  hostname:
+    name: "lab33lnx"
+
+- name: Change hostname in the /etc/hosts file
+  lineinfile:
+    dest: /etc/hosts
+    regex: '^127\.0\.1\.1[ \t]+'
+    line: '127.0.1.1 lab33lnx'
+    state: present

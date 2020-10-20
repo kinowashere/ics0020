@@ -1,0 +1,4 @@
+linux_machine ansible_host=192.168.180.216 ansible_ssh_user=nimda ansible_python_interpreter=python3
+
+[linux]
+linux_machine

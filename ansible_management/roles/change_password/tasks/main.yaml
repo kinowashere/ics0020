@@ -1,0 +1,8 @@
+---
+- name: Change nimda user's password on the management Linux system
+  user:
+    name: nimda
+    state: present
+    password: "{{ 'kala..11' | password_hash('sha512') }}"
+
+...

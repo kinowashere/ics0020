@@ -1,0 +1,1364 @@
+﻿
+  C:\Windows\Logs\w32tm.log:11:153321 12:45:10.5721260s - RPC Caller is LAB57WIN\nimda 
+(S-1-5-21-1665767460-2176179813-3544029027-1001)
+  C:\Windows\Logs\w32tm.log:12:153321 12:45:10.5722294s - RPC Call Attribute is local=1, kernel=0, session=0, 
+authentication=6, protocol=2, OpNum=0
+> C:\Windows\Logs\w32tm.log:13:153321 12:45:10.5723123s - RPC Call - HardResync
+  C:\Windows\Logs\w32tm.log:14:153321 12:45:10.5723859s - W32TmServiceMain: ********** Time Slip Notification 
+**********
+  C:\Windows\Logs\w32tm.log:15:153321 12:45:10.5724878s - ClockDispln TimeSlip:TimeSlip LastUTC:4638866 [Poll: 7->6] 
+SetUnsync: LI:3 S:0 RDl:362420 RDs:405866 TSF:0x0 153321 12:45:10.5736785s - ClockDispln Discipline: *SKEW*TIME* - 
+PhCRR:0 CRD:0 PhCRR_:0 CRD_:0 CR:0 ReleaseClock2CMOS
+  C:\Windows\Logs\w32tm.log:16:153321 12:45:10.5815809s - TimeProvCommand([NtpClient], TPC_TimeJumped) called.
+  C:\Windows\Logs\w32tm.log:17:153321 12:45:10.5818602s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): reclamp: 7 -> 6 (min=4, max=17, sys=6)
+  C:\Windows\Logs\w32tm.log:18:153321 12:45:10.5818997s - Peer poll: Max:64.0000000s Cur:18.2605036s153321 
+12:45:10.5819150s -  New:01.4718656s
+  C:\Windows\Logs\w32tm.log:19:153321 12:45:10.5819563s - TimeProvCommand([NtpClient], TPC_PollIntervalChanged) called.
+  C:\Windows\Logs\w32tm.log:20:153321 12:45:10.5820139s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:21:153321 12:45:10.5821439s - Peer poll: Max:64.0000000s Cur:01.4716259s
+  C:\Windows\Logs\w32tm.log:22:153321 12:45:10.5822219s - UpdateTimerQueue1: TN:724822960000::: LRT:107650000  
+LUT:724822810000 LAFLTNS:0 TSLGT:0 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:23:153321 12:45:10.5822344s - PeerPollingThread: waiting 1.472s
+  C:\Windows\Logs\w32tm.log:24:153321 12:45:10.5822547s - W32TmServiceMain: waiting i16.000s (64.000s)
+  C:\Windows\Logs\w32tm.log:25:153321 12:45:10.5823202s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:26:153321 12:45:10.5823579s - PeerPollingThread: waiting 1.472s
+  C:\Windows\Logs\w32tm.log:27:153321 12:45:10.5823991s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:28:153321 12:45:10.5824305s - PeerPollingThread: waiting 1.472s
+  C:\Windows\Logs\w32tm.log:29:153321 12:45:12.0618167s - PeerPollingThread: WaitTimeout
+  C:\Windows\Logs\w32tm.log:30:153321 12:45:12.0619419s - Polling peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:31:153321 12:45:12.0621037s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): adjust: (++) -> 7
+  C:\Windows\Logs\w32tm.log:32:153321 12:45:12.0621474s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): reclamp: 7 -> 6 (min=4, max=17, sys=6)
+  C:\Windows\Logs\w32tm.log:33:153321 12:45:12.0621766s - Peer poll: Max:64.0000000s Cur:00.0000000s
+  C:\Windows\Logs\w32tm.log:34:153321 12:45:12.0774421s - Tx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:35:153321 12:45:12.0775156s - PeerPollingThread: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:36:153321 12:45:12.0962448s - ListeningThread -- DataAvailEvent set for socket 1 
+(0.0.0.0:123)
+  C:\Windows\Logs\w32tm.log:37:153321 12:45:12.0963415s - TSI_PhaseOffset returned:1061021545040
+  C:\Windows\Logs\w32tm.log:38:153321 12:45:12.0963769s - HA Pkt Rcv: delay:0 DestTimeStamp:132469803120963305
+  C:\Windows\Logs\w32tm.log:39:153321 12:45:12.0964056s - Rx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:40:153321 12:45:12.0964314s - ListeningThread -- response heard from 51.105.208.173:123 <- 
+192.168.181.30:123
+  C:\Windows\Logs\w32tm.log:41:153321 12:45:12.0965003s - /-- NTP Packet:
+  C:\Windows\Logs\w32tm.log:42:153321 12:45:12.0965468s - | LeapIndicator: 0 - no warning;  VersionNumber: 3;  Mode: 4 
+- Server;  LiVnMode: 0x1C
+  C:\Windows\Logs\w32tm.log:43:153321 12:45:12.0965640s - | Stratum: 3 - secondary reference (syncd by (S)NTP)
+  C:\Windows\Logs\w32tm.log:44:153321 12:45:12.0965749s - | Poll Interval: 6 - 64s;  Precision: -23 - 119.209ns per 
+tick
+  C:\Windows\Logs\w32tm.log:45:153321 12:45:12.0966272s - | RootDelay: 0x0000.0088s - 0.0020752s;  RootDispersion: 
+0x0000.06C4s - 0.0264282s
+  C:\Windows\Logs\w32tm.log:46:153321 12:45:12.0966552s - | ReferenceClockIdentifier: 0x1942E601 - source IP: 
+25.66.230.1
+  C:\Windows\Logs\w32tm.log:47:153321 12:45:12.0966720s - | ReferenceTimestamp:   0xE32ECE4CAC46610D - 
+13246980300672948900ns - 153321 12:45:00.6729489s
+  C:\Windows\Logs\w32tm.log:48:153321 12:45:12.0966985s - | OriginateTimestamp:   0xE32ECE580FDD9140 - 
+13246980312061974600ns - 153321 12:45:12.0619746s
+  C:\Windows\Logs\w32tm.log:49:153321 12:45:12.0967240s - | ReceiveTimestamp:     0xE32ECE5814776ECC - 
+13246980312079947400ns - 153321 12:45:12.0799474s
+  C:\Windows\Logs\w32tm.log:50:153321 12:45:12.0967501s - | TransmitTimestamp:    0xE32ECE5814779562 - 
+13246980312079949700ns - 153321 12:45:12.0799497s
+  C:\Windows\Logs\w32tm.log:51:153321 12:45:12.0967793s - >-- Non-packet info:
+  C:\Windows\Logs\w32tm.log:52:153321 12:45:12.0967927s - | DestinationTimestamp: 153321 12:45:12.0968033s - 
+0xE32ECE5818A91D9B153321 12:45:12.0968138s -  - 13246980312096330500ns153321 12:45:12.0968256s -  - 153321 
+12:45:12.0963305s
+  C:\Windows\Logs\w32tm.log:53:153321 12:45:12.0968406s - | RoundtripDelay: 34353600ns (0s)
+  C:\Windows\Logs\w32tm.log:54:153321 12:45:12.0968613s - | LocalClockOffset: 796000ns - 0:00.000796000s
+  C:\Windows\Logs\w32tm.log:55:153321 12:45:12.0968882s - \--
+  C:\Windows\Logs\w32tm.log:56:153321 12:45:12.0971196s - ListeningThread STC:4638964
+  C:\Windows\Logs\w32tm.log:57:153321 12:45:12.0971775s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): peer receive: 7 -> 6
+  C:\Windows\Logs\w32tm.log:58:153321 12:45:12.0972072s - Peer poll: Max:64.0000000s Cur:63.9649694s
+  C:\Windows\Logs\w32tm.log:59:153321 12:45:12.0972413s - Response from peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123), ofs: +00.0007960s
+  C:\Windows\Logs\w32tm.log:60:153321 12:45:12.0972813s - TSI_PhaseOffset returned:1061021543152
+  C:\Windows\Logs\w32tm.log:61:153321 12:45:12.0973090s - 5 Age:5 Ofs:+00.0000000s COfs:+00.0000000s Dly:+00.0000000s 
+RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0119256s Dst:16.0000000s FDsp:00.2500002s Jitter:00.0000000s 
+AgeTime:+303.3177165s
+  C:\Windows\Logs\w32tm.log:62:153321 12:45:12.0973798s - 4 Age:4 Ofs:+00.0000000s COfs:+00.0000000s Dly:+00.0000000s 
+RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0089620s Dst:16.0000000s FDsp:00.7500007s Jitter:00.0000000s 
+AgeTime:+239.2989905s
+  C:\Windows\Logs\w32tm.log:63:153321 12:45:12.0974558s - 3 Age:3 Ofs:+00.0000000s COfs:+00.0000000s Dly:+00.0000000s 
+RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0059976s Dst:16.0000000s FDsp:01.7500017s Jitter:00.0000000s 
+AgeTime:+175.2672878s
+  C:\Windows\Logs\w32tm.log:64:153321 12:45:12.0975296s - 2 Age:2 Ofs:+00.0000000s COfs:+00.0000000s Dly:+00.0000000s 
+RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0030340s Dst:16.0000000s FDsp:03.7500038s Jitter:00.0000000s 
+AgeTime:+111.2516185s
+  C:\Windows\Logs\w32tm.log:65:153321 12:45:12.0975980s - 1 Age:1 Ofs:+00.0000000s COfs:+00.0000000s Dly:+00.0000000s 
+RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0000700s Dst:16.0000000s FDsp:07.7500081s Jitter:00.0000000s 
+AgeTime:+47.2208993s
+  C:\Windows\Logs\w32tm.log:66:153321 12:45:12.0976659s - 0 Age:0 Ofs:+00.0007960s COfs:+00.0007960s Dly:+00.0343536s 
+RDly:+00.0020752s Dsp:00.0000005s RDsp:00.0264282s Pnt:00.0000000s Dst:00.0343536s FDsp:07.7500083s Jitter:00.0000000s 
+AgeTime:+00.0009409s
+  C:\Windows\Logs\w32tm.log:67:153321 12:45:12.0977342s - Peer jitter: 00.0000000s Filter Dispersion: 07.7500083s
+  C:\Windows\Logs\w32tm.log:68:153321 12:45:12.0978670s - W32TmServiceMain: resync req, user requested, get samples as 
+soon as possible.
+  C:\Windows\Logs\w32tm.log:69:153321 12:45:12.0979547s - UpdateTimerQueue1: TN:724838120000::: LRT:107650000  
+LUT:724822810000 LAFLTNS:15156032 TSLGT:15156032 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:70:153321 12:45:12.0979876s - W32TmServiceMain: waiting i0.000s (62.484s)
+  C:\Windows\Logs\w32tm.log:71:153321 12:45:12.0981043s - W32TmServiceMain: timeout
+  C:\Windows\Logs\w32tm.log:72:153321 12:45:12.0981527s - Sample Prepared at 132469803120981418 for peer 
+time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:73:153321 12:45:12.0981873s - TSI_PhaseOffset returned:1061021541920
+  C:\Windows\Logs\w32tm.log:74:153321 12:45:12.0982246s - Sorted endpoints for intersection algorithm:
+  C:\Windows\Logs\w32tm.log:75:153321 12:45:12.0982493s -     -07.7938549s  -1
+  C:\Windows\Logs\w32tm.log:76:153321 12:45:12.0982796s -     +00.0007960s  0
+  C:\Windows\Logs\w32tm.log:77:153321 12:45:12.0983085s -     +07.7954469s  1
+  C:\Windows\Logs\w32tm.log:78:153321 12:45:12.0983398s - Intersection successful over range: -07.7938549s - 
++07.7954469s
+  C:\Windows\Logs\w32tm.log:79:153321 12:45:12.0984950s -   SyncDist:77946509 SelectJitter:0 PeerJitter:0 
+CorrectedOffset:7960
+  C:\Windows\Logs\w32tm.log:80:153321 12:45:12.0985362s -  MaxSelectJitter: 0 MinPeerJitter: 0
+  C:\Windows\Logs\w32tm.log:81:153321 12:45:12.0985683s - TSI_PhaseOffset returned:1061021541984
+  C:\Windows\Logs\w32tm.log:82:153321 12:45:12.0986001s - NTP Sample 2916116787 chosen. Dispersion: 77772325 
+SystemJitter: 0 STC:4638964 SystemOffset: 7960 Delay: 364288
+  C:\Windows\Logs\w32tm.log:83:153321 12:45:12.0986394s - NtpClient returned 1 samples.
+  C:\Windows\Logs\w32tm.log:84:153321 12:45:12.0986733s - Intersection successful with 0 dropped samples.
+  C:\Windows\Logs\w32tm.log:85:153321 12:45:12.0987013s -   0: Sample:0 SyncDist:557954469 SelectDisp:0
+  C:\Windows\Logs\w32tm.log:86:153321 12:45:12.0987268s - Sample 0 chosen. Select Dispersion:00.0000000s SPHO:0 
+STC:4638964
+  C:\Windows\Logs\w32tm.log:87:153321 12:45:12.0987587s - Sample 0 offset:+00.0007960s delay:+00.0364288s 
+dispersion:07.7772325s
+  C:\Windows\Logs\w32tm.log:88:153321 12:45:12.0988581s - ClockDispln Update: LastUTC:4638964 SO:7960 KPhO:0 
+spO:1061024691616 PhO:7960 uT:98
+  C:\Windows\Logs\w32tm.log:89: SD:40868356 LI:0 S:4 RDl:364288 RDs:77872325 TSF:0x0
+  C:\Windows\Logs\w32tm.log:90: Unset->Hold
+  C:\Windows\Logs\w32tm.log:91:153321 12:45:12.0993249s - UpdateTimerQueue1: TN:724838120000::: LRT:107650000  
+LUT:724822810000 LAFLTNS:0 TSLGT:0 LTNS:78000000000
+  C:\Windows\Logs\w32tm.log:92:153321 12:45:12.0993664s - W32TmServiceMain: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:93:153321 12:45:13.0930997s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:497 CRD:497 
+PhCRR_:0 CRD_:0 CR:10000000  (PhCRRL:497 CRL:156250 phcTL:64) UI:100 KPhO:7960
+  C:\Windows\Logs\w32tm.log:4031:153321 14:47:27.5908261s - RPC Caller is LAB57WIN\nimda 
+(S-1-5-21-1665767460-2176179813-3544029027-1001)
+  C:\Windows\Logs\w32tm.log:4032:153321 14:47:27.5909303s - RPC Call Attribute is local=1, kernel=0, session=0, 
+authentication=6, protocol=2, OpNum=0
+> C:\Windows\Logs\w32tm.log:4033:153321 14:47:27.5910370s - RPC Call - HardResync
+  C:\Windows\Logs\w32tm.log:4034:153321 14:47:27.5911066s - W32TmServiceMain: ********** Time Slip Notification 
+**********
+  C:\Windows\Logs\w32tm.log:4035:153321 14:47:27.5911975s - ClockDispln TimeSlip:TimeSlip LastUTC:4616 SetUnsync: LI:3 
+S:0 RDl:362723 RDs:81097547 TSF:0x0 153321 14:47:27.5921297s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:0 CRD:0 
+PhCRR_:0 CRD_:0 CR:0 ReleaseClock2CMOS
+  C:\Windows\Logs\w32tm.log:4036:153321 14:47:27.5931244s - TimeProvCommand([NtpClient], TPC_TimeJumped) called.
+  C:\Windows\Logs\w32tm.log:4037:153321 14:47:27.5932004s - Peer poll: Max:64.0000000s Cur:03.9569251s153321 
+14:47:27.5932168s -  New:01.4997184s
+  C:\Windows\Logs\w32tm.log:4038:153321 14:47:27.5932724s - UpdateTimerQueue1: TN:721400000::: LRT:108120000  
+LUT:721250000 LAFLTNS:0 TSLGT:0 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:4039:153321 14:47:27.5933036s - W32TmServiceMain: waiting i16.000s (64.000s)
+  C:\Windows\Logs\w32tm.log:4040:153321 14:47:27.5933516s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:4041:153321 14:47:27.5933918s - PeerPollingThread: waiting 1.500s
+  C:\Windows\Logs\w32tm.log:4042:153321 14:47:27.5942821s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:4043:153321 14:47:27.5943331s - PeerPollingThread: waiting 1.499s
+  C:\Windows\Logs\w32tm.log:4044:153321 14:47:29.0929740s - PeerPollingThread: WaitTimeout
+  C:\Windows\Logs\w32tm.log:4045:153321 14:47:29.0930714s - Polling peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:4046:153321 14:47:29.0935187s - Peer poll: Max:64.0000000s Cur:00.0000000s
+  C:\Windows\Logs\w32tm.log:4047:153321 14:47:29.1091335s - Tx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:4048:153321 14:47:29.1092034s - PeerPollingThread: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:4049:153321 14:47:29.1275407s - ListeningThread -- DataAvailEvent set for socket 1 
+(0.0.0.0:123)
+  C:\Windows\Logs\w32tm.log:4050:153321 14:47:29.1276700s - TSI_PhaseOffset returned:424932800384
+  C:\Windows\Logs\w32tm.log:4051:153321 14:47:29.1277046s - HA Pkt Rcv: delay:0 DestTimeStamp:132469876491276583
+  C:\Windows\Logs\w32tm.log:4052:153321 14:47:29.1277334s - Rx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:4053:153321 14:47:29.1277587s - ListeningThread -- response heard from 51.105.208.173:123 
+<- 192.168.181.30:123
+  C:\Windows\Logs\w32tm.log:4054:153321 14:47:29.1278060s - /-- NTP Packet:
+  C:\Windows\Logs\w32tm.log:4055:153321 14:47:29.1278211s - | LeapIndicator: 0 - no warning;  VersionNumber: 3;  Mode: 
+4 - Server;  LiVnMode: 0x1C
+  C:\Windows\Logs\w32tm.log:4056:153321 14:47:29.1278372s - | Stratum: 3 - secondary reference (syncd by (S)NTP)
+  C:\Windows\Logs\w32tm.log:4057:153321 14:47:29.1278479s - | Poll Interval: 6 - 64s;  Precision: -23 - 119.209ns per 
+tick
+  C:\Windows\Logs\w32tm.log:4058:153321 14:47:29.1278734s - | RootDelay: 0x0000.0087s - 0.00205994s;  RootDispersion: 
+0x0000.06D0s - 0.0266113s
+  C:\Windows\Logs\w32tm.log:4059:153321 14:47:29.1279017s - | ReferenceClockIdentifier: 0x1942E601 - source IP: 
+25.66.230.1
+  C:\Windows\Logs\w32tm.log:4060:153321 14:47:29.1279186s - | ReferenceTimestamp:   0xE32EEAFD23730835 - 
+13246987645138474000ns - 153321 14:47:25.1384740s
+  C:\Windows\Logs\w32tm.log:4061:153321 14:47:29.1279522s - | OriginateTimestamp:   0xE32EEB0117D76B8C - 
+13246987649093130800ns - 153321 14:47:29.0931308s
+  C:\Windows\Logs\w32tm.log:4062:153321 14:47:29.1279766s - | ReceiveTimestamp:     0xE32EEB011F9BE4CD - 
+13246987649123472500ns - 153321 14:47:29.1234725s
+  C:\Windows\Logs\w32tm.log:4063:153321 14:47:29.1280038s - | TransmitTimestamp:    0xE32EEB011F9C0B63 - 
+13246987649123474800ns - 153321 14:47:29.1234748s
+  C:\Windows\Logs\w32tm.log:4064:153321 14:47:29.1280328s - >-- Non-packet info:
+  C:\Windows\Logs\w32tm.log:4065:153321 14:47:29.1280462s - | DestinationTimestamp: 153321 14:47:29.1280570s - 
+0xE32EEB0120AE36DF153321 14:47:29.1280675s -  - 13246987649127658300ns153321 14:47:29.1280795s -  - 153321 
+14:47:29.1276583s
+  C:\Windows\Logs\w32tm.log:4066:153321 14:47:29.1280944s - | RoundtripDelay: 34525200ns (0s)
+  C:\Windows\Logs\w32tm.log:4067:153321 14:47:29.1281153s - | LocalClockOffset: 13079100ns - 0:00.013079100s
+  C:\Windows\Logs\w32tm.log:4068:153321 14:47:29.1281426s - \--
+  C:\Windows\Logs\w32tm.log:4069:153321 14:47:29.1281937s - ListeningThread STC:4715
+  C:\Windows\Logs\w32tm.log:4070:153321 14:47:29.1282358s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): peer receive: 17 -> 6
+  C:\Windows\Logs\w32tm.log:4071:153321 14:47:29.1282647s - Peer poll: Max:64.0000000s Cur:63.9652459s
+  C:\Windows\Logs\w32tm.log:4072:153321 14:47:29.1282997s - Response from peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123), ofs: +00.0130791s
+  C:\Windows\Logs\w32tm.log:4073:153321 14:47:29.1283383s - TSI_PhaseOffset returned:424932798496
+  C:\Windows\Logs\w32tm.log:4074:153321 14:47:29.1283630s - 5 Age:5 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000177s RDsp:00.0000000s Pnt:00.0000724s Dst:16.0000000s FDsp:00.2500002s 
+Jitter:00.0000000s AgeTime:+13246987649.1283276s
+  C:\Windows\Logs\w32tm.log:4075:153321 14:47:29.1284335s - 4 Age:4 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000177s RDsp:00.0000000s Pnt:00.0000724s Dst:16.0000000s FDsp:00.7500007s 
+Jitter:00.0000000s AgeTime:+13246987649.1283276s
+  C:\Windows\Logs\w32tm.log:4076:153321 14:47:29.1285071s - 3 Age:3 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000177s RDsp:00.0000000s Pnt:00.0000724s Dst:16.0000000s FDsp:01.7500018s 
+Jitter:00.0000000s AgeTime:+13246987649.1283276s
+  C:\Windows\Logs\w32tm.log:4077:153321 14:47:29.1285796s - 2 Age:2 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000177s RDsp:00.0000000s Pnt:00.0000724s Dst:16.0000000s FDsp:03.7500040s 
+Jitter:00.0000000s AgeTime:+13246987649.1283276s
+  C:\Windows\Logs\w32tm.log:4078:153321 14:47:29.1286490s - 1 Age:1 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000177s RDsp:00.0000000s Pnt:00.0000724s Dst:16.0000000s FDsp:07.7500084s 
+Jitter:00.0000000s AgeTime:+13246987649.1283276s
+  C:\Windows\Logs\w32tm.log:4079:153321 14:47:29.1287175s - 0 Age:0 Ofs:+00.0130791s COfs:+00.0130791s 
+Dly:+00.0345252s RDly:+00.0020599s Dsp:00.0000005s RDsp:00.0266113s Pnt:00.0000000s Dst:00.0345252s FDsp:07.7500086s 
+Jitter:00.0000000s AgeTime:+00.0006693s
+  C:\Windows\Logs\w32tm.log:4080:153321 14:47:29.1287864s - Peer jitter: 00.0000000s Filter Dispersion: 07.7500086s
+  C:\Windows\Logs\w32tm.log:4081:153321 14:47:29.1290336s - W32TmServiceMain: resync req, user requested, get samples 
+as soon as possible.
+  C:\Windows\Logs\w32tm.log:4082:153321 14:47:29.1291168s - UpdateTimerQueue1: TN:736710000::: LRT:108120000  
+LUT:721250000 LAFLTNS:15357269 TSLGT:15357269 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:4083:153321 14:47:29.1291504s - W32TmServiceMain: waiting i0.000s (62.464s)
+  C:\Windows\Logs\w32tm.log:4084:153321 14:47:29.1293446s - W32TmServiceMain: timeout
+  C:\Windows\Logs\w32tm.log:4085:153321 14:47:29.1294257s - Sample Prepared at 132469876491294111 for peer 
+time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:4086:153321 14:47:29.1294637s - TSI_PhaseOffset returned:424929651504
+  C:\Windows\Logs\w32tm.log:4087:153321 14:47:29.1294963s - Sorted endpoints for intersection algorithm:
+  C:\Windows\Logs\w32tm.log:4088:153321 14:47:29.1295212s -     -07.7818333s  -1
+  C:\Windows\Logs\w32tm.log:4089:153321 14:47:29.1295526s -     +00.0130791s  0
+  C:\Windows\Logs\w32tm.log:4090:153321 14:47:29.1295820s -     +07.8079915s  1
+  C:\Windows\Logs\w32tm.log:4091:153321 14:47:29.1296131s - Intersection successful over range: -07.7818333s - 
++07.8079915s
+  C:\Windows\Logs\w32tm.log:4092:153321 14:47:29.1296547s -   SyncDist:77949124 SelectJitter:0 PeerJitter:0 
+CorrectedOffset:130791
+  C:\Windows\Logs\w32tm.log:4093:153321 14:47:29.1296805s -  MaxSelectJitter: 0 MinPeerJitter: 0
+  C:\Windows\Logs\w32tm.log:4094:153321 14:47:29.1297335s - TSI_PhaseOffset returned:424929651568
+  C:\Windows\Logs\w32tm.log:4095:153321 14:47:29.1297755s - NTP Sample 2916116787 chosen. Dispersion: 77896990 
+SystemJitter: 0 STC:4715 SystemOffset: 130791 Delay: 365851
+  C:\Windows\Logs\w32tm.log:4096:153321 14:47:29.1298183s - NtpClient returned 1 samples.
+  C:\Windows\Logs\w32tm.log:4097:153321 14:47:29.1298833s - Intersection successful with 0 dropped samples.
+  C:\Windows\Logs\w32tm.log:4098:153321 14:47:29.1299181s -   0: Sample:0 SyncDist:558079915 SelectDisp:0
+  C:\Windows\Logs\w32tm.log:4099:153321 14:47:29.1299444s - Sample 0 chosen. Select Dispersion:00.0000000s SPHO:0 
+STC:4715
+  C:\Windows\Logs\w32tm.log:4100:153321 14:47:29.1299761s - Sample 0 offset:+00.0130791s delay:+00.0365851s 
+dispersion:07.7896990s
+  C:\Windows\Logs\w32tm.log:4101:153321 14:47:29.1300695s - ClockDispln Update: LastUTC:4715 SO:130791 KPhO:0 
+spO:424931752736 PhO:130791 uT:99
+  C:\Windows\Logs\w32tm.log:4102: SD:56188396 LI:0 S:4 RDl:365851 RDs:77996990 TSF:0x0
+  C:\Windows\Logs\w32tm.log:4103: Unset->Hold
+  C:\Windows\Logs\w32tm.log:4104:153321 14:47:29.1312047s - UpdateTimerQueue1: TN:736710000::: LRT:108120000  
+LUT:721250000 LAFLTNS:0 TSLGT:0 LTNS:78000000000
+  C:\Windows\Logs\w32tm.log:4105:153321 14:47:29.1312709s - W32TmServiceMain: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:4106:153321 14:47:30.1398525s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:8174 CRD:8174 
+PhCRR_:0 CRD_:0 CR:10000000  (PhCRRL:8174 CRL:156250 phcTL:65) UI:100 KPhO:130791
+  C:\Windows\Logs\w32tm.log:4107:153321 14:47:31.1406262s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:7663 CRD:7663 
+PhCRR_:8174 CRD_:8174 CR:10000000  (PhCRRL:7663 CRL:156250 phcTL:64) UI:100 KPhO:122617
+  C:\Windows\Logs\w32tm.log:4108:153321 14:47:32.1414479s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:7184 CRD:7184 
+PhCRR_:7663 CRD_:7663 CR:10000000  (PhCRRL:7184 CRL:156250 phcTL:64) UI:100 KPhO:114954
+  C:\Windows\Logs\w32tm.log:4109:153321 14:47:33.1579698s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:6735 CRD:6735 
+PhCRR_:7184 CRD_:7184 CR:10000000  (PhCRRL:6735 CRL:156250 phcTL:65) UI:100 KPhO:107770
+  C:\Windows\Logs\w32tm.log:4110:153321 14:47:34.1584683s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:6314 CRD:6314 
+PhCRR_:6735 CRD_:6735 CR:10000000  (PhCRRL:6314 CRL:156250 phcTL:64) UI:100 KPhO:101035
+  C:\Windows\Logs\w32tm.log:4111:153321 14:47:35.1591005s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:5920 CRD:5920 
+PhCRR_:6314 CRD_:6314 CR:10000000  (PhCRRL:5920 CRL:156250 phcTL:64) UI:100 KPhO:94721
+  C:\Windows\Logs\w32tm.log:4112:153321 14:47:36.1753465s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:5550 CRD:5550 
+PhCRR_:5920 CRD_:5920 CR:10000000  (PhCRRL:5550 CRL:156250 phcTL:65) UI:100 KPhO:88801
+  C:\Windows\Logs\w32tm.log:4113:153321 14:47:37.1916037s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:5203 CRD:5203 
+PhCRR_:5550 CRD_:5550 CR:10000000  (PhCRRL:5203 CRL:156250 phcTL:65) UI:100 KPhO:83251
+  C:\Windows\Logs\w32tm.log:5601:153321 15:01:33.5477298s - RPC Caller is LAB57WIN\nimda 
+(S-1-5-21-1665767460-2176179813-3544029027-1001)
+  C:\Windows\Logs\w32tm.log:5602:153321 15:01:33.5478219s - RPC Call Attribute is local=1, kernel=0, session=0, 
+authentication=6, protocol=2, OpNum=0
+> C:\Windows\Logs\w32tm.log:5603:153321 15:01:33.5479085s - RPC Call - HardResync
+  C:\Windows\Logs\w32tm.log:5604:153321 15:01:33.5479677s - W32TmServiceMain: ********** Time Slip Notification 
+**********
+  C:\Windows\Logs\w32tm.log:5605:153321 15:01:33.5480523s - ClockDispln TimeSlip:TimeSlip LastUTC:58757 [Poll: 8->6] 
+SetUnsync: LI:3 S:0 RDl:365607 RDs:424879 TSF:0x0 153321 15:01:33.5490543s - ClockDispln Discipline: *SKEW*TIME* - 
+PhCRR:0 CRD:0 PhCRR_:0 CRD_:0 CR:0 ReleaseClock2CMOS
+  C:\Windows\Logs\w32tm.log:5606:153321 15:01:33.5505504s - TimeProvCommand([NtpClient], TPC_TimeJumped) called.
+  C:\Windows\Logs\w32tm.log:5607:153321 15:01:33.5506800s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): reclamp: 8 -> 6 (min=4, max=17, sys=6)
+  C:\Windows\Logs\w32tm.log:5608:153321 15:01:33.5507607s - Peer poll: Max:64.0000000s Cur:115.8095338s153321 
+15:01:33.5508035s -  New:01.0541184s
+  C:\Windows\Logs\w32tm.log:5609:153321 15:01:33.5508603s - TimeProvCommand([NtpClient], TPC_PollIntervalChanged) 
+called.
+  C:\Windows\Logs\w32tm.log:5610:153321 15:01:33.5508900s - Peer poll: Max:64.0000000s Cur:01.0539846s
+  C:\Windows\Logs\w32tm.log:5611:153321 15:01:33.5509400s - UpdateTimerQueue1: TN:9180780000::: LRT:108120000  
+LUT:9180780000 LAFLTNS:0 TSLGT:0 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:5612:153321 15:01:33.5509696s - W32TmServiceMain: waiting i16.000s (64.000s)
+  C:\Windows\Logs\w32tm.log:5613:153321 15:01:33.5511435s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:5614:153321 15:01:33.5511917s - PeerPollingThread: waiting 1.054s
+  C:\Windows\Logs\w32tm.log:5615:153321 15:01:33.5513078s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:5616:153321 15:01:33.5513685s - PeerPollingThread: waiting 1.054s
+  C:\Windows\Logs\w32tm.log:5617:153321 15:01:34.6086429s - PeerPollingThread: WaitTimeout
+  C:\Windows\Logs\w32tm.log:5618:153321 15:01:34.6087718s - Polling peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:5619:153321 15:01:34.6096628s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): adjust: (++) -> 7
+  C:\Windows\Logs\w32tm.log:5620:153321 15:01:34.6097706s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): reclamp: 7 -> 6 (min=4, max=17, sys=6)
+  C:\Windows\Logs\w32tm.log:5621:153321 15:01:34.6098050s - Peer poll: Max:64.0000000s Cur:00.0000000s
+  C:\Windows\Logs\w32tm.log:5622:153321 15:01:34.6242871s - Tx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:5623:153321 15:01:34.6243568s - PeerPollingThread: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:5624:153321 15:01:34.6436614s - ListeningThread -- DataAvailEvent set for socket 1 
+(0.0.0.0:123)
+  C:\Windows\Logs\w32tm.log:5625:153321 15:01:34.6437600s - TSI_PhaseOffset returned:424928605088
+  C:\Windows\Logs\w32tm.log:5626:153321 15:01:34.6437930s - HA Pkt Rcv: delay:0 DestTimeStamp:132469884946437490
+  C:\Windows\Logs\w32tm.log:5627:153321 15:01:34.6438214s - Rx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:5628:153321 15:01:34.6438493s - ListeningThread -- response heard from 51.105.208.173:123 
+<- 192.168.181.30:123
+  C:\Windows\Logs\w32tm.log:5629:153321 15:01:34.6438965s - /-- NTP Packet:
+  C:\Windows\Logs\w32tm.log:5630:153321 15:01:34.6439405s - | LeapIndicator: 0 - no warning;  VersionNumber: 3;  Mode: 
+4 - Server;  LiVnMode: 0x1C
+  C:\Windows\Logs\w32tm.log:5631:153321 15:01:34.6439572s - | Stratum: 3 - secondary reference (syncd by (S)NTP)
+  C:\Windows\Logs\w32tm.log:5632:153321 15:01:34.6439680s - | Poll Interval: 6 - 64s;  Precision: -23 - 119.209ns per 
+tick
+  C:\Windows\Logs\w32tm.log:5633:153321 15:01:34.6439937s - | RootDelay: 0x0000.0087s - 0.00205994s;  RootDispersion: 
+0x0000.06CEs - 0.0265808s
+  C:\Windows\Logs\w32tm.log:5634:153321 15:01:34.6440214s - | ReferenceClockIdentifier: 0x1942E601 - source IP: 
+25.66.230.1
+  C:\Windows\Logs\w32tm.log:5635:153321 15:01:34.6440386s - | ReferenceTimestamp:   0xE32EEE4D34D5AFCA - 
+13246988493206385600ns - 153321 15:01:33.2063856s
+  C:\Windows\Logs\w32tm.log:5636:153321 15:01:34.6440641s - | OriginateTimestamp:   0xE32EEE4E9BDA836E - 
+13246988494608803000ns - 153321 15:01:34.6088030s
+  C:\Windows\Logs\w32tm.log:5637:153321 15:01:34.6440887s - | ReceiveTimestamp:     0xE32EEE4EA0DDC46B - 
+13246988494628383900ns - 153321 15:01:34.6283839s
+  C:\Windows\Logs\w32tm.log:5638:153321 15:01:34.6441152s - | TransmitTimestamp:    0xE32EEE4EA0DDF00A - 
+13246988494628386500ns - 153321 15:01:34.6283865s
+  C:\Windows\Logs\w32tm.log:5639:153321 15:01:34.6441446s - >-- Non-packet info:
+  C:\Windows\Logs\w32tm.log:5640:153321 15:01:34.6441581s - | DestinationTimestamp: 153321 15:01:34.6441689s - 
+0xE32EEE4EA4CCBC05153321 15:01:34.6441798s -  - 13246988494643749000ns153321 15:01:34.6441918s -  - 153321 
+15:01:34.6437490s
+  C:\Windows\Logs\w32tm.log:5641:153321 15:01:34.6442068s - | RoundtripDelay: 34943400ns (0s)
+  C:\Windows\Logs\w32tm.log:5642:153321 15:01:34.6442277s - | LocalClockOffset: 2109200ns - 0:00.002109200s
+  C:\Windows\Logs\w32tm.log:5643:153321 15:01:34.6442546s - \--
+  C:\Windows\Logs\w32tm.log:5644:153321 15:01:34.6443110s - ListeningThread STC:58827
+  C:\Windows\Logs\w32tm.log:5645:153321 15:01:34.6443556s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): peer receive: 8 -> 6
+  C:\Windows\Logs\w32tm.log:5646:153321 15:01:34.6443840s - Peer poll: Max:64.0000000s Cur:63.9654198s
+  C:\Windows\Logs\w32tm.log:5647:153321 15:01:34.6444187s - Response from peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123), ofs: +00.0021092s
+  C:\Windows\Logs\w32tm.log:5648:153321 15:01:34.6444575s - TSI_PhaseOffset returned:424928603200
+  C:\Windows\Logs\w32tm.log:5649:153321 15:01:34.6444827s - 5 Age:5 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000126s RDsp:00.0000000s Pnt:00.0178308s Dst:16.0000000s FDsp:00.2500001s 
+Jitter:00.0000000s AgeTime:+397.3308318s
+  C:\Windows\Logs\w32tm.log:5650:153321 15:01:34.6445533s - 4 Age:4 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000126s RDsp:00.0000000s Pnt:00.0148668s Dst:16.0000000s FDsp:00.7500004s 
+Jitter:00.0000000s AgeTime:+333.3002866s
+  C:\Windows\Logs\w32tm.log:5651:153321 15:01:34.6446269s - 3 Age:3 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000126s RDsp:00.0000000s Pnt:00.0119032s Dst:16.0000000s FDsp:01.7500011s 
+Jitter:00.0000000s AgeTime:+269.2845452s
+  C:\Windows\Logs\w32tm.log:5652:153321 15:01:34.6446997s - 2 Age:2 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000126s RDsp:00.0000000s Pnt:00.0059768s Dst:16.0000000s FDsp:03.7500026s 
+Jitter:00.0000000s AgeTime:+141.2684490s
+  C:\Windows\Logs\w32tm.log:5653:153321 15:01:34.6447689s - 1 Age:1 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000126s RDsp:00.0000000s Pnt:00.0000504s Dst:16.0000000s FDsp:07.7500057s 
+Jitter:00.0000000s AgeTime:+13.2508899s
+  C:\Windows\Logs\w32tm.log:5654:153321 15:01:34.6448376s - 0 Age:0 Ofs:+00.0021092s COfs:+00.0021092s 
+Dly:+00.0349434s RDly:+00.0020599s Dsp:00.0000006s RDsp:00.0265808s Pnt:00.0000000s Dst:00.0349434s FDsp:07.7500060s 
+Jitter:00.0000000s AgeTime:+00.0006979s
+  C:\Windows\Logs\w32tm.log:5655:153321 15:01:34.6449060s - Peer jitter: 00.0000000s Filter Dispersion: 07.7500060s
+  C:\Windows\Logs\w32tm.log:5656:153321 15:01:34.6450476s - W32TmServiceMain: resync req, user requested, get samples 
+as soon as possible.
+  C:\Windows\Logs\w32tm.log:5657:153321 15:01:34.6451282s - UpdateTimerQueue1: TN:9191710000::: LRT:108120000  
+LUT:9180780000 LAFLTNS:10930000 TSLGT:10940760 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:5658:153321 15:01:34.6451625s - W32TmServiceMain: waiting i0.000s (62.905s)
+  C:\Windows\Logs\w32tm.log:5659:153321 15:01:34.6453296s - W32TmServiceMain: timeout
+  C:\Windows\Logs\w32tm.log:5660:153321 15:01:34.6454090s - Sample Prepared at 132469884946453954 for peer 
+time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:5661:153321 15:01:34.6454485s - TSI_PhaseOffset returned:424929651504
+  C:\Windows\Logs\w32tm.log:5662:153321 15:01:34.6454802s - Sorted endpoints for intersection algorithm:
+  C:\Windows\Logs\w32tm.log:5663:153321 15:01:34.6455045s -     -07.7929792s  -1
+  C:\Windows\Logs\w32tm.log:5664:153321 15:01:34.6455360s -     +00.0021092s  0
+  C:\Windows\Logs\w32tm.log:5665:153321 15:01:34.6455661s -     +07.7971976s  1
+  C:\Windows\Logs\w32tm.log:5666:153321 15:01:34.6455971s - Intersection successful over range: -07.7929792s - 
++07.7971976s
+  C:\Windows\Logs\w32tm.log:5667:153321 15:01:34.6456511s -   SyncDist:77950884 SelectJitter:0 PeerJitter:0 
+CorrectedOffset:21092
+  C:\Windows\Logs\w32tm.log:5668:153321 15:01:34.6456865s -  MaxSelectJitter: 0 MinPeerJitter: 0
+  C:\Windows\Logs\w32tm.log:5669:153321 15:01:34.6457199s - TSI_PhaseOffset returned:424929651568
+  C:\Windows\Logs\w32tm.log:5670:153321 15:01:34.6457518s - NTP Sample 2916116787 chosen. Dispersion: 77786960 
+SystemJitter: 0 STC:58827 SystemOffset: 21092 Delay: 370033
+  C:\Windows\Logs\w32tm.log:5671:153321 15:01:34.6457912s - NtpClient returned 1 samples.
+  C:\Windows\Logs\w32tm.log:5672:153321 15:01:34.6458253s - Intersection successful with 0 dropped samples.
+  C:\Windows\Logs\w32tm.log:5673:153321 15:01:34.6458533s -   0: Sample:0 SyncDist:557971976 SelectDisp:0
+  C:\Windows\Logs\w32tm.log:5674:153321 15:01:34.6458786s - Sample 0 chosen. Select Dispersion:00.0000000s SPHO:0 
+STC:58827
+  C:\Windows\Logs\w32tm.log:5675:153321 15:01:34.6459099s - Sample 0 offset:+00.0021092s delay:+00.0370033s 
+dispersion:07.7786960s
+  C:\Windows\Logs\w32tm.log:5676:153321 15:01:34.6460171s - ClockDispln Update: LastUTC:58827 SO:21092 KPhO:0 
+spO:424931752736 PhO:21092 uT:70
+  C:\Windows\Logs\w32tm.log:5677: SD:38894438 LI:0 S:4 RDl:370033 RDs:77886960 TSF:0x0
+  C:\Windows\Logs\w32tm.log:5678: Unset->Hold
+  C:\Windows\Logs\w32tm.log:5679:153321 15:01:34.6464570s - UpdateTimerQueue1: TN:9191710000::: LRT:108120000  
+LUT:9180780000 LAFLTNS:0 TSLGT:0 LTNS:78000000000
+  C:\Windows\Logs\w32tm.log:5680:153321 15:01:34.6464997s - W32TmServiceMain: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:5681:153321 15:01:35.6554914s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:1318 CRD:1318 
+PhCRR_:0 CRD_:0 CR:10000000  (PhCRRL:1318 CRL:156250 phcTL:65) UI:100 KPhO:21092
+  C:\Windows\Logs\w32tm.log:5682:153321 15:01:36.6712944s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:1235 CRD:1235 
+PhCRR_:1318 CRD_:1318 CR:10000000  (PhCRRL:1235 CRL:156250 phcTL:65) UI:100 KPhO:19774
+  C:\Windows\Logs\w32tm.log:5683:153321 15:01:37.6713515s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:1158 CRD:1158 
+PhCRR_:1235 CRD_:1235 CR:10000000  (PhCRRL:1158 CRL:156250 phcTL:64) UI:100 KPhO:18539
+  C:\Windows\Logs\w32tm.log:6714:153321 15:11:32.0811112s - RPC Caller is LAB57WIN\nimda 
+(S-1-5-21-1665767460-2176179813-3544029027-1001)
+  C:\Windows\Logs\w32tm.log:6715:153321 15:11:32.0812062s - RPC Call Attribute is local=1, kernel=0, session=0, 
+authentication=6, protocol=2, OpNum=0
+> C:\Windows\Logs\w32tm.log:6716:153321 15:11:32.0812939s - RPC Call - HardResync
+  C:\Windows\Logs\w32tm.log:6717:153321 15:11:32.0813606s - W32TmServiceMain: ********** Time Slip Notification 
+**********
+  C:\Windows\Logs\w32tm.log:6718:153321 15:11:29.8562405s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:0 CRD:0 
+PhCRR_:1 CRD_:0 CR:9999998 153321 15:11:32.0814361s - ClockDispln TimeSlip:TimeSlip LastUTC:97063 [Poll: 7->6] 
+SetUnsync: LI:3 S:0 RDl:352851 RDs:382356 TSF:0x0 153321 15:11:32.0826647s - ClockDispln Discipline: *SKEW*TIME* - 
+PhCRR:0 CRD:0 PhCRR_:0 CRD_:0 CR:0 ReleaseClock2CMOS
+  C:\Windows\Logs\w32tm.log:6719:153321 15:11:32.0886192s - TimeProvCommand([NtpClient], TPC_TimeJumped) called.
+  C:\Windows\Logs\w32tm.log:6720:153321 15:11:32.0886768s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): reclamp: 7 -> 6 (min=4, max=17, sys=6)
+  C:\Windows\Logs\w32tm.log:6721:153321 15:11:32.0887062s - Peer poll: Max:64.0000000s Cur:42.6430861s153321 
+15:11:32.0887203s -  New:01.4458816s
+  C:\Windows\Logs\w32tm.log:6722:153321 15:11:32.0887591s - TimeProvCommand([NtpClient], TPC_PollIntervalChanged) 
+called.
+  C:\Windows\Logs\w32tm.log:6723:153321 15:11:32.0888143s - Peer poll: Max:64.0000000s Cur:01.4457760s
+  C:\Windows\Logs\w32tm.log:6724:153321 15:11:32.0888714s - UpdateTimerQueue1: TN:15166090000::: LRT:108120000  
+LUT:15166090000 LAFLTNS:0 TSLGT:0 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:6725:153321 15:11:32.0889014s - W32TmServiceMain: waiting i16.000s (64.000s)
+  C:\Windows\Logs\w32tm.log:6726:153321 15:11:32.0891188s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:6727:153321 15:11:32.0891780s - PeerPollingThread: waiting 1.446s
+  C:\Windows\Logs\w32tm.log:6728:153321 15:11:32.0892262s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:6729:153321 15:11:32.0892589s - PeerPollingThread: waiting 1.446s
+  C:\Windows\Logs\w32tm.log:6730:153321 15:11:33.5281604s - PeerPollingThread: WaitTimeout
+  C:\Windows\Logs\w32tm.log:6731:153321 15:11:33.5282761s - PeerPollingThread: waiting 0.007s
+  C:\Windows\Logs\w32tm.log:6732:153321 15:11:33.5436135s - PeerPollingThread: WaitTimeout
+  C:\Windows\Logs\w32tm.log:6733:153321 15:11:33.5437039s - Polling peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:6734:153321 15:11:33.5439236s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): adjust: (++) -> 7
+  C:\Windows\Logs\w32tm.log:6735:153321 15:11:33.5439707s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): reclamp: 7 -> 6 (min=4, max=17, sys=6)
+  C:\Windows\Logs\w32tm.log:6736:153321 15:11:33.5439999s - Peer poll: Max:64.0000000s Cur:00.0000000s
+  C:\Windows\Logs\w32tm.log:6737:153321 15:11:33.5594535s - Tx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:6738:153321 15:11:33.5595325s - PeerPollingThread: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:6739:153321 15:11:33.5782422s - ListeningThread -- DataAvailEvent set for socket 1 
+(0.0.0.0:123)
+  C:\Windows\Logs\w32tm.log:6740:153321 15:11:33.5783457s - TSI_PhaseOffset returned:424928605312
+  C:\Windows\Logs\w32tm.log:6741:153321 15:11:33.5783801s - HA Pkt Rcv: delay:0 DestTimeStamp:132469890935783353
+  C:\Windows\Logs\w32tm.log:6742:153321 15:11:33.5784074s - Rx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:6743:153321 15:11:33.5784324s - ListeningThread -- response heard from 51.105.208.173:123 
+<- 192.168.181.30:123
+  C:\Windows\Logs\w32tm.log:6744:153321 15:11:33.5784824s - /-- NTP Packet:
+  C:\Windows\Logs\w32tm.log:6745:153321 15:11:33.5784966s - | LeapIndicator: 0 - no warning;  VersionNumber: 3;  Mode: 
+4 - Server;  LiVnMode: 0x1C
+  C:\Windows\Logs\w32tm.log:6746:153321 15:11:33.5785128s - | Stratum: 3 - secondary reference (syncd by (S)NTP)
+  C:\Windows\Logs\w32tm.log:6747:153321 15:11:33.5785235s - | Poll Interval: 6 - 64s;  Precision: -23 - 119.209ns per 
+tick
+  C:\Windows\Logs\w32tm.log:6748:153321 15:11:33.5785486s - | RootDelay: 0x0000.0087s - 0.00205994s;  RootDispersion: 
+0x0000.06ABs - 0.0260468s
+  C:\Windows\Logs\w32tm.log:6749:153321 15:11:33.5785777s - | ReferenceClockIdentifier: 0x1942E604 - source IP: 
+25.66.230.4
+  C:\Windows\Logs\w32tm.log:6750:153321 15:11:33.5785946s - | ReferenceTimestamp:   0xE32EF09D3BDEE92F - 
+13246989085233870100ns - 153321 15:11:25.2338701s
+  C:\Windows\Logs\w32tm.log:6751:153321 15:11:33.5786199s - | OriginateTimestamp:   0xE32EF0A58B32D1E4 - 
+13246989093543744200ns - 153321 15:11:33.5437442s
+  C:\Windows\Logs\w32tm.log:6752:153321 15:11:33.5786456s - | ReceiveTimestamp:     0xE32EF0A58FD6A3E6 - 
+13246989093561868900ns - 153321 15:11:33.5618689s
+  C:\Windows\Logs\w32tm.log:6753:153321 15:11:33.5786732s - | TransmitTimestamp:    0xE32EF0A58FD6C219 - 
+13246989093561870700ns - 153321 15:11:33.5618707s
+  C:\Windows\Logs\w32tm.log:6754:153321 15:11:33.5787009s - >-- Non-packet info:
+  C:\Windows\Logs\w32tm.log:6755:153321 15:11:33.5787143s - | DestinationTimestamp: 153321 15:11:33.5787250s - 
+0xE32EF0A5940DC83F153321 15:11:33.5787355s -  - 13246989093578335300ns153321 15:11:33.5787474s -  - 153321 
+15:11:33.5783353s
+  C:\Windows\Logs\w32tm.log:6756:153321 15:11:33.5787624s - | RoundtripDelay: 34589300ns (0s)
+  C:\Windows\Logs\w32tm.log:6757:153321 15:11:33.5787832s - | LocalClockOffset: 830000ns - 0:00.000830000s
+  C:\Windows\Logs\w32tm.log:6758:153321 15:11:33.5788106s - \--
+  C:\Windows\Logs\w32tm.log:6759:153321 15:11:33.5788658s - ListeningThread STC:97159
+  C:\Windows\Logs\w32tm.log:6760:153321 15:11:33.5789093s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): peer receive: 7 -> 6
+  C:\Windows\Logs\w32tm.log:6761:153321 15:11:33.5789395s - Peer poll: Max:64.0000000s Cur:63.9650606s
+  C:\Windows\Logs\w32tm.log:6762:153321 15:11:33.5789755s - Response from peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123), ofs: +00.0008300s
+  C:\Windows\Logs\w32tm.log:6763:153321 15:11:33.5790152s - TSI_PhaseOffset returned:424928603424
+  C:\Windows\Logs\w32tm.log:6764:153321 15:11:33.5790406s - 5 Age:5 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000172s RDsp:00.0000000s Pnt:00.0000688s Dst:16.0000000s FDsp:00.2500002s 
+Jitter:00.0000000s AgeTime:+86.8141663s
+  C:\Windows\Logs\w32tm.log:6765:153321 15:11:33.5791110s - 4 Age:4 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000172s RDsp:00.0000000s Pnt:00.0178504s Dst:16.0000000s FDsp:00.7500007s 
+Jitter:00.0000000s AgeTime:+470.9092120s
+  C:\Windows\Logs\w32tm.log:6766:153321 15:11:33.5791797s - 3 Age:3 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000172s RDsp:00.0000000s Pnt:00.0148868s Dst:16.0000000s FDsp:01.7500017s 
+Jitter:00.0000000s AgeTime:+406.8918796s
+  C:\Windows\Logs\w32tm.log:6767:153321 15:11:33.5792487s - 2 Age:2 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000172s RDsp:00.0000000s Pnt:00.0119232s Dst:16.0000000s FDsp:03.7500038s 
+Jitter:00.0000000s AgeTime:+342.8762643s
+  C:\Windows\Logs\w32tm.log:6768:153321 15:11:33.5793175s - 1 Age:1 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000172s RDsp:00.0000000s Pnt:00.0089596s Dst:16.0000000s FDsp:07.7500081s 
+Jitter:00.0000000s AgeTime:+278.8617119s
+  C:\Windows\Logs\w32tm.log:6769:153321 15:11:33.5793893s - 0 Age:0 Ofs:+00.0008300s COfs:+00.0008300s 
+Dly:+00.0345893s RDly:+00.0020599s Dsp:00.0000006s RDsp:00.0260468s Pnt:00.0000000s Dst:00.0345893s FDsp:07.7500084s 
+Jitter:00.0000000s AgeTime:+00.0006690s
+  C:\Windows\Logs\w32tm.log:6770:153321 15:11:33.5794594s - Peer jitter: 00.0000000s Filter Dispersion: 07.7500084s
+  C:\Windows\Logs\w32tm.log:6771:153321 15:11:33.5799886s - W32TmServiceMain: resync req, user requested, get samples 
+as soon as possible.
+  C:\Windows\Logs\w32tm.log:6772:153321 15:11:33.5800796s - UpdateTimerQueue1: TN:15181090000::: LRT:108120000  
+LUT:15166090000 LAFLTNS:14910833 TSLGT:14910833 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:6773:153321 15:11:33.5801227s - W32TmServiceMain: waiting i0.000s (62.508s)
+  C:\Windows\Logs\w32tm.log:6774:153321 15:11:33.5905663s - W32TmServiceMain: timeout
+  C:\Windows\Logs\w32tm.log:6775:153321 15:11:33.5906453s - Sample Prepared at 132469890935906306 for peer 
+time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:6776:153321 15:11:33.5906840s - TSI_PhaseOffset returned:424929651504
+  C:\Windows\Logs\w32tm.log:6777:153321 15:11:33.5907165s - Sorted endpoints for intersection algorithm:
+  C:\Windows\Logs\w32tm.log:6778:153321 15:11:33.5907405s -     -07.7935499s  -1
+  C:\Windows\Logs\w32tm.log:6779:153321 15:11:33.5907720s -     +00.0008300s  0
+  C:\Windows\Logs\w32tm.log:6780:153321 15:11:33.5908026s -     +07.7952099s  1
+  C:\Windows\Logs\w32tm.log:6781:153321 15:11:33.5908373s - Intersection successful over range: -07.7935499s - 
++07.7952099s
+  C:\Windows\Logs\w32tm.log:6782:153321 15:11:33.5908801s -   SyncDist:77943799 SelectJitter:0 PeerJitter:0 
+CorrectedOffset:8300
+  C:\Windows\Logs\w32tm.log:6783:153321 15:11:33.5909058s -  MaxSelectJitter: 0 MinPeerJitter: 0
+  C:\Windows\Logs\w32tm.log:6784:153321 15:11:33.5909387s - TSI_PhaseOffset returned:424929651568
+  C:\Windows\Logs\w32tm.log:6785:153321 15:11:33.5909716s - NTP Sample 2916116787 chosen. Dispersion: 77768853 
+SystemJitter: 0 STC:97160 SystemOffset: 8300 Delay: 366492
+  C:\Windows\Logs\w32tm.log:6786:153321 15:11:33.5910134s - NtpClient returned 1 samples.
+  C:\Windows\Logs\w32tm.log:6787:153321 15:11:33.5911740s - Intersection successful with 0 dropped samples.
+  C:\Windows\Logs\w32tm.log:6788:153321 15:11:33.5913532s -   0: Sample:0 SyncDist:557952099 SelectDisp:0
+  C:\Windows\Logs\w32tm.log:6789:153321 15:11:33.5913843s - Sample 0 chosen. Select Dispersion:00.0000000s SPHO:0 
+STC:97160
+  C:\Windows\Logs\w32tm.log:6790:153321 15:11:33.5914165s - Sample 0 offset:+00.0008300s delay:+00.0366492s 
+dispersion:07.7768853s
+  C:\Windows\Logs\w32tm.log:6791:153321 15:11:33.5915248s - ClockDispln Update: LastUTC:97160 SO:8300 KPhO:0 
+spO:424931752736 PhO:8300 uT:97
+  C:\Windows\Logs\w32tm.log:6792: SD:38885195 LI:0 S:4 RDl:366492 RDs:77868853 TSF:0x0
+  C:\Windows\Logs\w32tm.log:6793: Unset->Hold
+  C:\Windows\Logs\w32tm.log:6794:153321 15:11:33.5921084s - UpdateTimerQueue1: TN:15181250000::: LRT:108120000  
+LUT:15166090000 LAFLTNS:0 TSLGT:0 LTNS:78000000000
+  C:\Windows\Logs\w32tm.log:6795:153321 15:11:33.5921801s - W32TmServiceMain: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:6796:153321 15:11:34.6060822s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:518 CRD:518 
+PhCRR_:0 CRD_:0 CR:10000000  (PhCRRL:518 CRL:156250 phcTL:65) UI:100 KPhO:8300
+  C:\Windows\Logs\w32tm.log:7211:153321 15:15:36.6655692s - RPC Caller is LAB57WIN\nimda 
+(S-1-5-21-1665767460-2176179813-3544029027-1001)
+  C:\Windows\Logs\w32tm.log:7212:153321 15:15:36.6656632s - RPC Call Attribute is local=1, kernel=0, session=0, 
+authentication=6, protocol=2, OpNum=0
+> C:\Windows\Logs\w32tm.log:7213:153321 15:15:36.6657499s - RPC Call - HardResync
+  C:\Windows\Logs\w32tm.log:7214:153321 15:15:36.6658080s - W32TmServiceMain: ********** Time Slip Notification 
+**********
+  C:\Windows\Logs\w32tm.log:7215:153321 15:15:32.9050713s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:0 CRD:0 
+PhCRR_:-1 CRD_:0 CR:9999997 153321 15:15:36.6658948s - ClockDispln TimeSlip:TimeSlip LastUTC:112716 [Poll: 7->6] 
+SetUnsync: LI:3 S:0 RDl:353761 RDs:37888714 TSF:0x0 153321 15:15:36.6667194s - ClockDispln Discipline: *SKEW*TIME* - 
+PhCRR:0 CRD:0 PhCRR_:0 CRD_:0 CR:0 ReleaseClock2CMOS
+  C:\Windows\Logs\w32tm.log:7216:153321 15:15:36.6699165s - TimeProvCommand([NtpClient], TPC_TimeJumped) called.
+  C:\Windows\Logs\w32tm.log:7217:153321 15:15:36.6715391s - Peer poll: Max:64.0000000s Cur:12.9372372s153321 
+15:15:36.6717036s -  New:01.4735744s
+  C:\Windows\Logs\w32tm.log:7218:153321 15:15:36.6721267s - TimeProvCommand([NtpClient], TPC_PollIntervalChanged) 
+called.
+  C:\Windows\Logs\w32tm.log:7219:153321 15:15:36.6723776s - Peer poll: Max:64.0000000s Cur:01.4726308s
+  C:\Windows\Logs\w32tm.log:7220:153321 15:15:36.6730188s - UpdateTimerQueue1: TN:17612030000::: LRT:108120000  
+LUT:17611870000 LAFLTNS:0 TSLGT:0 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:7221:153321 15:15:36.6730598s - W32TmServiceMain: waiting i16.000s (64.000s)
+  C:\Windows\Logs\w32tm.log:7222:153321 15:15:36.6749422s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:7223:153321 15:15:36.6749948s - PeerPollingThread: waiting 1.470s
+  C:\Windows\Logs\w32tm.log:7224:153321 15:15:36.6750438s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:7225:153321 15:15:36.6750758s - PeerPollingThread: waiting 1.470s
+  C:\Windows\Logs\w32tm.log:7226:153321 15:15:38.1551098s - PeerPollingThread: WaitTimeout
+  C:\Windows\Logs\w32tm.log:7227:153321 15:15:38.1552347s - Polling peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:7228:153321 15:15:38.1553977s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): adjust: (++) -> 7
+  C:\Windows\Logs\w32tm.log:7229:153321 15:15:38.1554411s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): reclamp: 7 -> 6 (min=4, max=17, sys=6)
+  C:\Windows\Logs\w32tm.log:7230:153321 15:15:38.1554689s - Peer poll: Max:64.0000000s Cur:00.0000000s
+  C:\Windows\Logs\w32tm.log:7231:153321 15:15:38.1707990s - Tx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:7232:153321 15:15:38.1708660s - PeerPollingThread: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:7233:153321 15:15:38.1894560s - ListeningThread -- DataAvailEvent set for socket 1 
+(0.0.0.0:123)
+  C:\Windows\Logs\w32tm.log:7234:153321 15:15:38.1895526s - TSI_PhaseOffset returned:424928604608
+  C:\Windows\Logs\w32tm.log:7235:153321 15:15:38.1895868s - HA Pkt Rcv: delay:0 DestTimeStamp:132469893381895419
+  C:\Windows\Logs\w32tm.log:7236:153321 15:15:38.1896151s - Rx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:7237:153321 15:15:38.1896418s - ListeningThread -- response heard from 51.105.208.173:123 
+<- 192.168.181.30:123
+  C:\Windows\Logs\w32tm.log:7238:153321 15:15:38.1897065s - /-- NTP Packet:
+  C:\Windows\Logs\w32tm.log:7239:153321 15:15:38.1897219s - | LeapIndicator: 0 - no warning;  VersionNumber: 3;  Mode: 
+4 - Server;  LiVnMode: 0x1C
+  C:\Windows\Logs\w32tm.log:7240:153321 15:15:38.1897379s - | Stratum: 3 - secondary reference (syncd by (S)NTP)
+  C:\Windows\Logs\w32tm.log:7241:153321 15:15:38.1897487s - | Poll Interval: 6 - 64s;  Precision: -23 - 119.209ns per 
+tick
+  C:\Windows\Logs\w32tm.log:7242:153321 15:15:38.1898300s - | RootDelay: 0x0000.0087s - 0.00205994s;  RootDispersion: 
+0x0000.06AFs - 0.0261078s
+  C:\Windows\Logs\w32tm.log:7243:153321 15:15:38.1898586s - | ReferenceClockIdentifier: 0x1942E604 - source IP: 
+25.66.230.4
+  C:\Windows\Logs\w32tm.log:7244:153321 15:15:38.1898757s - | ReferenceTimestamp:   0xE32EF18D584CF073 - 
+13246989325344924000ns - 153321 15:15:25.3449240s
+  C:\Windows\Logs\w32tm.log:7245:153321 15:15:38.1899008s - | OriginateTimestamp:   0xE32EF19A27BF8B9B - 
+13246989338155266500ns - 153321 15:15:38.1552665s
+  C:\Windows\Logs\w32tm.log:7246:153321 15:15:38.1899255s - | ReceiveTimestamp:     0xE32EF19A2C44A7CF - 
+13246989338172922600ns - 153321 15:15:38.1729226s
+  C:\Windows\Logs\w32tm.log:7247:153321 15:15:38.1899513s - | TransmitTimestamp:    0xE32EF19A2C44C95D - 
+13246989338172924600ns - 153321 15:15:38.1729246s
+  C:\Windows\Logs\w32tm.log:7248:153321 15:15:38.1899805s - >-- Non-packet info:
+  C:\Windows\Logs\w32tm.log:7249:153321 15:15:38.1899939s - | DestinationTimestamp: 153321 15:15:38.1900046s - 
+0xE32EF19A3085D165153321 15:15:38.1900151s -  - 13246989338189541900ns153321 15:15:38.1900269s -  - 153321 
+15:15:38.1895419s
+  C:\Windows\Logs\w32tm.log:7250:153321 15:15:38.1900419s - | RoundtripDelay: 34273400ns (0s)
+  C:\Windows\Logs\w32tm.log:7251:153321 15:15:38.1900626s - | LocalClockOffset: 519400ns - 0:00.000519400s
+  C:\Windows\Logs\w32tm.log:7252:153321 15:15:38.1900896s - \--
+  C:\Windows\Logs\w32tm.log:7253:153321 15:15:38.1901872s - ListeningThread STC:112814
+  C:\Windows\Logs\w32tm.log:7254:153321 15:15:38.1902276s - Peer poll: Max:64.0000000s Cur:63.9652417s
+  C:\Windows\Logs\w32tm.log:7255:153321 15:15:38.1902612s - Response from peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123), ofs: +00.0005194s
+  C:\Windows\Logs\w32tm.log:7256:153321 15:15:38.1903012s - TSI_PhaseOffset returned:424928602720
+  C:\Windows\Logs\w32tm.log:7257:153321 15:15:38.1903266s - 5 Age:5 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0059980s Dst:16.0000000s FDsp:00.2500002s 
+Jitter:00.0000000s AgeTime:+180.5967594s
+  C:\Windows\Logs\w32tm.log:7258:153321 15:15:38.1903980s - 4 Age:4 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0030344s Dst:16.0000000s FDsp:00.7500007s 
+Jitter:00.0000000s AgeTime:+116.5799043s
+  C:\Windows\Logs\w32tm.log:7259:153321 15:15:38.1904732s - 3 Age:3 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0000700s Dst:16.0000000s FDsp:01.7500017s 
+Jitter:00.0000000s AgeTime:+52.5486280s
+  C:\Windows\Logs\w32tm.log:7260:153321 15:15:38.1905475s - 2 Age:2 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0208848s Dst:16.0000000s FDsp:03.7500038s 
+Jitter:00.0000000s AgeTime:+587.4875504s
+  C:\Windows\Logs\w32tm.log:7261:153321 15:15:38.1906166s - 1 Age:1 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0179212s Dst:16.0000000s FDsp:07.7500081s 
+Jitter:00.0000000s AgeTime:+523.4729980s
+  C:\Windows\Logs\w32tm.log:7262:153321 15:15:38.1906850s - 0 Age:0 Ofs:+00.0005194s COfs:+00.0005194s 
+Dly:+00.0342734s RDly:+00.0020599s Dsp:00.0000005s RDsp:00.0261078s Pnt:00.0000000s Dst:00.0342734s FDsp:07.7500083s 
+Jitter:00.0000000s AgeTime:+00.0007485s
+  C:\Windows\Logs\w32tm.log:7263:153321 15:15:38.1907540s - Peer jitter: 00.0000000s Filter Dispersion: 07.7500083s
+  C:\Windows\Logs\w32tm.log:7264:153321 15:15:38.1909155s - W32TmServiceMain: resync req, user requested, get samples 
+as soon as possible.
+  C:\Windows\Logs\w32tm.log:7265:153321 15:15:38.1909947s - UpdateTimerQueue1: TN:17627180000::: LRT:108120000  
+LUT:17611870000 LAFLTNS:15178512 TSLGT:15178512 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:7266:153321 15:15:38.1910302s - W32TmServiceMain: waiting i0.000s (62.482s)
+  C:\Windows\Logs\w32tm.log:7267:153321 15:15:38.2018691s - W32TmServiceMain: timeout
+  C:\Windows\Logs\w32tm.log:7268:153321 15:15:38.2019505s - Sample Prepared at 132469893382019370 for peer 
+time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:7269:153321 15:15:38.2019908s - TSI_PhaseOffset returned:424930700384
+  C:\Windows\Logs\w32tm.log:7270:153321 15:15:38.2020225s - Sorted endpoints for intersection algorithm:
+  C:\Windows\Logs\w32tm.log:7271:153321 15:15:38.2020467s -     -07.7937634s  -1
+  C:\Windows\Logs\w32tm.log:7272:153321 15:15:38.2020778s -     +00.0005194s  0
+  C:\Windows\Logs\w32tm.log:7273:153321 15:15:38.2021093s -     +07.7948022s  1
+  C:\Windows\Logs\w32tm.log:7274:153321 15:15:38.2021427s - Intersection successful over range: -07.7937634s - 
++07.7948022s
+  C:\Windows\Logs\w32tm.log:7275:153321 15:15:38.2022008s -   SyncDist:77942828 SelectJitter:0 PeerJitter:0 
+CorrectedOffset:5194
+  C:\Windows\Logs\w32tm.log:7276:153321 15:15:38.2022684s -  MaxSelectJitter: 0 MinPeerJitter: 0
+  C:\Windows\Logs\w32tm.log:7277:153321 15:15:38.2023041s - TSI_PhaseOffset returned:424930700448
+  C:\Windows\Logs\w32tm.log:7278:153321 15:15:38.2023397s - NTP Sample 2916116787 chosen. Dispersion: 77766356 
+SystemJitter: 0 STC:112815 SystemOffset: 5194 Delay: 363333
+  C:\Windows\Logs\w32tm.log:7279:153321 15:15:38.2023789s - NtpClient returned 1 samples.
+  C:\Windows\Logs\w32tm.log:7280:153321 15:15:38.2024168s - Intersection successful with 0 dropped samples.
+  C:\Windows\Logs\w32tm.log:7281:153321 15:15:38.2024444s -   0: Sample:0 SyncDist:557948022 SelectDisp:0
+  C:\Windows\Logs\w32tm.log:7282:153321 15:15:38.2024698s - Sample 0 chosen. Select Dispersion:00.0000000s SPHO:0 
+STC:112815
+  C:\Windows\Logs\w32tm.log:7283:153321 15:15:38.2025027s - Sample 0 offset:+00.0005194s delay:+00.0363333s 
+dispersion:07.7766356s
+  C:\Windows\Logs\w32tm.log:7284:153321 15:15:38.2026563s - ClockDispln Update: LastUTC:112815 SO:5194 KPhO:0 
+spO:424931752736 PhO:5194 uT:99
+  C:\Windows\Logs\w32tm.log:7285: SD:50822157 LI:0 S:4 RDl:363333 RDs:77866356 TSF:0x0
+  C:\Windows\Logs\w32tm.log:7286: Unset->Hold
+  C:\Windows\Logs\w32tm.log:7287:153321 15:15:38.2033267s - UpdateTimerQueue1: TN:17627340000::: LRT:108120000  
+LUT:17611870000 LAFLTNS:0 TSLGT:0 LTNS:78000000000
+  C:\Windows\Logs\w32tm.log:7288:153321 15:15:38.2034253s - W32TmServiceMain: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:7289:153321 15:15:39.2174432s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:324 CRD:324 
+PhCRR_:0 CRD_:0 CR:10000000  (PhCRRL:324 CRL:156250 phcTL:65) UI:100 KPhO:5194
+  C:\Windows\Logs\w32tm.log:7290:153321 15:15:40.2330243s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:304 CRD:304 
+PhCRR_:324 CRD_:324 CR:10000000  (PhCRRL:304 CRL:156250 phcTL:65) UI:100 KPhO:4870
+  C:\Windows\Logs\w32tm.log:7291:153321 15:15:41.2331947s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:285 CRD:285 
+PhCRR_:304 CRD_:304 CR:10000000  (PhCRRL:285 CRL:156250 phcTL:64) UI:100 KPhO:4566
+  C:\Windows\Logs\w32tm.log:7292:153321 15:15:42.2332212s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:267 CRD:267 
+PhCRR_:285 CRD_:285 CR:10000000  (PhCRRL:267 CRL:156250 phcTL:64) UI:100 KPhO:4281
+  C:\Windows\Logs\w32tm.log:7293:153321 15:15:43.2490302s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:250 CRD:250 
+PhCRR_:267 CRD_:267 CR:10000000  (PhCRRL:250 CRL:156250 phcTL:65) UI:100 KPhO:4014
+  C:\Windows\Logs\w32tm.log:7451:153321 15:17:10.7530243s - RPC Caller is LAB57WIN\nimda 
+(S-1-5-21-1665767460-2176179813-3544029027-1001)
+  C:\Windows\Logs\w32tm.log:7452:153321 15:17:10.7530706s - RPC Call Attribute is local=1, kernel=0, session=0, 
+authentication=6, protocol=2, OpNum=0
+> C:\Windows\Logs\w32tm.log:7453:153321 15:17:10.7531078s - RPC Call - HardResync
+  C:\Windows\Logs\w32tm.log:7454:153321 15:17:10.7531346s - W32TmServiceMain: ********** Time Slip Notification 
+**********
+  C:\Windows\Logs\w32tm.log:7455:153321 15:17:10.7531558s - ClockDispln TimeSlip:TimeSlip LastUTC:118738 SetUnsync: 
+LI:3 S:0 RDl:362962 RDs:37877413 TSF:0x0 153321 15:17:10.7535399s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:0 
+CRD:0 PhCRR_:0 CRD_:0 CR:0 ReleaseClock2CMOS
+  C:\Windows\Logs\w32tm.log:7456:153321 15:17:10.7577158s - TimeProvCommand([NtpClient], TPC_TimeJumped) called.
+  C:\Windows\Logs\w32tm.log:7457:153321 15:17:10.7577430s - Peer poll: Max:64.0000000s Cur:35.4294631s153321 
+15:17:10.7577495s -  New:01.0279360s
+  C:\Windows\Logs\w32tm.log:7458:153321 15:17:10.7577875s - UpdateTimerQueue1: TN:18552810000::: LRT:108120000  
+LUT:18552810000 LAFLTNS:0 TSLGT:0 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:7459:153321 15:17:10.7578026s - W32TmServiceMain: waiting i16.000s (64.000s)
+  C:\Windows\Logs\w32tm.log:7460:153321 15:17:10.7578470s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:7461:153321 15:17:10.7578688s - PeerPollingThread: waiting 1.028s
+  C:\Windows\Logs\w32tm.log:7462:153321 15:17:10.7578876s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:7463:153321 15:17:10.7579331s - PeerPollingThread: waiting 1.028s
+  C:\Windows\Logs\w32tm.log:7464:153321 15:17:11.7816120s - PeerPollingThread: WaitTimeout
+  C:\Windows\Logs\w32tm.log:7465:153321 15:17:11.7817076s - PeerPollingThread: waiting 0.004s
+  C:\Windows\Logs\w32tm.log:7466:153321 15:17:11.7965620s - PeerPollingThread: WaitTimeout
+  C:\Windows\Logs\w32tm.log:7467:153321 15:17:11.7966389s - Polling peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:7468:153321 15:17:11.7967618s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): adjust: (++) -> 7
+  C:\Windows\Logs\w32tm.log:7469:153321 15:17:11.7968039s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): reclamp: 7 -> 6 (min=4, max=17, sys=6)
+  C:\Windows\Logs\w32tm.log:7470:153321 15:17:11.7968314s - Peer poll: Max:64.0000000s Cur:00.0000000s
+  C:\Windows\Logs\w32tm.log:7471:153321 15:17:11.8129602s - Tx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:7472:153321 15:17:11.8130265s - PeerPollingThread: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:7473:153321 15:17:11.8297258s - ListeningThread -- DataAvailEvent set for socket 1 
+(0.0.0.0:123)
+  C:\Windows\Logs\w32tm.log:7474:153321 15:17:11.8298288s - TSI_PhaseOffset returned:424930703504
+  C:\Windows\Logs\w32tm.log:7475:153321 15:17:11.8298665s - HA Pkt Rcv: delay:0 DestTimeStamp:132469894318298180
+  C:\Windows\Logs\w32tm.log:7476:153321 15:17:11.8298957s - Rx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:7477:153321 15:17:11.8299214s - ListeningThread -- response heard from 51.105.208.173:123 
+<- 192.168.181.30:123
+  C:\Windows\Logs\w32tm.log:7478:153321 15:17:11.8299691s - /-- NTP Packet:
+  C:\Windows\Logs\w32tm.log:7479:153321 15:17:11.8300159s - | LeapIndicator: 0 - no warning;  VersionNumber: 3;  Mode: 
+4 - Server;  LiVnMode: 0x1C
+  C:\Windows\Logs\w32tm.log:7480:153321 15:17:11.8300325s - | Stratum: 3 - secondary reference (syncd by (S)NTP)
+  C:\Windows\Logs\w32tm.log:7481:153321 15:17:11.8300432s - | Poll Interval: 6 - 64s;  Precision: -23 - 119.209ns per 
+tick
+  C:\Windows\Logs\w32tm.log:7482:153321 15:17:11.8300690s - | RootDelay: 0x0000.0087s - 0.00205994s;  RootDispersion: 
+0x0000.06ADs - 0.0260773s
+  C:\Windows\Logs\w32tm.log:7483:153321 15:17:11.8300979s - | ReferenceClockIdentifier: 0x1942E604 - source IP: 
+25.66.230.4
+  C:\Windows\Logs\w32tm.log:7484:153321 15:17:11.8301151s - | ReferenceTimestamp:   0xE32EF1ED641CA3A4 - 
+13246989421391062000ns - 153321 15:17:01.3910620s
+  C:\Windows\Logs\w32tm.log:7485:153321 15:17:11.8301401s - | OriginateTimestamp:   0xE32EF1F7CBF266BA - 
+13246989431796667500ns - 153321 15:17:11.7966675s
+  C:\Windows\Logs\w32tm.log:7486:153321 15:17:11.8301657s - | ReceiveTimestamp:     0xE32EF1F7D024C5B2 - 
+13246989431813061100ns - 153321 15:17:11.8130611s
+  C:\Windows\Logs\w32tm.log:7487:153321 15:17:11.8301916s - | TransmitTimestamp:    0xE32EF1F7D024DD2F - 
+13246989431813062500ns - 153321 15:17:11.8130625s
+  C:\Windows\Logs\w32tm.log:7488:153321 15:17:11.8302194s - >-- Non-packet info:
+  C:\Windows\Logs\w32tm.log:7489:153321 15:17:11.8302327s - | DestinationTimestamp: 153321 15:17:11.8302433s - 
+0xE32EF1F7D46EF3D3153321 15:17:11.8302538s -  - 13246989431829818000ns153321 15:17:11.8302656s -  - 153321 
+15:17:11.8298180s
+  C:\Windows\Logs\w32tm.log:7490:153321 15:17:11.8302805s - | RoundtripDelay: 33149100ns (0s)
+  C:\Windows\Logs\w32tm.log:7491:153321 15:17:11.8303011s - | LocalClockOffset: -180900ns - 0:00.000180900s
+  C:\Windows\Logs\w32tm.log:7492:153321 15:17:11.8303279s - \--
+  C:\Windows\Logs\w32tm.log:7493:153321 15:17:11.8303851s - ListeningThread STC:118807
+  C:\Windows\Logs\w32tm.log:7494:153321 15:17:11.8304293s - Peer poll: Max:64.0000000s Cur:63.9664031s
+  C:\Windows\Logs\w32tm.log:7495:153321 15:17:11.8304680s - Response from peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123), ofs: -00.0001809s
+  C:\Windows\Logs\w32tm.log:7496:153321 15:17:11.8305096s - TSI_PhaseOffset returned:424930701616
+  C:\Windows\Logs\w32tm.log:7497:153321 15:17:11.8305353s - 5 Age:5 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000124s RDsp:00.0000000s Pnt:00.0000496s Dst:16.0000000s FDsp:00.2500001s 
+Jitter:00.0000000s AgeTime:+29.6093669s
+  C:\Windows\Logs\w32tm.log:7498:153321 15:17:11.8306056s - 4 Age:4 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000124s RDsp:00.0000000s Pnt:00.0060484s Dst:16.0000000s FDsp:00.7500004s 
+Jitter:00.0000000s AgeTime:+210.2201104s
+  C:\Windows\Logs\w32tm.log:7499:153321 15:17:11.8306752s - 3 Age:3 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000124s RDsp:00.0000000s Pnt:00.0030840s Dst:16.0000000s FDsp:01.7500011s 
+Jitter:00.0000000s AgeTime:+146.1888341s
+  C:\Windows\Logs\w32tm.log:7500:153321 15:17:11.8307531s - 2 Age:2 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000124s RDsp:00.0000000s Pnt:00.0238988s Dst:16.0000000s FDsp:03.7500026s 
+Jitter:00.0000000s AgeTime:+681.1277565s
+  C:\Windows\Logs\w32tm.log:7501:153321 15:17:11.8308267s - 1 Age:1 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000124s RDsp:00.0000000s Pnt:00.0209352s Dst:16.0000000s FDsp:07.7500057s 
+Jitter:00.0000000s AgeTime:+617.1132041s
+  C:\Windows\Logs\w32tm.log:7502:153321 15:17:11.8308952s - 0 Age:0 Ofs:-00.0001809s COfs:-00.0001809s 
+Dly:+00.0331491s RDly:+00.0020599s Dsp:00.0000005s RDsp:00.0260773s Pnt:00.0000000s Dst:00.0331491s FDsp:07.7500059s 
+Jitter:00.0000000s AgeTime:+00.0006785s
+  C:\Windows\Logs\w32tm.log:7503:153321 15:17:11.8309875s - Peer jitter: 00.0000000s Filter Dispersion: 07.7500059s
+  C:\Windows\Logs\w32tm.log:7504:153321 15:17:11.8310787s - W32TmServiceMain: resync req, user requested, get samples 
+as soon as possible.
+  C:\Windows\Logs\w32tm.log:7505:153321 15:17:11.8311513s - UpdateTimerQueue1: TN:18563590000::: LRT:108120000  
+LUT:18552810000 LAFLTNS:10732820 TSLGT:10732820 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:7506:153321 15:17:11.8311844s - W32TmServiceMain: waiting i0.000s (62.926s)
+  C:\Windows\Logs\w32tm.log:7507:153321 15:17:11.8433526s - W32TmServiceMain: timeout
+  C:\Windows\Logs\w32tm.log:7508:153321 15:17:11.8434183s - Sample Prepared at 132469894318434059 for peer 
+time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:7509:153321 15:17:11.8434581s - TSI_PhaseOffset returned:424928601488
+  C:\Windows\Logs\w32tm.log:7510:153321 15:17:11.8434905s - Sorted endpoints for intersection algorithm:
+  C:\Windows\Logs\w32tm.log:7511:153321 15:17:11.8435149s -     -07.7938687s  -1
+  C:\Windows\Logs\w32tm.log:7512:153321 15:17:11.8435471s -     -00.0001809s  0
+  C:\Windows\Logs\w32tm.log:7513:153321 15:17:11.8435769s -     +07.7935069s  1
+  C:\Windows\Logs\w32tm.log:7514:153321 15:17:11.8436078s - Intersection successful over range: -07.7938687s - 
++07.7935069s
+  C:\Windows\Logs\w32tm.log:7515:153321 15:17:11.8436499s -   SyncDist:77936878 SelectJitter:0 PeerJitter:0 
+CorrectedOffset:-1809
+  C:\Windows\Logs\w32tm.log:7516:153321 15:17:11.8436769s -  MaxSelectJitter: 0 MinPeerJitter: 0
+  C:\Windows\Logs\w32tm.log:7517:153321 15:17:11.8437092s - TSI_PhaseOffset returned:424928601552
+  C:\Windows\Logs\w32tm.log:7518:153321 15:17:11.8437515s - NTP Sample 2916116787 chosen. Dispersion: 77762641 
+SystemJitter: 0 STC:118808 SystemOffset: -1808 Delay: 352090
+  C:\Windows\Logs\w32tm.log:7519:153321 15:17:11.8437993s - NtpClient returned 1 samples.
+  C:\Windows\Logs\w32tm.log:7520:153321 15:17:11.8438349s - Intersection successful with 0 dropped samples.
+  C:\Windows\Logs\w32tm.log:7521:153321 15:17:11.8438627s -   0: Sample:0 SyncDist:557938686 SelectDisp:0
+  C:\Windows\Logs\w32tm.log:7522:153321 15:17:11.8438883s - Sample 0 chosen. Select Dispersion:00.0000000s SPHO:0 
+STC:118808
+  C:\Windows\Logs\w32tm.log:7523:153321 15:17:11.8439205s - Sample 0 offset:-00.0001808s delay:+00.0352090s 
+dispersion:07.7762641s
+  C:\Windows\Logs\w32tm.log:7524:153321 15:17:11.8439713s - ClockDispln Update: LastUTC:118808 SO:-1808 KPhO:0 
+spO:424931752736 PhO:-1808 uT:70
+  C:\Windows\Logs\w32tm.log:7525: SD:69945288 LI:0 S:4 RDl:352090 RDs:77862641 TSF:0x0
+  C:\Windows\Logs\w32tm.log:7526: Unset->Hold
+  C:\Windows\Logs\w32tm.log:7527:153321 15:17:11.8444164s - UpdateTimerQueue1: TN:18563750000::: LRT:108120000  
+LUT:18552810000 LAFLTNS:0 TSLGT:0 LTNS:78000000000
+  C:\Windows\Logs\w32tm.log:7528:153321 15:17:11.8444485s - W32TmServiceMain: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:7529:153321 15:17:12.8588684s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:-113 CRD:-113 
+PhCRR_:0 CRD_:0 CR:10000000  (PhCRRL:-113 CRL:156250 phcTL:65) UI:100 KPhO:-1808
+  C:\Windows\Logs\w32tm.log:7530:153321 15:17:13.8590285s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:-105 CRD:-105 
+PhCRR_:-113 CRD_:-113 CR:10000000  (PhCRRL:-105 CRL:156250 phcTL:64) UI:100 KPhO:-1695
+  C:\Windows\Logs\w32tm.log:7531:153321 15:17:14.8588707s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:-99 CRD:-99 
+PhCRR_:-105 CRD_:-105 CR:10000000  (PhCRRL:-99 CRL:156250 phcTL:64) UI:100 KPhO:-1590
+  C:\Windows\Logs\w32tm.log:7532:153321 15:17:15.8588780s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:-93 CRD:-93 
+PhCRR_:-99 CRD_:-99 CR:10000000  (PhCRRL:-93 CRL:156250 phcTL:64) UI:100 KPhO:-1491
+  C:\Windows\Logs\w32tm.log:7533:153321 15:17:16.8588853s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:-87 CRD:-87 
+PhCRR_:-93 CRD_:-93 CR:10000000  (PhCRRL:-87 CRL:156250 phcTL:64) UI:100 KPhO:-1398
+  C:\Windows\Logs\w32tm.log:7662:153321 15:18:58.4424082s - RPC Caller is LAB57WIN\nimda 
+(S-1-5-21-1665767460-2176179813-3544029027-1001)
+  C:\Windows\Logs\w32tm.log:7663:153321 15:18:58.4425004s - RPC Call Attribute is local=1, kernel=0, session=0, 
+authentication=6, protocol=2, OpNum=0
+> C:\Windows\Logs\w32tm.log:7664:153321 15:18:58.4425863s - RPC Call - HardResync
+  C:\Windows\Logs\w32tm.log:7665:153321 15:18:58.4426432s - W32TmServiceMain: ********** Time Slip Notification 
+**********
+  C:\Windows\Logs\w32tm.log:7666:153321 15:18:52.0151332s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:0 CRD:0 
+PhCRR_:-1 CRD_:-1 CR:10000000 153321 15:18:58.4427164s - ClockDispln TimeSlip:TimeSlip LastUTC:125630 SetUnsync: LI:3 
+S:0 RDl:352090 RDs:77862641 TSF:0x0 153321 15:18:58.4435864s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:0 CRD:0 
+PhCRR_:0 CRD_:0 CR:0 ReleaseClock2CMOS
+  C:\Windows\Logs\w32tm.log:7667:153321 15:18:58.4517636s - TimeProvCommand([NtpClient], TPC_TimeJumped) called.
+  C:\Windows\Logs\w32tm.log:7668:153321 15:18:58.4518463s - Peer poll: Max:64.0000000s Cur:21.3761387s153321 
+15:18:58.4518626s -  New:01.0000832s
+  C:\Windows\Logs\w32tm.log:7669:153321 15:18:58.4519209s - UpdateTimerQueue1: TN:19629680000::: LRT:108120000  
+LUT:19629680000 LAFLTNS:0 TSLGT:0 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:7670:153321 15:18:58.4519417s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:7671:153321 15:18:58.4519535s - W32TmServiceMain: waiting i16.000s (64.000s)
+  C:\Windows\Logs\w32tm.log:7672:153321 15:18:58.4520066s - PeerPollingThread: waiting 1.000s
+  C:\Windows\Logs\w32tm.log:7673:153321 15:18:58.4520381s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:7674:153321 15:18:58.4520769s - PeerPollingThread: waiting 1.000s
+  C:\Windows\Logs\w32tm.log:7675:153321 15:18:59.4369126s - PeerPollingThread: WaitTimeout
+  C:\Windows\Logs\w32tm.log:7676:153321 15:18:59.4370070s - PeerPollingThread: waiting 0.015s
+  C:\Windows\Logs\w32tm.log:7677:153321 15:18:59.4523767s - PeerPollingThread: WaitTimeout
+  C:\Windows\Logs\w32tm.log:7678:153321 15:18:59.4526176s - Polling peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:7679:153321 15:18:59.4527962s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): adjust: (++) -> 7
+  C:\Windows\Logs\w32tm.log:7680:153321 15:18:59.4528886s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): reclamp: 7 -> 6 (min=4, max=17, sys=6)
+  C:\Windows\Logs\w32tm.log:7681:153321 15:18:59.4529203s - Peer poll: Max:64.0000000s Cur:00.0000000s
+  C:\Windows\Logs\w32tm.log:7682:153321 15:18:59.4681641s - Tx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:7683:153321 15:18:59.4682360s - PeerPollingThread: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:7684:153321 15:18:59.4871040s - ListeningThread -- DataAvailEvent set for socket 1 
+(0.0.0.0:123)
+  C:\Windows\Logs\w32tm.log:7685:153321 15:18:59.4872026s - TSI_PhaseOffset returned:424928604608
+  C:\Windows\Logs\w32tm.log:7686:153321 15:18:59.4872374s - HA Pkt Rcv: delay:0 DestTimeStamp:132469895394871918
+  C:\Windows\Logs\w32tm.log:7687:153321 15:18:59.4872674s - Rx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:7688:153321 15:18:59.4872938s - ListeningThread -- response heard from 51.105.208.173:123 
+<- 192.168.181.30:123
+  C:\Windows\Logs\w32tm.log:7689:153321 15:18:59.4873428s - /-- NTP Packet:
+  C:\Windows\Logs\w32tm.log:7690:153321 15:18:59.4873913s - | LeapIndicator: 0 - no warning;  VersionNumber: 3;  Mode: 
+4 - Server;  LiVnMode: 0x1C
+  C:\Windows\Logs\w32tm.log:7691:153321 15:18:59.4874079s - | Stratum: 3 - secondary reference (syncd by (S)NTP)
+  C:\Windows\Logs\w32tm.log:7692:153321 15:18:59.4874188s - | Poll Interval: 6 - 64s;  Precision: -23 - 119.209ns per 
+tick
+  C:\Windows\Logs\w32tm.log:7693:153321 15:18:59.4874441s - | RootDelay: 0x0000.0087s - 0.00205994s;  RootDispersion: 
+0x0000.06AAs - 0.0260315s
+  C:\Windows\Logs\w32tm.log:7694:153321 15:18:59.4874714s - | ReferenceClockIdentifier: 0x1942E604 - source IP: 
+25.66.230.4
+  C:\Windows\Logs\w32tm.log:7695:153321 15:18:59.4874883s - | ReferenceTimestamp:   0xE32EF25D64AE18AC - 
+13246989533393281500ns - 153321 15:18:53.3932815s
+  C:\Windows\Logs\w32tm.log:7696:153321 15:18:59.4875134s - | OriginateTimestamp:   0xE32EF26373E1E994 - 
+13246989539452665900ns - 153321 15:18:59.4526659s
+  C:\Windows\Logs\w32tm.log:7697:153321 15:18:59.4875376s - | ReceiveTimestamp:     0xE32EF26378A5CB00 - 
+13246989539471279800ns - 153321 15:18:59.4712798s
+  C:\Windows\Logs\w32tm.log:7698:153321 15:18:59.4875638s - | TransmitTimestamp:    0xE32EF26378A5F344 - 
+13246989539471282200ns - 153321 15:18:59.4712822s
+  C:\Windows\Logs\w32tm.log:7699:153321 15:18:59.4875928s - >-- Non-packet info:
+  C:\Windows\Logs\w32tm.log:7700:153321 15:18:59.4876062s - | DestinationTimestamp: 153321 15:18:59.4876170s - 
+0xE32EF2637CB89A0F153321 15:18:59.4876276s -  - 13246989539487191800ns153321 15:18:59.4876394s -  - 153321 
+15:18:59.4871918s
+  C:\Windows\Logs\w32tm.log:7701:153321 15:18:59.4876543s - | RoundtripDelay: 34523500ns (0s)
+  C:\Windows\Logs\w32tm.log:7702:153321 15:18:59.4876750s - | LocalClockOffset: 1352100ns - 0:00.001352100s
+  C:\Windows\Logs\w32tm.log:7703:153321 15:18:59.4877019s - \--
+  C:\Windows\Logs\w32tm.log:7704:153321 15:18:59.4878975s - ListeningThread STC:125697
+  C:\Windows\Logs\w32tm.log:7705:153321 15:18:59.4879514s - Peer poll: Max:64.0000000s Cur:63.9649710s
+  C:\Windows\Logs\w32tm.log:7706:153321 15:18:59.4879889s - Response from peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123), ofs: +00.0013521s
+  C:\Windows\Logs\w32tm.log:7707:153321 15:18:59.4880311s - TSI_PhaseOffset returned:424928602720
+  C:\Windows\Logs\w32tm.log:7708:153321 15:18:59.4880568s - 5 Age:5 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000119s RDsp:00.0000000s Pnt:00.0000476s Dst:16.0000000s FDsp:00.2500001s 
+Jitter:00.0000000s AgeTime:+43.6262612s
+  C:\Windows\Logs\w32tm.log:7709:153321 15:18:59.4881283s - 4 Age:4 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000119s RDsp:00.0000000s Pnt:00.0090604s Dst:16.0000000s FDsp:00.7500004s 
+Jitter:00.0000000s AgeTime:+317.8776344s
+  C:\Windows\Logs\w32tm.log:7710:153321 15:18:59.4881976s - 3 Age:3 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000119s RDsp:00.0000000s Pnt:00.0060960s Dst:16.0000000s FDsp:01.7500011s 
+Jitter:00.0000000s AgeTime:+253.8463581s
+  C:\Windows\Logs\w32tm.log:7711:153321 15:18:59.4882687s - 2 Age:2 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000119s RDsp:00.0000000s Pnt:00.0269108s Dst:16.0000000s FDsp:03.7500025s 
+Jitter:00.0000000s AgeTime:+788.7852805s
+  C:\Windows\Logs\w32tm.log:7712:153321 15:18:59.4883372s - 1 Age:1 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000119s RDsp:00.0000000s Pnt:00.0239472s Dst:16.0000000s FDsp:07.7500054s 
+Jitter:00.0000000s AgeTime:+724.7707281s
+  C:\Windows\Logs\w32tm.log:7713:153321 15:18:59.4884061s - 0 Age:0 Ofs:+00.0013521s COfs:+00.0013521s 
+Dly:+00.0345235s RDly:+00.0020599s Dsp:00.0000005s RDsp:00.0260315s Pnt:00.0000000s Dst:00.0345235s FDsp:07.7500056s 
+Jitter:00.0000000s AgeTime:+00.0008287s
+  C:\Windows\Logs\w32tm.log:7714:153321 15:18:59.4885751s - Peer jitter: 00.0000000s Filter Dispersion: 07.7500056s
+  C:\Windows\Logs\w32tm.log:7715:153321 15:18:59.4887538s - W32TmServiceMain: resync req, user requested, get samples 
+as soon as possible.
+  C:\Windows\Logs\w32tm.log:7716:153321 15:18:59.4888378s - UpdateTimerQueue1: TN:19640150000::: LRT:108120000  
+LUT:19629680000 LAFLTNS:10367675 TSLGT:10367675 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:7717:153321 15:18:59.4888713s - W32TmServiceMain: waiting i0.000s (62.963s)
+  C:\Windows\Logs\w32tm.log:7718:153321 15:18:59.4890358s - W32TmServiceMain: timeout
+  C:\Windows\Logs\w32tm.log:7719:153321 15:18:59.4891135s - Sample Prepared at 132469895394890987 for peer 
+time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:7720:153321 15:18:59.4891535s - TSI_PhaseOffset returned:424930700384
+  C:\Windows\Logs\w32tm.log:7721:153321 15:18:59.4891903s - Sorted endpoints for intersection algorithm:
+  C:\Windows\Logs\w32tm.log:7722:153321 15:18:59.4892174s -     -07.7929767s  -1
+  C:\Windows\Logs\w32tm.log:7723:153321 15:18:59.4892494s -     +00.0013521s  0
+  C:\Windows\Logs\w32tm.log:7724:153321 15:18:59.4892792s -     +07.7956809s  1
+  C:\Windows\Logs\w32tm.log:7725:153321 15:18:59.4893128s - Intersection successful over range: -07.7929767s - 
++07.7956809s
+  C:\Windows\Logs\w32tm.log:7726:153321 15:18:59.4893563s -   SyncDist:77943288 SelectJitter:0 PeerJitter:0 
+CorrectedOffset:13521
+  C:\Windows\Logs\w32tm.log:7727:153321 15:18:59.4893840s -  MaxSelectJitter: 0 MinPeerJitter: 0
+  C:\Windows\Logs\w32tm.log:7728:153321 15:18:59.4894172s - TSI_PhaseOffset returned:424930700448
+  C:\Windows\Logs\w32tm.log:7729:153321 15:18:59.4894499s - NTP Sample 2916116787 chosen. Dispersion: 77773892 
+SystemJitter: 0 STC:125697 SystemOffset: 13521 Delay: 365834
+  C:\Windows\Logs\w32tm.log:7730:153321 15:18:59.4894894s - NtpClient returned 1 samples.
+  C:\Windows\Logs\w32tm.log:7731:153321 15:18:59.4895305s - Intersection successful with 0 dropped samples.
+  C:\Windows\Logs\w32tm.log:7732:153321 15:18:59.4895620s -   0: Sample:0 SyncDist:557956809 SelectDisp:0
+  C:\Windows\Logs\w32tm.log:7733:153321 15:18:59.4895890s - Sample 0 chosen. Select Dispersion:00.0000000s SPHO:0 
+STC:125697
+  C:\Windows\Logs\w32tm.log:7734:153321 15:18:59.4896209s - Sample 0 offset:+00.0013521s delay:+00.0365834s 
+dispersion:07.7773892s
+  C:\Windows\Logs\w32tm.log:7735:153321 15:18:59.4897797s - ClockDispln Update: LastUTC:125697 SO:13521 KPhO:0 
+spO:424931752736 PhO:13521 uT:67
+  C:\Windows\Logs\w32tm.log:7736: SD:77765453 LI:0 S:4 RDl:365834 RDs:77873892 TSF:0x0
+  C:\Windows\Logs\w32tm.log:7737: Unset->Hold
+  C:\Windows\Logs\w32tm.log:7738:153321 15:18:59.4906144s - UpdateTimerQueue1: TN:19640150000::: LRT:108120000  
+LUT:19629680000 LAFLTNS:0 TSLGT:0 LTNS:78000000000
+  C:\Windows\Logs\w32tm.log:7739:153321 15:18:59.4907360s - W32TmServiceMain: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:7740:153321 15:19:00.4992609s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:845 CRD:845 
+PhCRR_:0 CRD_:0 CR:10000000  (PhCRRL:845 CRL:156250 phcTL:65) UI:100 KPhO:13521
+  C:\Windows\Logs\w32tm.log:7741:153321 15:19:01.4996094s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:792 CRD:792 
+PhCRR_:845 CRD_:845 CR:10000000  (PhCRRL:792 CRL:156250 phcTL:64) UI:100 KPhO:12676
+  C:\Windows\Logs\w32tm.log:7742:153321 15:19:02.4995904s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:742 CRD:742 
+PhCRR_:792 CRD_:792 CR:10000000  (PhCRRL:742 CRL:156250 phcTL:64) UI:100 KPhO:11884
+  C:\Windows\Logs\w32tm.log:7743:153321 15:19:03.4997722s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:696 CRD:696 
+PhCRR_:742 CRD_:742 CR:10000000  (PhCRRL:696 CRL:156250 phcTL:64) UI:100 KPhO:11142
+  C:\Windows\Logs\w32tm.log:7744:153321 15:19:04.5155114s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:652 CRD:652 
+PhCRR_:696 CRD_:696 CR:10000000  (PhCRRL:652 CRL:156250 phcTL:65) UI:100 KPhO:10446
+  C:\Windows\Logs\w32tm.log:7980:153321 15:21:18.6981506s - RPC Caller is LAB57WIN\nimda 
+(S-1-5-21-1665767460-2176179813-3544029027-1001)
+  C:\Windows\Logs\w32tm.log:7981:153321 15:21:18.6982395s - RPC Call Attribute is local=1, kernel=0, session=0, 
+authentication=6, protocol=2, OpNum=0
+> C:\Windows\Logs\w32tm.log:7982:153321 15:21:18.6983218s - RPC Call - HardResync
+  C:\Windows\Logs\w32tm.log:7983:153321 15:21:18.6983804s - W32TmServiceMain: ********** Time Slip Notification 
+**********
+  C:\Windows\Logs\w32tm.log:7984:153321 15:21:18.6256244s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:0 CRD:0 
+PhCRR_:15 CRD_:15 CR:10000000 153321 15:21:18.6984490s - ClockDispln TimeSlip:TimeSlip LastUTC:134606 SetUnsync: LI:3 
+S:0 RDl:353328 RDs:37866208 TSF:0x0 153321 15:21:18.6992229s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:0 CRD:0 
+PhCRR_:0 CRD_:0 CR:0 ReleaseClock2CMOS
+  C:\Windows\Logs\w32tm.log:7985:153321 15:21:18.7015989s - TimeProvCommand([NtpClient], TPC_TimeJumped) called.
+  C:\Windows\Logs\w32tm.log:7986:153321 15:21:18.7033196s - Peer poll: Max:64.0000000s Cur:52.7981943s153321 
+15:21:18.7039746s -  New:01.4999488s
+  C:\Windows\Logs\w32tm.log:7987:153321 15:21:18.7048368s - UpdateTimerQueue1: TN:21032340000::: LRT:108120000  
+LUT:21032180000 LAFLTNS:0 TSLGT:0 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:7988:153321 15:21:18.7071432s - W32TmServiceMain: waiting i16.000s (64.000s)
+  C:\Windows\Logs\w32tm.log:7989:153321 15:21:18.7073504s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:7990:153321 15:21:18.7074002s - PeerPollingThread: waiting 1.496s
+  C:\Windows\Logs\w32tm.log:7991:153321 15:21:18.7074437s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:7992:153321 15:21:18.7074749s - PeerPollingThread: waiting 1.496s
+  C:\Windows\Logs\w32tm.log:7993:153321 15:21:20.2038602s - PeerPollingThread: WaitTimeout
+  C:\Windows\Logs\w32tm.log:7994:153321 15:21:20.2039762s - Polling peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:7995:153321 15:21:20.2041384s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): adjust: (++) -> 7
+  C:\Windows\Logs\w32tm.log:7996:153321 15:21:20.2041817s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): reclamp: 7 -> 6 (min=4, max=17, sys=6)
+  C:\Windows\Logs\w32tm.log:7997:153321 15:21:20.2042207s - Peer poll: Max:64.0000000s Cur:00.0000000s
+  C:\Windows\Logs\w32tm.log:7998:153321 15:21:20.2195458s - Tx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:7999:153321 15:21:20.2196147s - PeerPollingThread: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:8000:153321 15:21:20.2370131s - ListeningThread -- DataAvailEvent set for socket 1 
+(0.0.0.0:123)
+  C:\Windows\Logs\w32tm.log:8001:153321 15:21:20.2371120s - TSI_PhaseOffset returned:424928605440
+  C:\Windows\Logs\w32tm.log:8002:153321 15:21:20.2371459s - HA Pkt Rcv: delay:0 DestTimeStamp:132469896802371012
+  C:\Windows\Logs\w32tm.log:8003:153321 15:21:20.2371740s - Rx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:8004:153321 15:21:20.2372001s - ListeningThread -- response heard from 51.105.208.173:123 
+<- 192.168.181.30:123
+  C:\Windows\Logs\w32tm.log:8005:153321 15:21:20.2372462s - /-- NTP Packet:
+  C:\Windows\Logs\w32tm.log:8006:153321 15:21:20.2372580s - | LeapIndicator: 0 - no warning;  VersionNumber: 3;  Mode: 
+4 - Server;  LiVnMode: 0x1C
+  C:\Windows\Logs\w32tm.log:8007:153321 15:21:20.2372739s - | Stratum: 3 - secondary reference (syncd by (S)NTP)
+  C:\Windows\Logs\w32tm.log:8008:153321 15:21:20.2372848s - | Poll Interval: 6 - 64s;  Precision: -23 - 119.209ns per 
+tick
+  C:\Windows\Logs\w32tm.log:8009:153321 15:21:20.2373098s - | RootDelay: 0x0000.0079s - 0.00184631s;  RootDispersion: 
+0x0000.06BCs - 0.0263062s
+  C:\Windows\Logs\w32tm.log:8010:153321 15:21:20.2373383s - | ReferenceClockIdentifier: 0x1942E604 - source IP: 
+25.66.230.4
+  C:\Windows\Logs\w32tm.log:8011:153321 15:21:20.2373553s - | ReferenceTimestamp:   0xE32EF2ED4480FE98 - 
+13246989677267593300ns - 153321 15:21:17.2675933s
+  C:\Windows\Logs\w32tm.log:8012:153321 15:21:20.2373804s - | OriginateTimestamp:   0xE32EF2F03439E1A3 - 
+13246989680204008200ns - 153321 15:21:20.2040082s
+  C:\Windows\Logs\w32tm.log:8013:153321 15:21:20.2374048s - | ReceiveTimestamp:     0xE32EF2F03878B299 - 
+13246989680220591700ns - 153321 15:21:20.2205917s
+  C:\Windows\Logs\w32tm.log:8014:153321 15:21:20.2374320s - | TransmitTimestamp:    0xE32EF2F03878DADD - 
+13246989680220594100ns - 153321 15:21:20.2205941s
+  C:\Windows\Logs\w32tm.log:8015:153321 15:21:20.2374597s - >-- Non-packet info:
+  C:\Windows\Logs\w32tm.log:8016:153321 15:21:20.2374732s - | DestinationTimestamp: 153321 15:21:20.2374840s - 
+0xE32EF2F03CB2AA0B153321 15:21:20.2374946s -  - 13246989680237101200ns153321 15:21:20.2375065s -  - 153321 
+15:21:20.2371012s
+  C:\Windows\Logs\w32tm.log:8017:153321 15:21:20.2375216s - | RoundtripDelay: 33090600ns (0s)
+  C:\Windows\Logs\w32tm.log:8018:153321 15:21:20.2375423s - | LocalClockOffset: 38200ns - 0:00.000038200s
+  C:\Windows\Logs\w32tm.log:8019:153321 15:21:20.2375694s - \--
+  C:\Windows\Logs\w32tm.log:8020:153321 15:21:20.2376232s - ListeningThread STC:134705
+  C:\Windows\Logs\w32tm.log:8021:153321 15:21:20.2376657s - Peer poll: Max:64.0000000s Cur:63.9665557s
+  C:\Windows\Logs\w32tm.log:8022:153321 15:21:20.2377030s - Response from peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123), ofs: +00.0000382s
+  C:\Windows\Logs\w32tm.log:8023:153321 15:21:20.2377432s - TSI_PhaseOffset returned:424928603552
+  C:\Windows\Logs\w32tm.log:8024:153321 15:21:20.2377698s - 5 Age:5 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000177s RDsp:00.0000000s Pnt:00.0030340s Dst:16.0000000s FDsp:00.2500002s 
+Jitter:00.0000000s AgeTime:+76.7171105s
+  C:\Windows\Logs\w32tm.log:8025:153321 15:21:20.2378410s - 4 Age:4 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000177s RDsp:00.0000000s Pnt:00.0000708s Dst:16.0000000s FDsp:00.7500007s 
+Jitter:00.0000000s AgeTime:+12.7036687s
+  C:\Windows\Logs\w32tm.log:8026:153321 15:21:20.2379102s - 3 Age:3 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000177s RDsp:00.0000000s Pnt:00.0120944s Dst:16.0000000s FDsp:01.7500018s 
+Jitter:00.0000000s AgeTime:+394.5960702s
+  C:\Windows\Logs\w32tm.log:8027:153321 15:21:20.2379798s - 2 Age:2 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000177s RDsp:00.0000000s Pnt:00.0329092s Dst:16.0000000s FDsp:03.7500040s 
+Jitter:00.0000000s AgeTime:+929.5349926s
+  C:\Windows\Logs\w32tm.log:8028:153321 15:21:20.2380567s - 1 Age:1 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000177s RDsp:00.0000000s Pnt:00.0299456s Dst:16.0000000s FDsp:07.7500084s 
+Jitter:00.0000000s AgeTime:+865.5204402s
+  C:\Windows\Logs\w32tm.log:8029:153321 15:21:20.2381315s - 0 Age:0 Ofs:+00.0000382s COfs:+00.0000382s 
+Dly:+00.0330906s RDly:+00.0018463s Dsp:00.0000005s RDsp:00.0263062s Pnt:00.0000000s Dst:00.0330906s FDsp:07.7500086s 
+Jitter:00.0000000s AgeTime:+00.0006314s
+  C:\Windows\Logs\w32tm.log:8030:153321 15:21:20.2382013s - Peer jitter: 00.0000000s Filter Dispersion: 07.7500086s
+  C:\Windows\Logs\w32tm.log:8031:153321 15:21:20.2383633s - W32TmServiceMain: resync req, user requested, get samples 
+as soon as possible.
+  C:\Windows\Logs\w32tm.log:8032:153321 15:21:20.2384467s - UpdateTimerQueue1: TN:21047650000::: LRT:108120000  
+LUT:21032180000 LAFLTNS:15311839 TSLGT:15311839 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:8033:153321 15:21:20.2384801s - W32TmServiceMain: waiting i0.000s (62.468s)
+  C:\Windows\Logs\w32tm.log:8034:153321 15:21:20.2386894s - W32TmServiceMain: timeout
+  C:\Windows\Logs\w32tm.log:8035:153321 15:21:20.2387446s - Sample Prepared at 132469896802387331 for peer 
+time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:8036:153321 15:21:20.2387791s - TSI_PhaseOffset returned:424929651504
+  C:\Windows\Logs\w32tm.log:8037:153321 15:21:20.2388145s - Sorted endpoints for intersection algorithm:
+  C:\Windows\Logs\w32tm.log:8038:153321 15:21:20.2388381s -     -07.7937450s  -1
+  C:\Windows\Logs\w32tm.log:8039:153321 15:21:20.2388682s -     +00.0000382s  0
+  C:\Windows\Logs\w32tm.log:8040:153321 15:21:20.2388971s -     +07.7938214s  1
+  C:\Windows\Logs\w32tm.log:8041:153321 15:21:20.2389278s - Intersection successful over range: -07.7937450s - 
++07.7938214s
+  C:\Windows\Logs\w32tm.log:8042:153321 15:21:20.2389691s -   SyncDist:77937832 SelectJitter:0 PeerJitter:0 
+CorrectedOffset:382
+  C:\Windows\Logs\w32tm.log:8043:153321 15:21:20.2389949s -  MaxSelectJitter: 0 MinPeerJitter: 0
+  C:\Windows\Logs\w32tm.log:8044:153321 15:21:20.2390273s - TSI_PhaseOffset returned:424929651568
+  C:\Windows\Logs\w32tm.log:8045:153321 15:21:20.2390589s - NTP Sample 2916116787 chosen. Dispersion: 77763530 
+SystemJitter: 0 STC:134705 SystemOffset: 382 Delay: 349369
+  C:\Windows\Logs\w32tm.log:8046:153321 15:21:20.2391056s - NtpClient returned 1 samples.
+  C:\Windows\Logs\w32tm.log:8047:153321 15:21:20.2391402s - Intersection successful with 0 dropped samples.
+  C:\Windows\Logs\w32tm.log:8048:153321 15:21:20.2391694s -   0: Sample:0 SyncDist:557938214 SelectDisp:0
+  C:\Windows\Logs\w32tm.log:8049:153321 15:21:20.2392024s - Sample 0 chosen. Select Dispersion:00.0000000s SPHO:0 
+STC:134705
+  C:\Windows\Logs\w32tm.log:8050:153321 15:21:20.2392396s - Sample 0 offset:+00.0000382s delay:+00.0349369s 
+dispersion:07.7763530s
+  C:\Windows\Logs\w32tm.log:8051:153321 15:21:20.2393960s - ClockDispln Update: LastUTC:134705 SO:382 KPhO:0 
+spO:424931752736 PhO:382 uT:99
+  C:\Windows\Logs\w32tm.log:8052: SD:61132065 LI:0 S:4 RDl:349369 RDs:77863530 TSF:0x0
+  C:\Windows\Logs\w32tm.log:8053: Unset->Hold
+  C:\Windows\Logs\w32tm.log:8054:153321 15:21:20.2398479s - UpdateTimerQueue1: TN:21047650000::: LRT:108120000  
+LUT:21032180000 LAFLTNS:0 TSLGT:0 LTNS:78000000000
+  C:\Windows\Logs\w32tm.log:8055:153321 15:21:20.2398881s - W32TmServiceMain: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:8056:153321 15:21:21.2505847s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:23 CRD:23 
+PhCRR_:0 CRD_:0 CR:10000000  (PhCRRL:23 CRL:156250 phcTL:65) UI:100 KPhO:382
+  C:\Windows\Logs\w32tm.log:8057:153321 15:21:22.2661363s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:22 CRD:22 
+PhCRR_:23 CRD_:23 CR:10000000  (PhCRRL:22 CRL:156250 phcTL:65) UI:100 KPhO:359
+  C:\Windows\Logs\w32tm.log:8058:153321 15:21:23.2663379s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:21 CRD:21 
+PhCRR_:22 CRD_:22 CR:10000000  (PhCRRL:21 CRL:156250 phcTL:64) UI:100 KPhO:337
+  C:\Windows\Logs\w32tm.log:8059:153321 15:21:24.2819166s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:19 CRD:19 
+PhCRR_:21 CRD_:21 CR:10000000  (PhCRRL:19 CRL:156250 phcTL:65) UI:100 KPhO:316
+  C:\Windows\Logs\w32tm.log:8060:153321 15:21:25.2819379s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:18 CRD:18 
+PhCRR_:19 CRD_:19 CR:10000000  (PhCRRL:18 CRL:156250 phcTL:64) UI:100 KPhO:297
+  C:\Windows\Logs\w32tm.log:8061:153321 15:21:26.2975570s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:17 CRD:17 
+PhCRR_:18 CRD_:18 CR:10000000  (PhCRRL:17 CRL:156250 phcTL:65) UI:100 KPhO:279
+  C:\Windows\Logs\w32tm.log:8062:153321 15:21:27.3133545s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:16 CRD:16 
+PhCRR_:17 CRD_:17 CR:10000000  (PhCRRL:16 CRL:156250 phcTL:65) UI:100 KPhO:262
+  C:\Windows\Logs\w32tm.log:8253:153321 15:24:30.3985480s - RPC Caller is LAB57WIN\nimda 
+(S-1-5-21-1665767460-2176179813-3544029027-1001)
+  C:\Windows\Logs\w32tm.log:8254:153321 15:24:30.3986421s - RPC Call Attribute is local=1, kernel=0, session=0, 
+authentication=6, protocol=2, OpNum=0
+> C:\Windows\Logs\w32tm.log:8255:153321 15:24:30.3987427s - RPC Call - HardResync
+  C:\Windows\Logs\w32tm.log:8256:153321 15:24:30.3988245s - W32TmServiceMain: ********** Time Slip Notification 
+**********
+  C:\Windows\Logs\w32tm.log:8257:153321 15:24:30.3989217s - ClockDispln TimeSlip:TimeSlip LastUTC:146875 SetUnsync: 
+LI:3 S:0 RDl:349369 RDs:77863530 TSF:0x0 153321 15:24:30.3998803s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:0 
+CRD:0 PhCRR_:0 CRD_:0 CR:0 ReleaseClock2CMOS
+  C:\Windows\Logs\w32tm.log:8258:153321 15:24:30.4087800s - TimeProvCommand([NtpClient], TPC_TimeJumped) called.
+  C:\Windows\Logs\w32tm.log:8259:153321 15:24:30.4089024s - Peer poll: Max:64.0000000s Cur:01.8427637s153321 
+15:24:30.4089571s -  New:01.4735232s
+  C:\Windows\Logs\w32tm.log:8260:153321 15:24:30.4091020s - UpdateTimerQueue1: TN:22949370000::: LRT:108120000  
+LUT:22949210000 LAFLTNS:0 TSLGT:0 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:8261:153321 15:24:30.4091791s - W32TmServiceMain: waiting i16.000s (64.000s)
+  C:\Windows\Logs\w32tm.log:8262:153321 15:24:30.4092255s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:8263:153321 15:24:30.4092759s - PeerPollingThread: waiting 1.474s
+  C:\Windows\Logs\w32tm.log:8264:153321 15:24:30.4093230s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:8265:153321 15:24:30.4093554s - PeerPollingThread: waiting 1.474s
+  C:\Windows\Logs\w32tm.log:8266:153321 15:24:31.8912307s - PeerPollingThread: WaitTimeout
+  C:\Windows\Logs\w32tm.log:8267:153321 15:24:31.8913765s - Polling peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:8268:153321 15:24:31.8916720s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): adjust: (++) -> 7
+  C:\Windows\Logs\w32tm.log:8269:153321 15:24:31.8917193s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): reclamp: 7 -> 6 (min=4, max=17, sys=6)
+  C:\Windows\Logs\w32tm.log:8270:153321 15:24:31.8917633s - Peer poll: Max:64.0000000s Cur:00.0000000s
+  C:\Windows\Logs\w32tm.log:8271:153321 15:24:31.9070393s - Tx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:8272:153321 15:24:31.9071113s - PeerPollingThread: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:8273:153321 15:24:31.9245490s - ListeningThread -- DataAvailEvent set for socket 1 
+(0.0.0.0:123)
+  C:\Windows\Logs\w32tm.log:8274:153321 15:24:31.9246507s - TSI_PhaseOffset returned:424930703504
+  C:\Windows\Logs\w32tm.log:8275:153321 15:24:31.9246856s - HA Pkt Rcv: delay:0 DestTimeStamp:132469898719246402
+  C:\Windows\Logs\w32tm.log:8276:153321 15:24:31.9247162s - Rx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:8277:153321 15:24:31.9247412s - ListeningThread -- response heard from 51.105.208.173:123 
+<- 192.168.181.30:123
+  C:\Windows\Logs\w32tm.log:8278:153321 15:24:31.9247883s - /-- NTP Packet:
+  C:\Windows\Logs\w32tm.log:8279:153321 15:24:31.9248347s - | LeapIndicator: 0 - no warning;  VersionNumber: 3;  Mode: 
+4 - Server;  LiVnMode: 0x1C
+  C:\Windows\Logs\w32tm.log:8280:153321 15:24:31.9248511s - | Stratum: 3 - secondary reference (syncd by (S)NTP)
+  C:\Windows\Logs\w32tm.log:8281:153321 15:24:31.9248617s - | Poll Interval: 6 - 64s;  Precision: -23 - 119.209ns per 
+tick
+  C:\Windows\Logs\w32tm.log:8282:153321 15:24:31.9248878s - | RootDelay: 0x0000.0079s - 0.00184631s;  RootDispersion: 
+0x0000.06BCs - 0.0263062s
+  C:\Windows\Logs\w32tm.log:8283:153321 15:24:31.9249160s - | ReferenceClockIdentifier: 0x1942E604 - source IP: 
+25.66.230.4
+  C:\Windows\Logs\w32tm.log:8284:153321 15:24:31.9249329s - | ReferenceTimestamp:   0xE32EF3AD44FA9201 - 
+13246989869269448400ns - 153321 15:24:29.2694484s
+  C:\Windows\Logs\w32tm.log:8285:153321 15:24:31.9249585s - | OriginateTimestamp:   0xE32EF3AFE433BD9C - 
+13246989871891414500ns - 153321 15:24:31.8914145s
+  C:\Windows\Logs\w32tm.log:8286:153321 15:24:31.9249828s - | ReceiveTimestamp:     0xE32EF3AFE8D18ED3 - 
+13246989871909447600ns - 153321 15:24:31.9094476s
+  C:\Windows\Logs\w32tm.log:8287:153321 15:24:31.9250086s - | TransmitTimestamp:    0xE32EF3AFE8D1A2F5 - 
+13246989871909448800ns - 153321 15:24:31.9094488s
+  C:\Windows\Logs\w32tm.log:8288:153321 15:24:31.9250377s - >-- Non-packet info:
+  C:\Windows\Logs\w32tm.log:8289:153321 15:24:31.9250510s - | DestinationTimestamp: 153321 15:24:31.9250618s - 
+0xE32EF3AFECB5385B153321 15:24:31.9250724s -  - 13246989871924640200ns153321 15:24:31.9250842s -  - 153321 
+15:24:31.9246402s
+  C:\Windows\Logs\w32tm.log:8290:153321 15:24:31.9250991s - | RoundtripDelay: 33224500ns (0s)
+  C:\Windows\Logs\w32tm.log:8291:153321 15:24:31.9251197s - | LocalClockOffset: 1420800ns - 0:00.001420800s
+  C:\Windows\Logs\w32tm.log:8292:153321 15:24:31.9251466s - \--
+  C:\Windows\Logs\w32tm.log:8293:153321 15:24:31.9251986s - ListeningThread STC:146973
+  C:\Windows\Logs\w32tm.log:8294:153321 15:24:31.9252376s - Peer poll: Max:64.0000000s Cur:63.9665264s
+  C:\Windows\Logs\w32tm.log:8295:153321 15:24:31.9252729s - Response from peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123), ofs: +00.0014208s
+  C:\Windows\Logs\w32tm.log:8296:153321 15:24:31.9253115s - TSI_PhaseOffset returned:424930701616
+  C:\Windows\Logs\w32tm.log:8297:153321 15:24:31.9253364s - 5 Age:5 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0030336s Dst:16.0000000s FDsp:00.2500002s 
+Jitter:00.0000000s AgeTime:+127.6563672s
+  C:\Windows\Logs\w32tm.log:8298:153321 15:24:31.9254062s - 4 Age:4 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0000700s Dst:16.0000000s FDsp:00.7500007s 
+Jitter:00.0000000s AgeTime:+63.6394144s
+  C:\Windows\Logs\w32tm.log:8299:153321 15:24:31.9254741s - 3 Age:3 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0180924s Dst:16.0000000s FDsp:01.7500017s 
+Jitter:00.0000000s AgeTime:+586.2836394s
+  C:\Windows\Logs\w32tm.log:8300:153321 15:24:31.9255418s - 2 Age:2 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0389072s Dst:16.0000000s FDsp:03.7500038s 
+Jitter:00.0000000s AgeTime:+1121.2225618s
+  C:\Windows\Logs\w32tm.log:8301:153321 15:24:31.9256102s - 1 Age:1 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0359436s Dst:16.0000000s FDsp:07.7500081s 
+Jitter:00.0000000s AgeTime:+1057.2080094s
+  C:\Windows\Logs\w32tm.log:8302:153321 15:24:31.9256780s - 0 Age:0 Ofs:+00.0014208s COfs:+00.0014208s 
+Dly:+00.0332245s RDly:+00.0018463s Dsp:00.0000005s RDsp:00.0263062s Pnt:00.0000000s Dst:00.0332245s FDsp:07.7500083s 
+Jitter:00.0000000s AgeTime:+00.0006616s
+  C:\Windows\Logs\w32tm.log:8303:153321 15:24:31.9257455s - Peer jitter: 00.0000000s Filter Dispersion: 07.7500083s
+  C:\Windows\Logs\w32tm.log:8304:153321 15:24:31.9258200s - W32TmServiceMain: resync req, user requested, get samples 
+as soon as possible.
+  C:\Windows\Logs\w32tm.log:8305:153321 15:24:31.9258699s - UpdateTimerQueue1: TN:22964530000::: LRT:108120000  
+LUT:22949210000 LAFLTNS:15166007 TSLGT:15166007 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:8306:153321 15:24:31.9259031s - W32TmServiceMain: waiting i0.000s (62.483s)
+  C:\Windows\Logs\w32tm.log:8307:153321 15:24:31.9260164s - W32TmServiceMain: timeout
+  C:\Windows\Logs\w32tm.log:8308:153321 15:24:31.9260585s - Sample Prepared at 132469898719260484 for peer 
+time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:8309:153321 15:24:31.9260926s - TSI_PhaseOffset returned:424930700384
+  C:\Windows\Logs\w32tm.log:8310:153321 15:24:31.9261241s - Sorted endpoints for intersection algorithm:
+  C:\Windows\Logs\w32tm.log:8311:153321 15:24:31.9261473s -     -07.7924291s  -1
+  C:\Windows\Logs\w32tm.log:8312:153321 15:24:31.9261762s -     +00.0014208s  0
+  C:\Windows\Logs\w32tm.log:8313:153321 15:24:31.9262044s -     +07.7952707s  1
+  C:\Windows\Logs\w32tm.log:8314:153321 15:24:31.9262357s - Intersection successful over range: -07.7924291s - 
++07.7952707s
+  C:\Windows\Logs\w32tm.log:8315:153321 15:24:31.9262763s -   SyncDist:77938499 SelectJitter:0 PeerJitter:0 
+CorrectedOffset:14208
+  C:\Windows\Logs\w32tm.log:8316:153321 15:24:31.9263024s -  MaxSelectJitter: 0 MinPeerJitter: 0
+  C:\Windows\Logs\w32tm.log:8317:153321 15:24:31.9263343s - TSI_PhaseOffset returned:424930700448
+  C:\Windows\Logs\w32tm.log:8318:153321 15:24:31.9263669s - NTP Sample 2916116787 chosen. Dispersion: 77777353 
+SystemJitter: 0 STC:146973 SystemOffset: 14208 Delay: 350708
+  C:\Windows\Logs\w32tm.log:8319:153321 15:24:31.9264048s - NtpClient returned 1 samples.
+  C:\Windows\Logs\w32tm.log:8320:153321 15:24:31.9264403s - Intersection successful with 0 dropped samples.
+  C:\Windows\Logs\w32tm.log:8321:153321 15:24:31.9264692s -   0: Sample:0 SyncDist:557952707 SelectDisp:0
+  C:\Windows\Logs\w32tm.log:8322:153321 15:24:31.9264939s - Sample 0 chosen. Select Dispersion:00.0000000s SPHO:0 
+STC:146973
+  C:\Windows\Logs\w32tm.log:8323:153321 15:24:31.9265245s - Sample 0 offset:+00.0014208s delay:+00.0350708s 
+dispersion:07.7777353s
+  C:\Windows\Logs\w32tm.log:8324:153321 15:24:31.9266297s - ClockDispln Update: LastUTC:146973 SO:14208 KPhO:0 
+spO:424931752736 PhO:14208 uT:98
+  C:\Windows\Logs\w32tm.log:8325: SD:77766985 LI:0 S:4 RDl:350708 RDs:77877353 TSF:0x0
+  C:\Windows\Logs\w32tm.log:8326: Unset->Hold
+  C:\Windows\Logs\w32tm.log:8327:153321 15:24:31.9271689s - UpdateTimerQueue1: TN:22964530000::: LRT:108120000  
+LUT:22949210000 LAFLTNS:0 TSLGT:0 LTNS:78000000000
+  C:\Windows\Logs\w32tm.log:8328:153321 15:24:31.9272408s - W32TmServiceMain: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:8329:153321 15:24:32.9382720s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:888 CRD:888 
+PhCRR_:0 CRD_:0 CR:10000000  (PhCRRL:888 CRL:156250 phcTL:65) UI:100 KPhO:14208
+  C:\Windows\Logs\w32tm.log:8330:153321 15:24:33.9382215s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:832 CRD:832 
+PhCRR_:888 CRD_:888 CR:10000000  (PhCRRL:832 CRL:156250 phcTL:64) UI:100 KPhO:13320
+  C:\Windows\Logs\w32tm.log:8331:153321 15:24:34.9384071s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:780 CRD:780 
+PhCRR_:832 CRD_:832 CR:10000000  (PhCRRL:780 CRL:156250 phcTL:64) UI:100 KPhO:12488
+  C:\Windows\Logs\w32tm.log:8332:153321 15:24:35.9539844s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:731 CRD:731 
+PhCRR_:780 CRD_:780 CR:10000000  (PhCRRL:731 CRL:156250 phcTL:65) UI:100 KPhO:11708
+  C:\Windows\Logs\w32tm.log:8333:153321 15:24:36.9540759s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:686 CRD:686 
+PhCRR_:731 CRD_:731 CR:10000000  (PhCRRL:686 CRL:156250 phcTL:64) UI:100 KPhO:10977
+  C:\Windows\Logs\w32tm.log:8334:153321 15:24:37.9699191s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:643 CRD:643 
+PhCRR_:686 CRD_:686 CR:10000000  (PhCRRL:643 CRL:156250 phcTL:65) UI:100 KPhO:10291
+  C:\Windows\Logs\w32tm.log:8335:153321 15:24:38.9698444s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:603 CRD:603 
+PhCRR_:643 CRD_:643 CR:10000000  (PhCRRL:603 CRL:156250 phcTL:64) UI:100 KPhO:9648
+  C:\Windows\Logs\w32tm.log:8492:153321 15:26:02.6707782s - RPC Caller is LAB57WIN\nimda 
+(S-1-5-21-1665767460-2176179813-3544029027-1001)
+  C:\Windows\Logs\w32tm.log:8493:153321 15:26:02.6708788s - RPC Call Attribute is local=1, kernel=0, session=0, 
+authentication=6, protocol=2, OpNum=0
+> C:\Windows\Logs\w32tm.log:8494:153321 15:26:02.6709636s - RPC Call - HardResync
+  C:\Windows\Logs\w32tm.log:8495:153321 15:26:02.6710236s - W32TmServiceMain: ********** Time Slip Notification 
+**********
+  C:\Windows\Logs\w32tm.log:8496:153321 15:26:02.6711085s - ClockDispln TimeSlip:TimeSlip LastUTC:152780 SetUnsync: 
+LI:3 S:0 RDl:350708 RDs:77877353 TSF:0x0 153321 15:26:02.6718339s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:0 
+CRD:0 PhCRR_:0 CRD_:0 CR:0 ReleaseClock2CMOS
+  C:\Windows\Logs\w32tm.log:8497:153321 15:26:02.6762199s - TimeProvCommand([NtpClient], TPC_TimeJumped) called.
+  C:\Windows\Logs\w32tm.log:8498:153321 15:26:02.6766469s - Peer poll: Max:64.0000000s Cur:37.2322909s153321 
+15:26:02.6795723s -  New:01.4735744s
+  C:\Windows\Logs\w32tm.log:8499:153321 15:26:02.6796601s - UpdateTimerQueue1: TN:23872030000::: LRT:108120000  
+LUT:23871870000 LAFLTNS:0 TSLGT:0 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:8500:153321 15:26:02.6796942s - W32TmServiceMain: waiting i16.000s (64.000s)
+  C:\Windows\Logs\w32tm.log:8501:153321 15:26:02.6797534s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:8502:153321 15:26:02.6797939s - PeerPollingThread: waiting 1.471s
+  C:\Windows\Logs\w32tm.log:8503:153321 15:26:02.6808962s - PeerPollingThread: PeerListUpdated
+  C:\Windows\Logs\w32tm.log:8504:153321 15:26:02.6809488s - PeerPollingThread: waiting 1.470s
+  C:\Windows\Logs\w32tm.log:8505:153321 15:26:04.1583242s - PeerPollingThread: WaitTimeout
+  C:\Windows\Logs\w32tm.log:8506:153321 15:26:04.1584239s - Polling peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:8507:153321 15:26:04.1585796s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): adjust: (++) -> 7
+  C:\Windows\Logs\w32tm.log:8508:153321 15:26:04.1586221s - PollIntervalChange(time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)): reclamp: 7 -> 6 (min=4, max=17, sys=6)
+  C:\Windows\Logs\w32tm.log:8509:153321 15:26:04.1586493s - Peer poll: Max:64.0000000s Cur:00.0000000s
+  C:\Windows\Logs\w32tm.log:8510:153321 15:26:04.1740258s - Tx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:8511:153321 15:26:04.1741095s - PeerPollingThread: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:8512:153321 15:26:04.1927879s - ListeningThread -- DataAvailEvent set for socket 1 
+(0.0.0.0:123)
+  C:\Windows\Logs\w32tm.log:8513:153321 15:26:04.1928884s - TSI_PhaseOffset returned:424929654624
+  C:\Windows\Logs\w32tm.log:8514:153321 15:26:04.1929224s - HA Pkt Rcv: delay:0 DestTimeStamp:132469899641928779
+  C:\Windows\Logs\w32tm.log:8515:153321 15:26:04.1929494s - Rx timestamp not returned and may be unsupported on the 
+current network interface.
+  C:\Windows\Logs\w32tm.log:8516:153321 15:26:04.1929753s - ListeningThread -- response heard from 51.105.208.173:123 
+<- 192.168.181.30:123
+  C:\Windows\Logs\w32tm.log:8517:153321 15:26:04.1930209s - /-- NTP Packet:
+  C:\Windows\Logs\w32tm.log:8518:153321 15:26:04.1930707s - | LeapIndicator: 0 - no warning;  VersionNumber: 3;  Mode: 
+4 - Server;  LiVnMode: 0x1C
+  C:\Windows\Logs\w32tm.log:8519:153321 15:26:04.1930871s - | Stratum: 3 - secondary reference (syncd by (S)NTP)
+  C:\Windows\Logs\w32tm.log:8520:153321 15:26:04.1930980s - | Poll Interval: 6 - 64s;  Precision: -23 - 119.209ns per 
+tick
+  C:\Windows\Logs\w32tm.log:8521:153321 15:26:04.1931226s - | RootDelay: 0x0000.0079s - 0.00184631s;  RootDispersion: 
+0x0000.06C5s - 0.0264435s
+  C:\Windows\Logs\w32tm.log:8522:153321 15:26:04.1931502s - | ReferenceClockIdentifier: 0x1942E604 - source IP: 
+25.66.230.4
+  C:\Windows\Logs\w32tm.log:8523:153321 15:26:04.1931672s - | ReferenceTimestamp:   0xE32EF3FD45030B4D - 
+13246989949269577700ns - 153321 15:25:49.2695777s
+  C:\Windows\Logs\w32tm.log:8524:153321 15:26:04.1931921s - | OriginateTimestamp:   0xE32EF40C28906034 - 
+13246989964158453000ns - 153321 15:26:04.1584530s
+  C:\Windows\Logs\w32tm.log:8525:153321 15:26:04.1932163s - | ReceiveTimestamp:     0xE32EF40C2CF294DD - 
+13246989964175576500ns - 153321 15:26:04.1755765s
+  C:\Windows\Logs\w32tm.log:8526:153321 15:26:04.1932425s - | TransmitTimestamp:    0xE32EF40C2CF2B4BD - 
+13246989964175578400ns - 153321 15:26:04.1755784s
+  C:\Windows\Logs\w32tm.log:8527:153321 15:26:04.1932702s - >-- Non-packet info:
+  C:\Windows\Logs\w32tm.log:8528:153321 15:26:04.1932835s - | DestinationTimestamp: 153321 15:26:04.1932942s - 
+0xE32EF40C31607230153321 15:26:04.1933047s -  - 13246989964192877900ns153321 15:26:04.1933166s -  - 153321 
+15:26:04.1928779s
+  C:\Windows\Logs\w32tm.log:8529:153321 15:26:04.1933316s - | RoundtripDelay: 34423000ns (0s)
+  C:\Windows\Logs\w32tm.log:8530:153321 15:26:04.1933523s - | LocalClockOffset: -88000ns - 0:00.000088000s
+  C:\Windows\Logs\w32tm.log:8531:153321 15:26:04.1933963s - \--
+  C:\Windows\Logs\w32tm.log:8532:153321 15:26:04.1934483s - ListeningThread STC:152878
+  C:\Windows\Logs\w32tm.log:8533:153321 15:26:04.1934903s - Peer poll: Max:64.0000000s Cur:63.9651600s
+  C:\Windows\Logs\w32tm.log:8534:153321 15:26:04.1935258s - Response from peer time.windows.com,0x8 
+(ntp.m|0x8|0.0.0.0:123->51.105.208.173:123), ofs: -00.0000880s
+  C:\Windows\Logs\w32tm.log:8535:153321 15:26:04.1935645s - TSI_PhaseOffset returned:424929652736
+  C:\Windows\Logs\w32tm.log:8536:153321 15:26:04.1935936s - 5 Age:5 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0000700s Dst:16.0000000s FDsp:00.2500002s 
+Jitter:00.0000000s AgeTime:+28.2514697s
+  C:\Windows\Logs\w32tm.log:8537:153321 15:26:04.1936642s - 4 Age:4 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0031036s Dst:16.0000000s FDsp:00.7500007s 
+Jitter:00.0000000s AgeTime:+155.9076669s
+  C:\Windows\Logs\w32tm.log:8538:153321 15:26:04.1937332s - 3 Age:3 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0211260s Dst:16.0000000s FDsp:01.7500017s 
+Jitter:00.0000000s AgeTime:+678.5518919s
+  C:\Windows\Logs\w32tm.log:8539:153321 15:26:04.1938018s - 2 Age:2 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0419408s Dst:16.0000000s FDsp:03.7500038s 
+Jitter:00.0000000s AgeTime:+1213.4908143s
+  C:\Windows\Logs\w32tm.log:8540:153321 15:26:04.1938712s - 1 Age:1 Ofs:+00.0000000s COfs:+00.0000000s 
+Dly:+00.0000000s RDly:+00.0000000s Dsp:16.0000175s RDsp:00.0000000s Pnt:00.0389772s Dst:16.0000000s FDsp:07.7500081s 
+Jitter:00.0000000s AgeTime:+1149.4762619s
+  C:\Windows\Logs\w32tm.log:8541:153321 15:26:04.1939403s - 0 Age:0 Ofs:-00.0000880s COfs:-00.0000880s 
+Dly:+00.0344230s RDly:+00.0018463s Dsp:00.0000005s RDsp:00.0264435s Pnt:00.0000000s Dst:00.0344230s FDsp:07.7500083s 
+Jitter:00.0000000s AgeTime:+00.0006764s
+  C:\Windows\Logs\w32tm.log:8542:153321 15:26:04.1940093s - Peer jitter: 00.0000000s Filter Dispersion: 07.7500083s
+  C:\Windows\Logs\w32tm.log:8543:153321 15:26:04.1941562s - W32TmServiceMain: resync req, user requested, get samples 
+as soon as possible.
+  C:\Windows\Logs\w32tm.log:8544:153321 15:26:04.1942359s - UpdateTimerQueue1: TN:23887180000::: LRT:108120000  
+LUT:23871870000 LAFLTNS:15144581 TSLGT:15144581 LTNS:864000000000
+  C:\Windows\Logs\w32tm.log:8545:153321 15:26:04.1942688s - W32TmServiceMain: waiting i0.000s (62.485s)
+  C:\Windows\Logs\w32tm.log:8546:153321 15:26:04.2051139s - W32TmServiceMain: timeout
+  C:\Windows\Logs\w32tm.log:8547:153321 15:26:04.2052927s - Sample Prepared at 132469899642052688 for peer 
+time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.105.208.173:123)
+  C:\Windows\Logs\w32tm.log:8548:153321 15:26:04.2053448s - TSI_PhaseOffset returned:424928601440
+  C:\Windows\Logs\w32tm.log:8549:153321 15:26:04.2053783s - Sorted endpoints for intersection algorithm:
+  C:\Windows\Logs\w32tm.log:8550:153321 15:26:04.2054029s -     -07.7946745s  -1
+  C:\Windows\Logs\w32tm.log:8551:153321 15:26:04.2054345s -     -00.0000880s  0
+  C:\Windows\Logs\w32tm.log:8552:153321 15:26:04.2054640s -     +07.7944985s  1
+  C:\Windows\Logs\w32tm.log:8553:153321 15:26:04.2054953s - Intersection successful over range: -07.7946745s - 
++07.7944985s
+  C:\Windows\Logs\w32tm.log:8554:153321 15:26:04.2055373s -   SyncDist:77945865 SelectJitter:0 PeerJitter:0 
+CorrectedOffset:-880
+  C:\Windows\Logs\w32tm.log:8555:153321 15:26:04.2055630s -  MaxSelectJitter: 0 MinPeerJitter: 0
+  C:\Windows\Logs\w32tm.log:8556:153321 15:26:04.2055967s - TSI_PhaseOffset returned:424928601504
+  C:\Windows\Logs\w32tm.log:8557:153321 15:26:04.2056500s - NTP Sample 2916116787 chosen. Dispersion: 77765399 
+SystemJitter: 0 STC:152879 SystemOffset: -880 Delay: 362693
+  C:\Windows\Logs\w32tm.log:8558:153321 15:26:04.2056930s - NtpClient returned 1 samples.
+  C:\Windows\Logs\w32tm.log:8559:153321 15:26:04.2057273s - Intersection successful with 0 dropped samples.
+  C:\Windows\Logs\w32tm.log:8560:153321 15:26:04.2057557s -   0: Sample:0 SyncDist:557946745 SelectDisp:0
+  C:\Windows\Logs\w32tm.log:8561:153321 15:26:04.2057811s - Sample 0 chosen. Select Dispersion:00.0000000s SPHO:0 
+STC:152879
+  C:\Windows\Logs\w32tm.log:8562:153321 15:26:04.2058129s - Sample 0 offset:-00.0000880s delay:+00.0362693s 
+dispersion:07.7765399s
+  C:\Windows\Logs\w32tm.log:8563:153321 15:26:04.2059807s - ClockDispln Update: LastUTC:152879 SO:-880 KPhO:0 
+spO:424931752736 PhO:-880 uT:99
+  C:\Windows\Logs\w32tm.log:8564: SD:77774364 LI:0 S:4 RDl:362693 RDs:77865399 TSF:0x0
+  C:\Windows\Logs\w32tm.log:8565: Unset->Hold
+  C:\Windows\Logs\w32tm.log:8566:153321 15:26:04.2065282s - UpdateTimerQueue1: TN:23887340000::: LRT:108120000  
+LUT:23871870000 LAFLTNS:0 TSLGT:0 LTNS:78000000000
+  C:\Windows\Logs\w32tm.log:8567:153321 15:26:04.2065998s - W32TmServiceMain: waiting 64.000s
+  C:\Windows\Logs\w32tm.log:8568:153321 15:26:05.2207190s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:-55 CRD:-55 
+PhCRR_:0 CRD_:0 CR:10000000  (PhCRRL:-55 CRL:156250 phcTL:65) UI:100 KPhO:-880
+  C:\Windows\Logs\w32tm.log:8569:153321 15:26:06.2207373s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:-51 CRD:-51 
+PhCRR_:-55 CRD_:-55 CR:10000000  (PhCRRL:-51 CRL:156250 phcTL:64) UI:100 KPhO:-825
+  C:\Windows\Logs\w32tm.log:8570:153321 15:26:07.2363591s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:-48 CRD:-48 
+PhCRR_:-51 CRD_:-51 CR:10000000  (PhCRRL:-48 CRL:156250 phcTL:65) UI:100 KPhO:-774
+  C:\Windows\Logs\w32tm.log:8571:153321 15:26:08.2363601s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:-45 CRD:-45 
+PhCRR_:-48 CRD_:-48 CR:10000000  (PhCRRL:-45 CRL:156250 phcTL:64) UI:100 KPhO:-726
+  C:\Windows\Logs\w32tm.log:8572:153321 15:26:09.2363803s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:-42 CRD:-42 
+PhCRR_:-45 CRD_:-45 CR:10000000  (PhCRRL:-42 CRL:156250 phcTL:64) UI:100 KPhO:-681
+  C:\Windows\Logs\w32tm.log:8573:153321 15:26:10.2522073s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:-39 CRD:-39 
+PhCRR_:-42 CRD_:-42 CR:10000000  (PhCRRL:-39 CRL:156250 phcTL:65) UI:100 KPhO:-639
+  C:\Windows\Logs\w32tm.log:8574:153321 15:26:11.2520298s - ClockDispln Discipline: *SKEW*TIME* - PhCRR:-37 CRD:-37 
+PhCRR_:-39 CRD_:-39 CR:10000000  (PhCRRL:-37 CRL:156250 phcTL:64) UI:100 KPhO:-600
+
+

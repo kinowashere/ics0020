@@ -1,0 +1,125 @@
+#Filter accidental entries of password as login name
+
+- name: Retrieve password hashes of the system's users
+  shell: 'grep -o "\\\$[a-zA-Z0-9_\-\./$]*:" /etc/shadow | cut -d: -f1'
+  register: password_hashes
+
+- name: Filter accidental entries of password as login name for SSH
+  shell: 'grep -o "Invalid user [a-zA-Z0-9_\-]* from" /var/log/auth.log | sed "s/\(Invalid user \)\([a-zA-Z0-9_\-]*\)\( from\)/\2/g"'
+  register: ssh_invalid_usernames
+
+- name: Filter accidental entries of password as login name for SU
+  shell: grep -o "'[a-zA-Z0-9\-_]*'" /var/log/auth.log | sed "s/'//g" | sed "s/'//g"
+  register: su_invalid_usernames
+
+#Boolean variables for triggering certain tasks
+
+- name: Default SSH variable
+  set_fact:
+    used_passwords_in_ssh: false
+
+- name: Default SU variable                               
+  set_fact:
+    used_passwords_in_su: false
+
+#Comparison between hashes of passwords with hashes of invalid usernames
+
+- name: Compare invalid logins with password hashes for SSH
+  shell: "echo {{ item.0 }} > /var/log/password.login.ssh.log"
+  when: (item.0 | password_hash('sha512')) == item.1
+  loop: "{{ ssh_invalid_usernames.stdout_lines | product(password_hashes.stdout_lines)| list }}"
+  ignore_errors: true
+  no_log: true
+
+- name: Set SSH flag to true
+  set_fact:
+    used_passwords_in_ssh: true
+  when: (item.0 | password_hash('sha512')) == item.1
+  loop: "{{ ssh_invalid_usernames.stdout_lines | product(password_hashes.stdout_lines)| list }}"
+  ignore_errors: true
+  no_log: true
+
+- name: Compare invalid logins with password hashes for SU
+  shell: "echo {{ item.0 }} > /var/log/password.login.su.log"
+  when: (item.0 | password_hash('sha512')) == item.1
+  loop: "{{ su_invalid_usernames.stdout_lines | product(password_hashes.stdout_lines)| list }}"
+  ignore_errors: true
+  no_log: true
+
+- name: Set SU flag to true
+  set_fact:
+    used_passwords_in_su: true
+  when: (item.0 | password_hash('sha512')) == item.1
+  loop: "{{ su_invalid_usernames.stdout_lines | product(password_hashes.stdout_lines)| list }}"
+  ignore_errors: true
+  no_log: true
+
+#If invalid usernames, that are real passwords, were found, proceed with collection of information
+
+- name: Write attributes of the SSH events with passwords used as a username
+  shell: 'grep -E "(sshd)[][0-9: ]*(Invalid user)|(sshd)[][a-zA-Z0-9_\(\):; ]*(user unknown)|(sshd)[][a-zA-Z0-9_\(\): ]*(authentication failure)[a-zA-Z0-9_;= ]*(rhost=)[0-9\.]*$|(sshd)[][0-9: ]*(Failed password for invalid user)|(sshd)[][0-9: ]*(Connection closed by invalid user)" /var/log/auth.log > /var/log/password.login.ssh.info.log'
+  when: used_passwords_in_ssh == true
+  ignore_errors: true
+
+- name: Write attributes of the SU events with passwords used as a username
+  shell: 'grep -E -A 2 "(su)[][0-9: ]*(No passwd entry for user)" /var/log/auth.log > /var/log/password.login.su.info.log'
+  when: used_passwords_in_su == true
+  ignore_errors: true
+
+
+- name: Unite SSH logs
+  shell: cat /var/log/password.login.ssh.log >> /var/log/password.login.ssh.info.log
+  when: used_passwords_in_ssh == true
+  ignore_errors: true
+
+- name: Unite SU logs
+  shell: cat /var/log/password.login.su.log >> /var/log/password.login.su.info.log
+  when: used_passwords_in_su == true
+  ignore_errors: true
+
+
+- name: Finish only with SSH logs if there are no SU ones
+  shell: cat /var/log/password.login.ssh.info.log > /var/log/password.login.log
+  when: (used_passwords_in_ssh == true) and (used_passwords_in_su == false)
+  ignore_errors: true
+
+- name: Finish only with SU logs if there are no SSH ones
+  shell: cat /var/log/password.login.su.info.log > /var/log/password.login.log
+  when: (used_passwords_in_ssh == false) and (used_passwords_in_su == true)
+  ignore_errors: true
+
+
+- name: Append SSH logs to the final ones
+  shell: cat /var/log/password.login.ssh.info.log > /var/log/password.login.log
+  when: (used_passwords_in_ssh == true) and (used_passwords_in_su == true)
+  ignore_errors: true
+
+- name: Append SU logs to the final ones
+  shell: cat /var/log/password.login.su.info.log >> /var/log/password.login.log
+  when: (used_passwords_in_ssh == true) and (used_passwords_in_su == true)
+  ignore_errors: true
+
+
+#If invalid usernames, that are real passwords, were NOT found, proceed with a remark
+
+- name: Create a log with a remark
+  shell: echo "Invalid usernames, that are real passwords, were NOT found.\nTo get information about failed login attempts check lab01-lnx-login.successful file." > /var/log/password.login.log
+  when: (used_passwords_in_ssh == false) and (used_passwords_in_su == false)
+  ignore_errors: true
+
+- name: Fetch combined final log file
+  fetch:
+    src: /var/log/password.login.log
+    dest: /home/nimda/ics0020-labs-outcome/lab01-pwd.acc.entry.event
+    flat: yes
+
+- name: Remove all remote log files
+  file:
+    path: /var/log/{{ item }}
+    state: absent
+  loop:
+    - password.login.ssh.log
+    - password.login.ssh.info.log
+    - password.login.su.log
+    - password.login.su.info.log
+    - password.login.log

@@ -1,0 +1,6 @@
+---
+ - name: Built-in Logging execution for Windows
+   hosts: windows
+   gather_facts: false
+   roles:
+     - lab06managed_logging_win

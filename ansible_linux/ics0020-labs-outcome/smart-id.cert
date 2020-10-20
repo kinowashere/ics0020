@@ -1,0 +1,158 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            0c:ff:db:22:7d:dc:71:7e:05:65:93:a8:d1:c9:ec:0f
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = US, O = DigiCert Inc, CN = DigiCert SHA2 Secure Server CA
+        Validity
+            Not Before: Jan 16 00:00:00 2020 GMT
+            Not After : Feb  2 12:00:00 2022 GMT
+        Subject: C = EE, L = Tallinn, O = SK ID Solutions AS, CN = smart-id.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:b3:c9:4d:b5:e2:8a:43:29:c4:69:23:8c:5f:6e:
+                    1d:6a:6a:c3:15:10:92:16:a0:ac:66:c2:b8:b7:85:
+                    2e:17:fa:fb:93:5d:e3:ec:0e:0a:2c:86:17:5d:ee:
+                    c5:a5:e1:cc:f2:8b:fd:36:4a:28:5e:38:fe:b7:e7:
+                    4a:0c:29:72:fa:a7:89:b3:28:2d:88:d3:33:70:2c:
+                    1d:c3:68:0b:2e:7d:b9:f3:d8:e0:f4:a9:a8:b3:2a:
+                    ce:5c:65:bd:ce:9f:27:a6:ab:8d:94:23:f5:f5:ab:
+                    57:9d:f2:5e:2c:13:d4:78:c1:04:5a:69:76:5b:1a:
+                    70:e8:10:d6:00:b6:50:e0:1c:28:80:8c:f1:81:88:
+                    c0:9f:c0:65:7f:68:2d:63:19:01:1c:b1:c8:2e:d4:
+                    f9:d2:15:97:e4:e5:6f:3f:b6:ba:62:23:46:26:8d:
+                    d1:75:a2:ed:fa:44:b8:4c:4a:27:04:df:bc:86:38:
+                    cd:8e:ca:c4:f0:b0:66:a3:31:95:7d:83:a1:f4:b0:
+                    4a:cf:9d:21:df:43:67:df:e3:ac:96:c5:a4:d9:c1:
+                    9f:b5:3b:78:cf:b4:1b:64:e0:32:b8:b0:ad:eb:0a:
+                    47:3e:45:f9:df:b8:c8:2d:79:dd:29:a5:44:bd:10:
+                    d5:2e:4a:4a:56:29:39:c2:25:8a:a2:f8:9d:70:9d:
+                    7b:eb
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Authority Key Identifier: 
+                keyid:0F:80:61:1C:82:31:61:D5:2F:28:E7:8D:46:38:B4:2C:E1:C6:D9:E2
+
+            X509v3 Subject Key Identifier: 
+                79:62:45:4F:A0:CE:32:D2:24:3C:98:8D:46:53:E7:8B:4F:D8:FE:84
+            X509v3 Subject Alternative Name: 
+                DNS:smart-id.com, DNS:smart-id.lv, DNS:smart-id.ee, DNS:rega.smart-id.com, DNS:reg.smart-id.com, DNS:portaal.smart-id.com, DNS:www.smart-id.lv, DNS:www.smart-id.ee, DNS:www.smart-id.com
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl3.digicert.com/ssca-sha2-g6.crl
+
+                Full Name:
+                  URI:http://crl4.digicert.com/ssca-sha2-g6.crl
+
+            X509v3 Certificate Policies: 
+                Policy: 2.16.840.1.114412.1.1
+                  CPS: https://www.digicert.com/CPS
+                Policy: 2.23.140.1.2.2
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.digicert.com
+                CA Issuers - URI:http://cacerts.digicert.com/DigiCertSHA2SecureServerCA.crt
+
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : A4:B9:09:90:B4:18:58:14:87:BB:13:A2:CC:67:70:0A:
+                                3C:35:98:04:F9:1B:DF:B8:E3:77:CD:0E:C8:0D:DC:10
+                    Timestamp : Jan 16 17:12:38.284 2020 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:2E:51:96:5E:3C:56:2F:1D:5B:D5:8C:55:
+                                C2:8B:7B:E5:06:6C:FE:BC:F9:E8:2D:06:9D:77:BE:A7:
+                                05:B5:4B:96:02:20:5E:90:89:25:07:ED:77:5A:20:33:
+                                9D:FB:C8:EF:4A:2F:C8:4B:87:B3:3D:A1:C5:37:13:5A:
+                                E8:2F:FE:02:F2:54
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 56:14:06:9A:2F:D7:C2:EC:D3:F5:E1:BD:44:B2:3E:C7:
+                                46:76:B9:BC:99:11:5C:C0:EF:94:98:55:D6:89:D0:DD
+                    Timestamp : Jan 16 17:12:38.441 2020 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:46:02:21:00:85:50:ED:3D:3D:BE:12:C3:E7:1A:9F:
+                                39:D3:09:9B:11:8C:FF:5E:70:D0:6A:FE:83:12:A1:32:
+                                7A:54:FC:65:61:02:21:00:D3:EB:C9:52:04:BF:15:7C:
+                                01:D5:FE:0C:1A:D3:08:15:D2:06:CA:16:7E:A6:19:8F:
+                                91:7C:58:2C:7B:F1:C8:11
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : BB:D9:DF:BC:1F:8A:71:B5:93:94:23:97:AA:92:7B:47:
+                                38:57:95:0A:AB:52:E8:1A:90:96:64:36:8E:1E:D1:85
+                    Timestamp : Jan 16 17:12:38.290 2020 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:46:02:21:00:E7:27:D5:6F:0A:61:90:11:F7:30:5C:
+                                08:BF:D8:6A:F3:F8:C2:46:3B:23:35:F3:15:5F:F2:59:
+                                F0:99:59:60:17:02:21:00:E4:75:47:9D:2E:BF:60:E9:
+                                A2:8F:10:E6:70:83:12:A3:F9:7B:01:09:36:50:3A:15:
+                                90:FB:DE:A2:33:DB:62:13
+    Signature Algorithm: sha256WithRSAEncryption
+         84:49:2f:e7:fa:ba:f2:d9:cd:3d:44:31:e2:1e:09:c2:82:2a:
+         41:3a:fe:60:18:e2:f3:7c:5a:2f:76:65:58:b5:be:d7:ce:b0:
+         48:09:45:28:2b:21:85:15:bd:30:be:6a:40:75:5e:93:f5:c9:
+         fa:97:b3:39:fa:91:50:a6:a9:c6:ab:fd:a1:b6:74:ba:c5:60:
+         cf:d5:e3:d1:19:a3:d3:af:3a:3d:e2:76:8a:ab:70:4b:41:70:
+         ef:33:aa:79:be:af:d5:78:16:32:8b:98:5d:f3:08:1a:f6:7c:
+         30:f8:60:92:eb:42:f5:a9:82:ad:78:88:e5:4e:3f:86:ac:69:
+         cd:fb:13:ce:e2:25:5d:ae:c4:2a:a3:e1:6a:86:ea:be:7c:83:
+         18:82:ec:37:6c:0b:fd:4f:9a:ce:88:63:21:3f:90:fc:6b:37:
+         c1:d1:2a:9e:49:4a:b0:fc:08:9d:47:d0:13:8b:e1:c5:6b:fe:
+         68:06:77:3c:3b:72:b0:c5:36:b8:f5:8d:91:2f:b7:9e:48:9f:
+         19:9a:6a:15:b7:0b:92:f3:20:19:c2:2b:a3:44:be:e4:ac:0f:
+         3c:15:e9:52:b1:2c:ee:ca:8b:38:3e:ab:50:88:c9:b5:11:cd:
+         29:3a:41:74:90:98:7a:92:03:d5:c0:b0:57:88:f8:0c:8b:8c:
+         6b:5d:10:f7
+-----BEGIN CERTIFICATE-----
+MIIHDjCCBfagAwIBAgIQDP/bIn3ccX4FZZOo0cnsDzANBgkqhkiG9w0BAQsFADBN
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMScwJQYDVQQDEx5E
+aWdpQ2VydCBTSEEyIFNlY3VyZSBTZXJ2ZXIgQ0EwHhcNMjAwMTE2MDAwMDAwWhcN
+MjIwMjAyMTIwMDAwWjBTMQswCQYDVQQGEwJFRTEQMA4GA1UEBxMHVGFsbGlubjEb
+MBkGA1UEChMSU0sgSUQgU29sdXRpb25zIEFTMRUwEwYDVQQDEwxzbWFydC1pZC5j
+b20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCzyU214opDKcRpI4xf
+bh1qasMVEJIWoKxmwri3hS4X+vuTXePsDgoshhdd7sWl4czyi/02SiheOP6350oM
+KXL6p4mzKC2I0zNwLB3DaAsufbnz2OD0qaizKs5cZb3Onyemq42UI/X1q1ed8l4s
+E9R4wQRaaXZbGnDoENYAtlDgHCiAjPGBiMCfwGV/aC1jGQEcscgu1PnSFZfk5W8/
+trpiI0YmjdF1ou36RLhMSicE37yGOM2OysTwsGajMZV9g6H0sErPnSHfQ2ff46yW
+xaTZwZ+1O3jPtBtk4DK4sK3rCkc+RfnfuMgted0ppUS9ENUuSkpWKTnCJYqi+J1w
+nXvrAgMBAAGjggPiMIID3jAfBgNVHSMEGDAWgBQPgGEcgjFh1S8o541GOLQs4cbZ
+4jAdBgNVHQ4EFgQUeWJFT6DOMtIkPJiNRlPni0/Y/oQwgaIGA1UdEQSBmjCBl4IM
+c21hcnQtaWQuY29tggtzbWFydC1pZC5sdoILc21hcnQtaWQuZWWCEXJlZ2Euc21h
+cnQtaWQuY29tghByZWcuc21hcnQtaWQuY29tghRwb3J0YWFsLnNtYXJ0LWlkLmNv
+bYIPd3d3LnNtYXJ0LWlkLmx2gg93d3cuc21hcnQtaWQuZWWCEHd3dy5zbWFydC1p
+ZC5jb20wDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEF
+BQcDAjBrBgNVHR8EZDBiMC+gLaArhilodHRwOi8vY3JsMy5kaWdpY2VydC5jb20v
+c3NjYS1zaGEyLWc2LmNybDAvoC2gK4YpaHR0cDovL2NybDQuZGlnaWNlcnQuY29t
+L3NzY2Etc2hhMi1nNi5jcmwwTAYDVR0gBEUwQzA3BglghkgBhv1sAQEwKjAoBggr
+BgEFBQcCARYcaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAIBgZngQwBAgIw
+fAYIKwYBBQUHAQEEcDBuMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2Vy
+dC5jb20wRgYIKwYBBQUHMAKGOmh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9E
+aWdpQ2VydFNIQTJTZWN1cmVTZXJ2ZXJDQS5jcnQwDAYDVR0TAQH/BAIwADCCAX8G
+CisGAQQB1nkCBAIEggFvBIIBawFpAHUApLkJkLQYWBSHuxOizGdwCjw1mAT5G9+4
+43fNDsgN3BAAAAFvr1e0jAAABAMARjBEAiAuUZZePFYvHVvVjFXCi3vlBmz+vPno
+LQadd76nBbVLlgIgXpCJJQftd1ogM537yO9KL8hLh7M9ocU3E1roL/4C8lQAdwBW
+FAaaL9fC7NP14b1Esj7HRna5vJkRXMDvlJhV1onQ3QAAAW+vV7UpAAAEAwBIMEYC
+IQCFUO09Pb4Sw+canznTCZsRjP9ecNBq/oMSoTJ6VPxlYQIhANPryVIEvxV8AdX+
+DBrTCBXSBsoWfqYZj5F8WCx78cgRAHcAu9nfvB+KcbWTlCOXqpJ7RzhXlQqrUuga
+kJZkNo4e0YUAAAFvr1e0kgAABAMASDBGAiEA5yfVbwphkBH3MFwIv9hq8/jCRjsj
+NfMVX/JZ8JlZYBcCIQDkdUedLr9g6aKPEOZwgxKj+XsBCTZQOhWQ+96iM9tiEzAN
+BgkqhkiG9w0BAQsFAAOCAQEAhEkv5/q68tnNPUQx4h4JwoIqQTr+YBji83xaL3Zl
+WLW+186wSAlFKCshhRW9ML5qQHVek/XJ+pezOfqRUKapxqv9obZ0usVgz9Xj0Rmj
+0686PeJ2iqtwS0Fw7zOqeb6v1XgWMouYXfMIGvZ8MPhgkutC9amCrXiI5U4/hqxp
+zfsTzuIlXa7EKqPhaobqvnyDGILsN2wL/U+azohjIT+Q/Gs3wdEqnklKsPwInUfQ
+E4vhxWv+aAZ3PDtysMU2uPWNkS+3nkifGZpqFbcLkvMgGcIro0S+5KwPPBXpUrEs
+7sqLOD6rUIjJtRHNKTpBdJCYepID1cCwV4j4DIuMa10Q9w==
+-----END CERTIFICATE-----

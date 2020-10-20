@@ -1,0 +1,9 @@
+---
+    - name: Create the management folder
+      file:
+        path: /home/detimil/ics0020-ansible
+        state: directory
+        owner: detimil
+        group: detimil
+        mode: '0777'
+...    

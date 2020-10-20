@@ -1,0 +1,13 @@
+windows ansible_host=192.168.180.216  ansible_ssh_user=nimda ansible_python_interpreter=python3
+
+[windows]
+windows
+
+[windows:vars]
+ansible_user=nimda
+ansible_password="{{ win_pass }}"
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_transport=credssp
+ansible_winrm_message_encryption=auto
+ansible_winrm_server_cert_validation=ignore

@@ -1,0 +1,36 @@
+---
+  - name: Ansible directory creation
+    hosts: management
+    gather_facts: false
+    become: yes
+    roles:
+      - create_management_folder
+      
+  - name: Hostname configuration
+    hosts: management
+    gather_facts: false
+    become: yes
+    roles:
+      - hostname_change_name
+      
+  - name: Password reconfiguration
+    hosts: management
+    gather_facts: false
+    become: yes
+    roles:
+      - change_password
+  
+  - name: User configuration
+    hosts: management
+    gather_facts: false
+    become: yes
+    roles:
+      - create_user
+  
+  - name: SSH keys generation
+    hosts: management
+    gather_facts: false
+    become: yes
+    roles:
+      - create_ssh_keys
+...

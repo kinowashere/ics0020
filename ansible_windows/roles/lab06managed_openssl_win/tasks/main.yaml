@@ -1,0 +1,30 @@
+---
+ - name: Acquiring and installing certificate
+   win_shell: New-SelfSignedCertificate -DnsName "localhost" -KeyLength 4096 -CertStoreLocation cert:\LocalMachine\My -NotAfter (Get-Date).AddYears(1)
+
+ - name: Write out certificate's hash
+   win_shell: Get-ChildItem cert:\LocalMachine\My | Where-Object {$_.subject -eq 'CN=localhost'} | Out-File -FilePath C:\Windows\Logs\cert.log
+
+ - name: Write out certificate's hash
+   win_shell: Select-String -Path C:\Windows\Logs\cert.log -Pattern '^[^a-z\-= ][A-Z0-9]*' | Out-File -FilePath C:\Windows\Logs\cert_hash.log
+
+ - name: Acquire certificate's hash
+   win_shell: Get-Content -Path C:\Windows\Logs\cert_hash.log | Foreach-Object {$_.split("  ")[0]}
+   register: certificate_hash
+
+ - name: Delete certificate log
+   win_file:
+     path: "C:\\Windows\\Logs\\{{ item }}"
+     state: absent
+   loop:
+     - cert.log
+     - cert_hash.log
+
+ - name: Creating an SSL binding
+   win_iis_webbinding:
+     name: Default Web Site
+     protocol: https
+     port: 443
+     ip: '*'
+     certificate_hash: "{{ certificate_hash.stdout_lines[1].split(':')[3] }}"
+     state: present

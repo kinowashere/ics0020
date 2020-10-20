@@ -1,0 +1,28 @@
+---
+- name: Log successful index2.html access attempts
+  shell: grep -E "(index2.html)[a-zA-Z0-9_\"\.:/ ]*(200)" /var/log/nginx/access.log > /var/log/success.access.log
+
+- name: Fetch success log file
+  fetch:
+    src: /var/log/success.access.log
+    dest: /home/nimda/ics0020-labs-outcome/lab01-lnx-index2.html
+    flat: yes
+
+- name: Remove success log file
+  file:
+    path: /var/log/success.access.log
+    state: absent
+
+- name: Log unsuccessful index2.htm access attempts
+  shell: grep -E "(index2.htm)[a-zA-Z0-9_\"\.:/ ]*(404)" /var/log/nginx/access.log > /var/log/unsuccess.access.log
+
+- name: Fetch 404 log file
+  fetch:
+    src: /var/log/unsuccess.access.log
+    dest: /home/nimda/ics0020-labs-outcome/lab01-lnx-not.existing
+    flat: yes
+
+- name: Remove 404 log file
+  file:
+    path: /var/log/unsuccess.access.log
+    state: absent

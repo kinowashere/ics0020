@@ -1,0 +1,24 @@
+For Linux system next commands were used:
+
+- grep - to filter out required information from the "/var/log/auth.log" (for information about logins) file and "/etc/shadow" (to extract hashes of the passwords), was used as alternative to "cut", "sed" and "awk" with "-o" argument
+
+- sed - to cut out/replace parts of the logs got from "grep"
+
+- awk - was used with the same purpose as "sed"
+
+- cut - was used with the same purpose as "sed"
+
+Alternative to "grep""
+
+- last - contains logs about successful logins
+
+- lastb - contains logs about unsuccessful logins
+
+Creation/deletion/modification of temporary files that accomodated extracted information on the remote host were done with Ansible role.
+Those files were then fetched to the management host and afterwards deleted.
+
+For Windows system next commands were used:
+
+- Get-WinEvent -FilterHashtable @{LogName = 'Security'; ID = 4648} - to extract required logs
+
+- Out-FIle -FilePath C:\Windows\Logs\password_entry.log -Encoding utf8 - to save acquired log into a file, log information was piped into this command

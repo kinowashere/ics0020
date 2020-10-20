@@ -1,0 +1,6 @@
+---
+ - name: Text logs execution for Windows
+   hosts: windows
+   gather_facts: false
+   roles:
+     - lab06managed_textlogs_win

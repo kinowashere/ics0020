@@ -1,0 +1,62 @@
+---
+
+#Log attempts of changing password
+
+- name: Log "change password" attempts
+  shell: 'grep -E "(passwd)[][a-zA-Z0-9_\(\): ]*(authentication failure)" /var/log/auth.log > /var/log/change.password.log'
+
+- name: Fetch "change password" log file
+  fetch:
+    src: /var/log/change.password.log
+    dest: /home/nimda/ics0020-labs-outcome/lab01-lnx-pwd.change
+    flat: yes
+
+#Log failed login attempts
+
+- name: Log failed SSH login attempts for an invalid user
+  shell: 'grep -E "(sshd)[][0-9: ]*(Invalid user)|(sshd)[][a-zA-Z0-9_\(\):; ]*(user unknown)|(sshd)[][a-zA-Z0-9_\(\): ]*(authentication failure)[a-zA-Z0-9_;= ]*(rhost=)[0-9\.]*$|(sshd)[][0-9: ]*(Failed password for invalid user)|(sshd)[][0-9: ]*(Connection closed by invalid user)" /var/log/auth.log > /var/log/failed.login.log'
+
+- name: Log failed SSH login for an existing user attempts
+  shell: 'grep -P "(sshd)[][a-zA-Z0-9_\(\): ]*(authentication failure)[a-zA-Z0-9_;=\. ]*(user=)[a-zA-Z0-9_]*$|(sshd)[][a-zA-Z0-9: ]*(Failed password for )(?!invalid user)" /var/log/auth.log >> /var/log/failed.login.log'
+
+- name: Log failed SU login attempts for an invalid user
+  shell: 'grep -E -A 2 "(su)[][0-9: ]*(No passwd entry for user)" /var/log/auth.log >> /var/log/failed.login.log'
+
+- name: Log failed SU login attempts for an exisiting user
+  shell: 'grep -E -A 2 "(su\[)[]a-zA-Z0-9_\(\): ]*(authentication failure)[a-zA-Z0-9;=/ ]*(user=)[a-zA-Z0-9_]*$|(su)[][a-zA-Z0-9_: ]*(Authentication failure)" /var/log/auth.log >> /var/log/failed.login.log'
+
+- name: Fetch log file of failed logins
+  fetch:
+    src: /var/log/failed.login.log
+    dest: /home/nimda/ics0020-labs-outcome/lab01-lnx-login.failed 
+    flat: yes
+
+#Log successful logins
+
+- name: Log successful SSH password login attempts
+  shell: 'grep -E -A 2 "(sshd)[][0-9: ]*(Accepted password for)" /var/log/auth.log > /var/log/successful.login.log'
+
+- name: Log successful SSH publickey login attempts
+  shell: 'grep -E -A 2 "(sshd)[][0-9: ]*(Accepted publickey for)" /var/log/auth.log >> /var/log/successful.login.log'
+
+- name: Log successful SU password login attempts
+  shell: 'grep -E -A 2 "(su)[][0-9: ]*(Successful su for)" /var/log/auth.log >> /var/log/successful.login.log'
+
+- name: Fetch log file of successful logins
+  fetch:
+    src: /var/log/successful.login.log
+    dest: /home/nimda/ics0020-labs-outcome/lab01-lnx-login.successful
+    flat: yes
+
+#Log all services stopped since last boot
+
+- name: Log all services stopped since last boot
+  shell: journalctl -b | grep "Stopped" > /var/log/stopped.services.log
+
+- name: Fetch log file of stopped services
+  fetch:
+    src: /var/log/stopped.services.log
+    dest: /home/nimda/ics0020-labs-outcome/lab01-lnx-services.stopped
+    flat: yes
+
+...

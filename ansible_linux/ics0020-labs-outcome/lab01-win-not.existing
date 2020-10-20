@@ -1,0 +1,11 @@
+﻿
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex201013.log:7:2020-10-13 11:00:14 ::1 GET /index2.htm - 80 - ::1 
+Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 404 0 2 2
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex201013.log:8:2020-10-13 11:01:22 ::1 GET /index2.htm - 80 - ::1 
+Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 404 0 2 109
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex201013.log:10:2020-10-13 11:01:32 ::1 GET /index2.htm - 80 - ::1 
+Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 404 0 2 9
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex201013.log:11:2020-10-13 11:01:33 ::1 GET /index2.htm - 80 - ::1 
+Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 404 0 2 2
+
+

@@ -1,0 +1,4 @@
+management_linux ansible_host=192.168.180.245 ansible_ssh_user=nimda ansible_python_interpreter=python3
+
+[management]
+management_linux
