@@ -1,31 +1,41 @@
 ---
+# Ignore errors becuase of non-zero return that happens when there are no results
 # Log
 - name: password change
   shell: 'grep -E "passwd" /var/log/auth.log > /var/log/change_pass.log'
+  ignore_errors: yes
 
 - name: failed ssh login invalid user
   shell: 'grep -E "Connection closed by invalid user" /var/log/auth.log > /var/log/fail_login.log'
+  ignore_errors: yes
 
 - name: failed ssh login valid user
   shell: 'grep -P "Failed password for" /var/log/auth.log >> /var/log/fail_login.log'
+  ignore_errors: yes
 
 - name: failed super user login invalid
   shell: 'grep -E "No passwd entry for user" /var/log/auth.log >> /var/log/fail_login.log'
+  ignore_errors: yes
 
 - name: failed super user login valid
   shell: 'grep -E "Authentication failure" /var/log/auth.log >> /var/log/fail_login.log'
+  ignore_errors: yes
 
 - name: succesfull ssh password change
   shell: 'grep -E "Accepted password for" /var/log/auth.log > /var/log/valid_login.log'
+  ignore_errors: yes
 
 - name: successfull ssh publickey change
   shell: 'grep -E "Accepted publickey for" /var/log/auth.log >> /var/log/valid_login.log'
+  ignore_errors: yes
 
 - name: successfull ssh super user pass change
   shell: 'grep -E "Successful su for" /var/log/auth.log >> /var/log/valid_login.log'
+  ignore_errors: yes
 
 - name: all services stopped
   shell: journalctl -b | grep "Stopped" > /var/log/stopped_serv.log
+  ignore_errors: yes
 
 # Fetch
 - name: Fetch all files
@@ -33,17 +43,21 @@
     src: /var/log/stopped_serv.log
     dest: /home/nimda/ics0020-labs-outcome/lab01-lnx-services.stopped
     flat: yes
+    ignore_errors: yes
   fetch:
     src: /var/log/valid_login.log
     dest: /home/nimda/ics0020-labs-outcome/lab01-lnx-login.successful
     flat: yes
+    ignore_errors: yes
   fetch:
     src: /var/log/fail_login.log
     dest: /home/nimda/ics0020-labs-outcome/lab01-lnx-login.failed 
     flat: yes
+    ignore_errors: yes
   fetch:
     src: /var/log/change_pass.log
     dest: /home/nimda/ics0020-labs-outcome/lab01-lnx-pwd.change
     flat: yes
+    ignore_errors: yes
 
 ...
