@@ -5,7 +5,7 @@ windows
 
 [windows:vars]
 ansible_user=nimda
-ansible_password="{{ win_pass }}"
+ansible_password="kala..11"
 ansible_port=5986
 ansible_connection=winrm
 ansible_winrm_transport=credssp

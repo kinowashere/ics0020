@@ -1,0 +1,9 @@
+---
+- name: accidental password entries
+  win_shell: Get-WinEvent -FilterHashtable @{LogName = 'Security'; ID = 4648} | Out-FIle -FilePath C:\Windows\Logs\password_entry.log -Encoding utf8
+
+- name: fetch file
+  fetch:
+    src: C:\Windows\Logs\password_entry.log
+    dest: /home/nimda/ics0020-labs-outcome/lab01-pwd.acc.entry.win.event
+    flat: yes
