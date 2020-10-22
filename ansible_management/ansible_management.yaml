@@ -1,4 +1,11 @@
 ---
+  - name: User configuration
+    hosts: mgmt
+    gather_facts: false
+    become: yes
+    roles:
+      - create_user
+  
   - name: Ansible directory creation
     hosts: mgmt
     gather_facts: false
@@ -19,13 +26,6 @@
     become: yes
     roles:
       - change_password
-  
-  - name: User configuration
-    hosts: mgmt
-    gather_facts: false
-    become: yes
-    roles:
-      - create_user
   
   - name: SSH keys generation
     hosts: mgmt
