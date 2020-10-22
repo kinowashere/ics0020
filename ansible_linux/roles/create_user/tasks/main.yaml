@@ -3,3 +3,8 @@
   user:
     name: detimil
     create_home: yes
+
+- name: create detimil ssh
+  file:
+    path: /home/detimil/.ssh
+    state: directory
