@@ -1,18 +1,24 @@
 ---
 - name: successfulf index2.html
   shell: grep -E "(index2.html)*(200)" /var/log/nginx/access.log > /var/log/success.log
+  ignore_errors: yes
 
 - name: Fetch success log file
   fetch:
     src: /var/log/success.log
     dest: /home/nimda/ics0020-labs-outcome/lab01-lnx-index2.html
     flat: yes
+    ignore_errors: yes
 
 - name: unsuccessfull index2.htm access
   shell: grep -E "(index2.htm)*(404)" /var/log/nginx/access.log > /var/log/unsuccess.log
+  ignore_errors: yes
 
 - name: Fetch 404 log file
   fetch:
     src: /var/log/unsuccess.log
     dest: /home/nimda/ics0020-labs-outcome/lab01-lnx-not.existing
     flat: yes
+    ignore_errors: yes
+
+# Ignore errors because sometimes it will return non zero when there are no logs
