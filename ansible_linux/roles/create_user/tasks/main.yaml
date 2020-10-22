@@ -2,3 +2,4 @@
 - name: Create a regular user detimil on a managed Linux system
   user:
     name: detimil
+    create_home: yes
