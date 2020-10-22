@@ -1,7 +1,7 @@
 ---
     - name: Create the management folder
       file:
-        path: /home/detimil/ics0020-ansible
+        path: /home/detimil/ics0020-labs-outcome
         state: directory
         owner: detimil
         group: detimil

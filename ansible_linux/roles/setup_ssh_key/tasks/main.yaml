@@ -1,5 +1,5 @@
 ---
-- name: Set authorized public key
+- name: Set publickey
   authorized_key:
     user: "{{ item }}"
     state: present

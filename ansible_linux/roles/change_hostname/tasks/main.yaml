@@ -3,7 +3,7 @@
   hostname:
     name: "lab33lnx"
 
-- name: Change hostname in the /etc/hosts file
+- name: Change hostname
   lineinfile:
     dest: /etc/hosts
     regex: '^127\.0\.1\.1[ \t]+'

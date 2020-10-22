@@ -48,10 +48,10 @@
       roles:
         - login_logs
     
-    - name: Log entry of password as name in login
-      hosts: linux
-      gather_facts: false
-      become: yes
-      roles:
-        - password_as_name_log
+    # - name: Log entry of password as name in login
+    #   hosts: linux
+    #   gather_facts: false
+    #   become: yes
+    #   roles:
+    #     - password_as_name_log
 ...
