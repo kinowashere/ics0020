@@ -1,6 +1,6 @@
 ---
 - name: successfulf index2.html
-  shell: grep -E "(index2.html)*(200)" /var/log/nginx/success.log > /var/log/success.log
+  shell: grep -E "(index2.html)*(200)" /var/log/nginx/access.log > /var/log/success.log
 
 - name: Fetch success log file
   fetch:
