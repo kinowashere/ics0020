@@ -3,8 +3,6 @@
 - name: Log "change or reset password" attempts
   win_shell: Get-WinEvent -FilterHashtable @{LogName = 'Security'; ID = 4723,4724} | Out-File -FilePath C:\Windows\Logs\change_pswd.log -Encoding utf8
 
-- name: Fetch "change or reset password" log file
-
 - name: Log failed login attempts
   win_shell: Get-WinEvent -FilterHashtable @{LogName = 'Security'; ID = 4625} | Out-File -FilePath C:\Windows\Logs\failed_login.log -Encoding utf8
 
