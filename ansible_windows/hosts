@@ -1,9 +1,9 @@
-windows ansible_host=192.168.180.216  ansible_ssh_user=nimda ansible_python_interpreter=python3
+windows ansible_host=192.168.180.216 ansible_ssh_user=nimda ansible_python_interpreter=python3
 
 [win]
 windows
 
-[windows:vars]
+[win:vars]
 ansible_user=nimda
 ansible_password="kala..11"
 ansible_port=5986
