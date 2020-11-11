@@ -26,7 +26,7 @@
 #     dest: "C:\\ProgramData\\ssh\\administrators_authorized_keys"
 
 - name: create ssh directory
-  file:
+  ansible.windows.win_file:
     path: C:\\Users\\{{ user_win }}\\.ssh
     state: directory
 
