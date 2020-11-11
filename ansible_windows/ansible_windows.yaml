@@ -1,31 +1,31 @@
 ---
- - name: Windows Setup
-   hosts: win
-   gather_facts: false
-   roles:
-     - setup
-
- - name: OpenSSL Setup
-   hosts: win
-   gather_facts: false
-   roles:
-     - openssl
-
- - name: IIS and Text Logs
-   hosts: win
-   gather_facts: false
-   roles:
-     - textlog
+# - name: Windows Setup
+#   hosts: win
+#   gather_facts: false
+#   roles:
+#     - setup
   
- - name: Built-in Logging execution for Windows
-   hosts: win
-   gather_facts: false
-   roles:
-     - accidental_password
+- name: IIS and Text Logs
+  hosts: win
+  gather_facts: false
+  roles:
+    - textlog
 
- - name: Built-in Logging execution for Windows
-   hosts: win
-   gather_facts: false
-   roles:
-     - logging
+- name: OpenSSL Setup
+  hosts: win
+  gather_facts: false
+  roles:
+    - openssl
+
+- name: Built-in Logging execution for Windows
+  hosts: win
+  gather_facts: false
+  roles:
+    - accidental_password
+
+- name: Built-in Logging execution for Windows
+  hosts: win
+  gather_facts: false
+  roles:
+    - logging
 ...
