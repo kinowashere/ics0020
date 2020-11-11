@@ -14,15 +14,18 @@
 - name: Log successful access
   win_shell: Select-String -Path C:\inetpub\logs\LogFiles\W3SVC1\u_ex*.log -Pattern '(/index2.html)[a-zA-Z0-9/+:;.\-() ]*200' | Out-File -FilePath C:\Windows\Logs\web_200.log -Encoding utf8
   
-
 - name: Log unsuccessful access
   win_shell: Select-String -Path C:\inetpub\logs\LogFiles\W3SVC1\u_ex*.log -Pattern '(/index2.htm)[a-zA-Z0-9/+:;.\-() ]*404' | Out-File -FilePath C:\Windows\Logs\web_404.log -Encoding utf8
 
-- name: Fetch logs
+# Fetch all
+
+- name: Fetch logs 404
   fetch:
     src: C:\Windows\Logs\web_404.log
     dest: /home/nimda/ics0020-labs-outcome/lab01-win-not.existing
     flat: yes
+
+- name: Fetch logs 200
   fetch:
      src: C:\Windows\Logs\web_200.log
      dest: /home/nimda/ics0020-labs-outcome/lab01-win-index2.html

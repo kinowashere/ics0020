@@ -18,19 +18,25 @@
 
 # Fetch all
 
-- name: Fetch all
+- name: Fetch change pswd
   fetch:
      src: C:\Windows\Logs\change_pswd.log
      dest: /home/nimda/ics0020-labs-outcome/lab01-win-pwd.change
      flat: yes
+
+- name: Fetch failed login
   fetch:
      src: C:\Windows\Logs\failed_login.log
      dest: /home/nimda/ics0020-labs-outcome/lab01-win-login.failed 
      flat: yes
+
+- name: Fetch success login
   fetch:
      src: C:\Windows\Logs\successful_login.log
      dest: /home/nimda/ics0020-labs-outcome/lab01-win-login.successful
      flat: yes
+
+- name: Fetch stopped service
   fetch:
      src: C:\Windows\Logs\stopped_service.log
      dest: /home/nimda/ics0020-labs-outcome/lab01-win-services.stopped
