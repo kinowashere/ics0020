@@ -19,16 +19,10 @@ python3 -m venv ~/ansible-venv
 First run (already set, so no need ot do this on lab computer):
 
 ```
-#To download required script
 $client = new-object
-System.Net.WebClient$client.DownloadFile("https://raw.githubusercontent.com/ansibl
-e/ansib
-le/devel/examples/scripts/ConfigureRemotingForAnsible.ps1","C:\Users\nimda\Configu
-reRemo
-tinForAnsible.ps1")
-#To execute downloaded script
-powershell -executionpolicy bypass -File C:\Users\nimda\ConfigureRemo
-tingForAnsible.ps1 -Verbose -EnableCredSSP
+System.Net.WebClient$client.DownloadFile("https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1","C:\Users\nimda\ConfigureRemotinForAnsible.ps1")
+
+powershell -executionpolicy bypass -File C:\Users\nimda\ConfigureRemotingForAnsible.ps1 -Verbose -EnableCredSSP
 ```
 
 ## Once everything is set...
