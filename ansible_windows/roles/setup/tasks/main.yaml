@@ -20,10 +20,15 @@
 #     name: detimil
 #     groups_action: add
 
-- name: copy publickey
-  ansible.windows.win_copy:
-    src: "/home/{{ admin_win }}/.ssh/{{ ssh_file }}.pub"
-    dest: "C:\\ProgramData\\ssh\\administrators_authorized_keys"
+# - name: copy publickey
+#   ansible.windows.win_copy:
+#     src: "/home/{{ admin_win }}/.ssh/{{ ssh_file }}.pub"
+#     dest: "C:\\ProgramData\\ssh\\administrators_authorized_keys"
+
+- name: create ssh directory
+  file:
+    path: C:\\Users\\{{ user_win }}\\.ssh
+    state: directory
 
 - name: copy publickey to detimil
   ansible.windows.win_copy:
