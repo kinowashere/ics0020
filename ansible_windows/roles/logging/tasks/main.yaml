@@ -6,12 +6,8 @@
 - name: Log failed login attempts
   win_shell: Get-WinEvent -FilterHashtable @{LogName = 'Security'; ID = 4625} | Out-File -FilePath C:\Windows\Logs\failed_login.log -Encoding utf8
 
-- name: Fetch log file of failed logins
-
 - name: Log successful login attempts
   win_shell: Get-WinEvent -FilterHashtable @{LogName = 'Security'; ID = 4624} | Out-File -FilePath C:\Windows\Logs\successful_login.log -Encoding utf8
-
-- name: Fetch log file of successful logins
 
 - name: Log all services stopped since last boot
   win_shell: Get-WinEvent -FilterHashtable @{LogName = 'System'; ID = 7036; Data = "stopped"} | Where-Object {$_.timecreated -gt (Get-CimInstance win32_Operatingsystem).lastbootuptime} | Out-File -FilePath C:\Windows\Logs\stopped_service.log -Encoding utf8
