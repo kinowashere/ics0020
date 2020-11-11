@@ -8,6 +8,6 @@ ansible_user=nimda
 ansible_password="kala..11"
 ansible_port=5986
 ansible_connection=winrm
-ansible_winrm_transport=credssp
+ansible_winrm_transport=basic
 ansible_winrm_message_encryption=auto
 ansible_winrm_server_cert_validation=ignore
