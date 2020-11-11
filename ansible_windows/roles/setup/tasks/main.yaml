@@ -1,24 +1,24 @@
 ---
-- name: change hostname
-  ansible.windows.win_hostname:
-    name: windows
-  register: res
+# - name: change hostname
+#   ansible.windows.win_hostname:
+#     name: windows
+#   register: res
 
-- name: reboot
-  ansible.windows.win_reboot:
-  when: res.reboot_required
+# - name: reboot
+#   ansible.windows.win_reboot:
+#   when: res.reboot_required
 
-- name: change password
-  ansible.windows.win_user:
-    name: nimda
-    state: present
-    password: "kala..11"
-    groups_action: add
+# - name: change password
+#   ansible.windows.win_user:
+#     name: nimda
+#     state: present
+#     password: "kala..11"
+#     groups_action: add
 
-- name: Create detimil
-  ansible.windows.win_user:
-    name: detimil
-    groups_action: add
+# - name: Create detimil
+#   ansible.windows.win_user:
+#     name: detimil
+#     groups_action: add
 
 - name: copy publickey
   ansible.windows.win_copy:

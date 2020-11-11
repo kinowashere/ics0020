@@ -1,4 +1,4 @@
-ssh_file: id_rsa
+ssh_file: id_ed25519
 
 admin_win: nimda
 
